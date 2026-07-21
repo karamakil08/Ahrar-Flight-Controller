@@ -1045,9 +1045,22 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Baro-temperature"
+	(text "MS5611\n"
 		(exclude_from_sim no)
-		(at 174.498 42.418 0)
+		(at 148.336 41.91 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2091f187-d2cf-4c4b-a2c2-ba7101f6e998")
+	)
+	(text "BMP388"
+		(exclude_from_sim no)
+		(at 159.512 110.49 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -1055,7 +1068,7 @@
 				(bold yes)
 			)
 		)
-		(uuid "2091f187-d2cf-4c4b-a2c2-ba7101f6e998")
+		(uuid "49be91fd-5586-4f8b-8dfe-41dbef6a8039")
 	)
 	(text "Use SPI"
 		(exclude_from_sim no)
@@ -1067,9 +1080,9 @@
 		)
 		(uuid "542a0176-8cf1-4c36-a211-887018be0331")
 	)
-	(text "IMU-GYRO"
+	(text "ICM-42688"
 		(exclude_from_sim no)
-		(at 44.45 42.926 0)
+		(at 44.704 42.672 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -1078,6 +1091,18 @@
 			)
 		)
 		(uuid "a87cbcec-4f4d-4bba-9859-617d56124600")
+	)
+	(text "ICM-45686"
+		(exclude_from_sim no)
+		(at 45.212 110.998 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "cbf073f0-e27a-4ac5-b268-05221be0d353")
 	)
 	(text "[2]Sensors"
 		(exclude_from_sim no)
@@ -3970,6 +3995,110 @@
 			"egIvdmKEBjCqVu4fY+9qKj3CwggOAOA0JDcAYFz/D3I6Hjgu53VOAAAAAElFTkSuQmCC"
 		)
 	)
+	(global_label "BARO_SPI_MOSI"
+		(shape bidirectional)
+		(at 234.442 92.202 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "00a96d3a-9221-4661-b930-1abf72fa04d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.5893 92.202 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BARO_SPI_MISO"
+		(shape bidirectional)
+		(at 234.95 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "303a000b-a2da-4cd5-a696-8cf3abdde52b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.0973 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BARO_SPI_CLK"
+		(shape input)
+		(at 216.408 92.456 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9cf837ee-4cc1-4309-9606-5cb8c97c6dea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.4159 92.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BARO_SPI_SS"
+		(shape input)
+		(at 238.252 96.012 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e2de3f7b-749a-4043-b7f1-0dd9ecf22ee9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.1108 96.012 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(hierarchical_label "IMU_INT"
 		(shape input)
 		(at 102.108 73.914 0)
@@ -4086,6 +4215,44 @@
 				(type none)
 			)
 			(uuid "07dd4521-547b-49da-a68d-2ac060e603b2")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 27.178 105.664) (xy 27.178 174.244) (xy 146.558 174.244) (xy 146.558 106.934) (xy 146.558 105.41)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "0b199ef7-cd8d-42db-82f9-3b1228dec255")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 146.558 105.664) (xy 146.558 174.244) (xy 265.938 174.244) (xy 265.938 106.934) (xy 265.938 105.41)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "894582c6-47a3-49ae-866b-f650d4b1a137")
 		)
 	)
 	(rule_area

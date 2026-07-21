@@ -764,7 +764,7 @@
         "uuid": "49d0c316-6ef3-402e-8e44-63a339436e7a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D3,#PWR18",
     "variants": [
       {
         "name": "Distributer Link"
