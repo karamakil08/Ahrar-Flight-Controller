@@ -698,13 +698,13 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Part Number",
           "name": "Part Number",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Distributer Link",
           "name": "Distributer Link",
           "show": true
@@ -775,7 +775,7 @@
         "uuid": "49d0c316-6ef3-402e-8e44-63a339436e7a"
       }
     ],
-    "used_designators": "#PWR14,#PWR36,#PWR67,C11,C29,R56,R77-78",
+    "used_designators": "R15,R36,R40-41,R45-46,R50-51,R53-55,R79-83,U1-2,U9,#PWR44,#PWR53,#PWR86-88,C8,C22,C30,C40,C69",
     "variants": [
       {
         "name": "Distributer Link"

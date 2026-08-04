@@ -24,9 +24,9 @@
 		)
 		(uuid "749d180e-d5c3-4432-b538-8e41c6f1f277")
 	)
-	(text "What's left inshAllah:\n- Power circuits\n- Buzzer\n- Add accurate Current conumption calculations\n- Adding 3D model of components\n"
+	(text "What's left inshAllah:\n- Buzzer\n- Adding 3D model of components\n"
 		(exclude_from_sim no)
-		(at -207.264 35.814 0)
+		(at -138.176 32.512 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -39,7 +39,7 @@
 	)
 	(text "Sensors Page:\n\nConnectors page:\n\nMCU Page:\n- Buzzer\n\nSD Cards:\n\nPower design:\n- Consider Single LDO 3.3V high SSR low noise\nConsider more filtering\n\n\n- Tell Halil to buy the parts, give list\n- Add 3D models all components"
 		(exclude_from_sim no)
-		(at -209.296 134.874 0)
+		(at -192.024 143.764 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -28532,8 +28532,8 @@
 		)
 	)
 	(image
-		(at 148.844 -72.898)
-		(scale 5.27444)
+		(at 148.336 -74.676)
+		(scale 5.5557)
 		(uuid "ae08554f-fd24-4aee-bb86-f870926fb5b4")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAngAAAE8CAYAAABTtszdAAAABHNCSVQICAgIfAhkiAAAF6BJREFU"
 			"eJzt3WuM3fWdHvDnjM/MeGY8THwhY+PxDWxjXAM1AWKakAukoLC7FVWdzaKwyabJGjVRAiVazIYC"
