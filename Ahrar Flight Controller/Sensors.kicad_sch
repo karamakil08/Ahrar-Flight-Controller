@@ -167,6 +167,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ICM-42670-P:ICM-42670-P"
 			(pin_names
 				(offset 1.016)
@@ -547,6 +687,703 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ICM-42670-P_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "MT2"
+				(at 16.256 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ICM-45686"
+				(at 16.256 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ICM_42688_P:LGA14_2P5X3X0P91_TDK-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" "1.1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.81 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "TDK InvenSense"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Part Number" "ICM-42688-P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributer Link" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ICM-42670-P_1_0_0"
+				(rectangle
+					(start -11.684 8.89)
+					(end 16.51 -13.462)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -16.764 -7.62 0)
+					(length 5.08)
+					(name "AP_SDO/AP_AD0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -8.89 180)
+					(length 5.08)
+					(name "RESV"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 21.59 3.81 180)
+					(length 5.08)
+					(name "INT1/INT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 13.97 270)
+					(length 5.08)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 -18.542 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 13.97 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 21.59 -2.54 180)
+					(length 5.08)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.764 0 0)
+					(length 5.08)
+					(name "AP_CS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -16.764 -2.54 0)
+					(length 5.08)
+					(name "AP_SCL/AP_SCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.764 -5.08 0)
+					(length 5.08)
+					(name "AP_SDA/AP_SDIO/AP_SDI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ICM-42670-P_1_1_0"
+				(pin passive line
+					(at 21.59 -8.89 180)
+					(length 5.08)
+					(hide yes)
+					(name "RESV__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 21.59 -8.89 180)
+					(length 5.08)
+					(hide yes)
+					(name "RESV"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -8.89 180)
+					(length 5.08)
+					(hide yes)
+					(name "RESV__2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -8.89 180)
+					(length 5.08)
+					(hide yes)
+					(name "RESV__3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "IR2103STRPBF:BMP380"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U5"
+				(at 16.256 4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BMP380"
+				(at 14.732 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributer Link" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BMP380_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 15.494 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BMP380_1_1"
+				(pin input line
+					(at 6.35 3.81 270)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -20.32 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -6.35 0)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -10.16 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -13.97 0)
+					(length 2.54)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 18.034 -7.62 180)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -20.32 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -20.32 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 3.81 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor_Pressure:MS5611-01BA"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -790,7 +1627,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3VA"
+		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -815,7 +1652,7 @@
 					)
 				)
 			)
-			(property "Value" "+3.3VA"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -847,7 +1684,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -869,7 +1706,7 @@
 					)
 				)
 			)
-			(symbol "+3.3VA_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -907,7 +1744,7 @@
 					)
 				)
 			)
-			(symbol "+3.3VA_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1045,9 +1882,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Max current consumption: 0.26mA"
+		(exclude_from_sim no)
+		(at 153.416 170.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13623c21-42e1-42c5-a201-1350e3ebc202")
+	)
 	(text "MS5611\n"
 		(exclude_from_sim no)
-		(at 148.336 41.91 0)
+		(at 138.43 38.862 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -1058,9 +1905,9 @@
 		)
 		(uuid "2091f187-d2cf-4c4b-a2c2-ba7101f6e998")
 	)
-	(text "BMP388"
+	(text "BMP581"
 		(exclude_from_sim no)
-		(at 159.512 110.49 0)
+		(at 149.606 107.442 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -1070,19 +1917,9 @@
 		)
 		(uuid "49be91fd-5586-4f8b-8dfe-41dbef6a8039")
 	)
-	(text "Use SPI"
-		(exclude_from_sim no)
-		(at 208.026 55.626 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "542a0176-8cf1-4c36-a211-887018be0331")
-	)
 	(text "ICM-42688"
 		(exclude_from_sim no)
-		(at 44.704 42.672 0)
+		(at 34.798 39.624 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -1092,9 +1929,29 @@
 		)
 		(uuid "a87cbcec-4f4d-4bba-9859-617d56124600")
 	)
+	(text "Max current consumption: 1.4mA"
+		(exclude_from_sim no)
+		(at 152.908 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba053dc5-13d2-462d-bb2b-46d7395a9989")
+	)
+	(text "Max current consumption: 0.42mA"
+		(exclude_from_sim no)
+		(at 34.29 169.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc5ae355-30e7-44b6-b3b2-60a3301298f7")
+	)
 	(text "ICM-45686"
 		(exclude_from_sim no)
-		(at 45.212 110.998 0)
+		(at 35.306 107.95 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -1103,6 +1960,16 @@
 			)
 		)
 		(uuid "cbf073f0-e27a-4ac5-b268-05221be0d353")
+	)
+	(text "Max current consumption: 0.88mA"
+		(exclude_from_sim no)
+		(at 34.036 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd836bf2-dfec-45d9-9903-3931f5584305")
 	)
 	(text "[2]Sensors"
 		(exclude_from_sim no)
@@ -1117,96 +1984,456 @@
 		(uuid "f84cc67f-a9e1-482f-80ea-b34e0daff31e")
 	)
 	(junction
-		(at 117.348 58.674)
+		(at 105.41 64.516)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "072894e8-bdda-4366-99cc-7a70c8d21257")
+	)
+	(junction
+		(at 238.76 124.714)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1998aad4-f211-4f2d-a36b-7be2d3afa5cd")
+	)
+	(junction
+		(at 239.776 124.714)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22ad25bb-ee1a-440e-9536-6b37565030cd")
+	)
+	(junction
+		(at 179.578 145.288)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "417049db-86ee-4a20-9209-ce6c5908a05e")
+	)
+	(junction
+		(at 120.142 51.562)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44eeebb4-fdc6-4b66-bf01-c7a9b809580f")
+	)
+	(junction
+		(at 181.102 78.994)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "525f9f96-8ba2-41c1-94f4-950c6faea4eb")
+	)
+	(junction
+		(at 111.252 112.776)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "551f0b62-778a-4e2f-9768-e536f4b86fb7")
+	)
+	(junction
+		(at 118.618 42.672)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65762ee9-2639-4b2c-b7b8-823e920d5f7d")
 	)
 	(junction
-		(at 208.788 58.674)
+		(at 115.062 122.682)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "98a428a2-b350-439b-99a8-7d65c25ab011")
+		(uuid "67551d91-dcb7-4828-bd48-d45ea3ce90b8")
 	)
 	(junction
-		(at 130.048 58.674)
+		(at 239.776 115.316)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a1d7951b-292d-4f52-a989-597395dc000a")
+		(uuid "6dd8aadd-87b0-4278-b518-1296c8b9b6b1")
 	)
 	(junction
-		(at 104.648 58.674)
+		(at 105.41 92.456)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b602db0b-d99c-4b23-ae22-f205e8c84c57")
+		(uuid "9821c697-ebb6-4405-a203-cc2f50beafa1")
 	)
 	(junction
-		(at 100.838 66.294)
+		(at 114.554 112.776)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b7f37b32-9a7f-4fb1-8328-1f16405fa2d0")
+		(uuid "a2780cad-352a-4203-b42d-778400adeb27")
 	)
 	(junction
-		(at 208.788 67.564)
+		(at 105.41 84.836)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9f93d79-78f6-4b19-a071-947835cb50bc")
+	)
+	(junction
+		(at 105.41 82.296)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa0d39a2-bf3b-44df-aa3d-989677190b65")
+	)
+	(junction
+		(at 122.682 42.672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3596152-ad7a-46e4-884f-b1765be83731")
+	)
+	(junction
+		(at 111.252 122.682)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf707151-0db6-4192-b1b1-2ab679d7a951")
+	)
+	(junction
+		(at 105.41 87.376)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5fffe2e-7f88-4de8-8ea0-acfc205f16f8")
+	)
+	(junction
+		(at 227.076 45.974)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb4f4dde-9813-4d40-9f87-1030e0778139")
+	)
+	(junction
+		(at 227.076 54.864)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5466b09-3e09-45e5-a8db-bc19c15da980")
 	)
 	(junction
-		(at 130.048 67.564)
+		(at 80.772 126.746)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ee43c17a-5af1-4fee-b7a0-4145ec16389f")
+		(uuid "daaebf60-ed6c-4aaa-8651-0271b96d308e")
 	)
 	(junction
-		(at 194.818 58.674)
+		(at 50.546 140.716)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ee4e2b9a-3d83-4711-97ea-d1d2d77cb379")
+		(uuid "eaddf79a-1a8c-45e4-9ebf-bd515a5610ea")
 	)
 	(junction
-		(at 117.348 67.564)
+		(at 37.846 74.676)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb874a8c-7459-462b-a5df-3a666bbcfb13")
+	)
+	(junction
+		(at 209.042 127.508)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb895aa4-0328-4e39-b4ff-325f87eefdc9")
+	)
+	(junction
+		(at 118.618 51.562)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f18ba26e-c9b6-4b3d-8558-302d24442801")
 	)
+	(junction
+		(at 237.744 115.316)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f327238a-d176-468b-9c34-0d99d2eaea39")
+	)
 	(no_connect
-		(at 100.838 76.454)
+		(at 105.41 74.676)
 		(uuid "415774a5-57bf-4ad5-ad3a-6d32719fc5ac")
 	)
 	(no_connect
-		(at 100.838 84.074)
-		(uuid "8586791d-dc4c-48ed-80ce-953d1a7ea53e")
-	)
-	(no_connect
-		(at 50.038 71.374)
-		(uuid "a734f2f7-4337-4aa4-abe4-5fb107ff198e")
-	)
-	(no_connect
-		(at 100.838 89.154)
-		(uuid "b8ac3f1b-ce90-44fd-a11e-9ecdf8e62d8e")
-	)
-	(no_connect
-		(at 100.838 81.534)
-		(uuid "fcd1ef4f-8062-4067-82d9-44ec51c2e52e")
-	)
-	(no_connect
-		(at 100.838 86.614)
-		(uuid "fe15b72a-1779-4f53-946c-0dab975fceb3")
+		(at 99.822 143.256)
+		(uuid "6ff2b5d4-0d5f-4f4c-b1c5-23f3164e8856")
 	)
 	(wire
 		(pts
-			(xy 194.818 56.134) (xy 194.818 58.674)
+			(xy 112.522 136.906) (xy 108.966 136.906)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "109a4d74-0c21-4bf9-8014-11a2e90b17e6")
+		(uuid "027e2dcd-5b4e-4e4a-89a6-21e9e87bad96")
 	)
 	(wire
 		(pts
-			(xy 104.648 67.564) (xy 117.348 67.564)
+			(xy 245.11 124.714) (xy 239.776 124.714)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047842b2-8ea9-4946-809a-570ecf150567")
+	)
+	(wire
+		(pts
+			(xy 60.706 148.336) (xy 61.468 148.336)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075b2081-810f-451a-8a8a-a5254f9d2d4e")
+	)
+	(wire
+		(pts
+			(xy 115.062 122.682) (xy 111.252 122.682)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09aa300d-f6ee-4205-99f2-94b06ce6d686")
+	)
+	(wire
+		(pts
+			(xy 37.846 69.596) (xy 37.846 74.676)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09bd8266-aede-49c1-ba12-c21a8c4a0a1f")
+	)
+	(wire
+		(pts
+			(xy 209.042 126.492) (xy 209.042 127.508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a039751-18cd-433b-b3ac-afccc96999ae")
+	)
+	(wire
+		(pts
+			(xy 80.772 126.746) (xy 82.042 126.746)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b29d7d9-3238-4096-af77-19027305c3e6")
+	)
+	(wire
+		(pts
+			(xy 220.472 138.938) (xy 219.202 138.938)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4b4697-8d70-4f1f-846c-1485f960cc38")
+	)
+	(wire
+		(pts
+			(xy 238.76 124.714) (xy 238.76 125.984)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef98ae2-7420-4a83-9aff-d6ae14b4b236")
+	)
+	(wire
+		(pts
+			(xy 181.102 78.994) (xy 197.358 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e5ceff-9275-453e-9266-4c96324fffcc")
+	)
+	(wire
+		(pts
+			(xy 45.212 140.716) (xy 50.546 140.716)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12805064-3e99-4c28-bdbf-cba7ea79e017")
+	)
+	(wire
+		(pts
+			(xy 196.596 71.374) (xy 197.358 71.374)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1469dd7b-78e2-4cd2-a577-0182a1a056c0")
+	)
+	(wire
+		(pts
+			(xy 209.042 127.508) (xy 211.328 127.508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172cc8ae-35ec-4c38-9d98-4465377fac69")
+	)
+	(wire
+		(pts
+			(xy 45.212 148.336) (xy 53.086 148.336)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18243ee4-0d05-4ff0-b873-745e6deaf58a")
+	)
+	(wire
+		(pts
+			(xy 239.776 115.316) (xy 237.744 115.316)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ee9f0b-351f-4551-ba2a-309aa9d808a3")
+	)
+	(wire
+		(pts
+			(xy 54.61 69.596) (xy 54.61 66.802)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a523f3-ee12-4764-8e62-6ff97b305dc7")
+	)
+	(wire
+		(pts
+			(xy 54.61 66.802) (xy 52.324 66.802)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd3dced-2ce8-4083-ace9-ad19a9ddaa57")
+	)
+	(wire
+		(pts
+			(xy 245.11 115.316) (xy 239.776 115.316)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3224ce-feae-4515-8500-20d551a8e714")
+	)
+	(wire
+		(pts
+			(xy 175.26 145.288) (xy 179.578 145.288)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0ef3af-40aa-4a6c-991b-822bf97269fc")
+	)
+	(wire
+		(pts
+			(xy 114.554 112.776) (xy 122.936 112.776)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207d2c07-45a9-41e0-8f3e-16499620314e")
+	)
+	(wire
+		(pts
+			(xy 175.26 137.668) (xy 189.23 137.668)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "225db030-30f8-47ff-8244-81faebc29a86")
+	)
+	(wire
+		(pts
+			(xy 122.936 113.538) (xy 122.936 112.776)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b0be43-f796-48fb-b29f-d0de0b90b3ac")
+	)
+	(wire
+		(pts
+			(xy 181.102 67.818) (xy 181.102 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24dcb066-b40c-467e-bbf7-c60776e74fee")
+	)
+	(wire
+		(pts
+			(xy 120.142 51.562) (xy 124.46 51.562)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c273656-aeb3-4e09-a02e-ac5f9d10a7a5")
+	)
+	(wire
+		(pts
+			(xy 82.042 161.036) (xy 82.042 159.258)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5d3ede-492a-4315-81a7-2c8964dc3e93")
+	)
+	(wire
+		(pts
+			(xy 60.452 143.256) (xy 61.468 143.256)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc1e43f-3a32-4407-896e-55a2a212ac9d")
+	)
+	(wire
+		(pts
+			(xy 111.252 112.776) (xy 111.252 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5016c9-dd36-418e-b527-d16b6c662eaf")
+	)
+	(wire
+		(pts
+			(xy 105.41 87.376) (xy 105.41 92.456)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f6914a3-de9c-41be-8587-63aca8f2a515")
+	)
+	(wire
+		(pts
+			(xy 101.346 136.906) (xy 99.822 136.906)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30507157-95a6-4669-aee7-edd9fa5507eb")
+	)
+	(wire
+		(pts
+			(xy 105.918 51.562) (xy 118.618 51.562)
 		)
 		(stroke
 			(width 0)
@@ -1216,17 +2443,127 @@
 	)
 	(wire
 		(pts
-			(xy 102.108 73.914) (xy 100.838 73.914)
+			(xy 207.518 127.508) (xy 209.042 127.508)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4cb0fb3a-155a-4c69-97b8-738ba24bf376")
+		(uuid "338beeb7-c765-40b2-a165-13b6bf9232a0")
 	)
 	(wire
 		(pts
-			(xy 130.048 68.834) (xy 130.048 67.564)
+			(xy 53.848 79.756) (xy 54.61 79.756)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368d74f8-f6a9-4ffa-9ac5-bfa01d87a696")
+	)
+	(wire
+		(pts
+			(xy 115.062 122.682) (xy 122.936 122.682)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379f433a-d715-4740-abf6-80198fed59d1")
+	)
+	(wire
+		(pts
+			(xy 50.546 127.254) (xy 50.546 130.556)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ac2ef3-c685-45e3-b07a-29e5d26a9d40")
+	)
+	(wire
+		(pts
+			(xy 122.682 42.672) (xy 124.46 42.672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ccdfc9-572e-4938-b82b-18b475a02f8c")
+	)
+	(wire
+		(pts
+			(xy 238.76 124.714) (xy 239.776 124.714)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397085c4-c113-4c86-8813-0aba752e5733")
+	)
+	(wire
+		(pts
+			(xy 32.258 77.216) (xy 34.29 77.216)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d48b11b-0226-4673-9cf1-ba0d889be5ad")
+	)
+	(wire
+		(pts
+			(xy 32.258 79.756) (xy 46.228 79.756)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1f3f50-acd1-4bf5-8e01-f9e518567b6a")
+	)
+	(wire
+		(pts
+			(xy 175.514 71.374) (xy 188.976 71.374)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe35cbc-a3dd-4af3-ba64-74f55cd73298")
+	)
+	(wire
+		(pts
+			(xy 245.11 123.698) (xy 245.11 124.714)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420ae838-2282-4fcf-b053-79dcbf5a5f58")
+	)
+	(wire
+		(pts
+			(xy 106.426 72.136) (xy 105.41 72.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4884b5c5-4e30-4ebf-a43e-6103c80cedb5")
+	)
+	(wire
+		(pts
+			(xy 50.546 138.176) (xy 50.546 140.716)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dcc69db-892a-4f99-b0ca-95c834ca33ca")
+	)
+	(wire
+		(pts
+			(xy 120.142 53.594) (xy 120.142 51.562)
 		)
 		(stroke
 			(width 0)
@@ -1236,7 +2573,27 @@
 	)
 	(wire
 		(pts
-			(xy 100.838 66.294) (xy 100.838 68.834)
+			(xy 189.484 73.914) (xy 197.358 73.914)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50fcfd4c-c6f1-4ee6-8797-4c619c66cb42")
+	)
+	(wire
+		(pts
+			(xy 106.172 112.776) (xy 106.172 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5183582d-1de6-45ba-a49d-3a5c0f11d2bf")
+	)
+	(wire
+		(pts
+			(xy 105.41 64.516) (xy 105.41 67.056)
 		)
 		(stroke
 			(width 0)
@@ -1246,17 +2603,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.108 94.234) (xy 100.838 94.234)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52cb9d7f-0734-42d6-bf02-b6c1bb25d190")
-	)
-	(wire
-		(pts
-			(xy 221.488 67.564) (xy 208.788 67.564)
+			(xy 239.776 54.864) (xy 227.076 54.864)
 		)
 		(stroke
 			(width 0)
@@ -1266,17 +2613,67 @@
 	)
 	(wire
 		(pts
-			(xy 194.818 58.674) (xy 208.788 58.674)
+			(xy 115.062 123.444) (xy 115.062 122.682)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6885b0c7-8099-4e58-837b-32530d89e08b")
+		(uuid "5ad12a9a-f87c-4630-ab07-f7fd2665070d")
 	)
 	(wire
 		(pts
-			(xy 117.348 67.564) (xy 130.048 67.564)
+			(xy 179.578 129.54) (xy 179.578 145.288)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6329b104-f0e8-4acb-ba14-392079d27e4a")
+	)
+	(wire
+		(pts
+			(xy 41.91 77.216) (xy 54.61 77.216)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641fe56c-87da-4bad-8c85-9670e50ce833")
+	)
+	(wire
+		(pts
+			(xy 111.252 112.776) (xy 106.172 112.776)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64dbc76e-05fd-493c-badd-21ebceb4208d")
+	)
+	(wire
+		(pts
+			(xy 105.41 82.296) (xy 105.41 84.836)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b61123-f5bf-43cc-8ff5-189f3fa453b7")
+	)
+	(wire
+		(pts
+			(xy 50.546 140.716) (xy 61.468 140.716)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac5ed21-4b39-4294-96d1-37e68e7afd90")
+	)
+	(wire
+		(pts
+			(xy 118.618 51.562) (xy 120.142 51.562)
 		)
 		(stroke
 			(width 0)
@@ -1286,7 +2683,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.048 57.404) (xy 130.048 58.674)
+			(xy 122.682 41.91) (xy 122.682 42.672)
 		)
 		(stroke
 			(width 0)
@@ -1296,7 +2693,37 @@
 	)
 	(wire
 		(pts
-			(xy 102.108 95.504) (xy 102.108 94.234)
+			(xy 37.846 74.676) (xy 54.61 74.676)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a7ab11-7f2c-48f4-8d60-6577df65aec5")
+	)
+	(wire
+		(pts
+			(xy 227.076 43.688) (xy 227.076 45.974)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7669da72-31c0-438b-9ecd-a177bcb46920")
+	)
+	(wire
+		(pts
+			(xy 111.252 112.776) (xy 114.554 112.776)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77df62f3-b02f-40c5-af0a-9c797b62345b")
+	)
+	(wire
+		(pts
+			(xy 106.68 93.726) (xy 106.68 92.456)
 		)
 		(stroke
 			(width 0)
@@ -1306,7 +2733,37 @@
 	)
 	(wire
 		(pts
-			(xy 117.348 67.564) (xy 117.348 66.294)
+			(xy 239.776 115.316) (xy 239.776 116.078)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "786d3119-013f-4f02-ad51-9f4f8d38d64f")
+	)
+	(wire
+		(pts
+			(xy 79.502 126.746) (xy 80.772 126.746)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9253df-c508-4b11-9750-c293e20395ac")
+	)
+	(wire
+		(pts
+			(xy 37.846 58.674) (xy 37.846 61.976)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9d9a5a-8c67-4da6-afcc-96b4b077f01a")
+	)
+	(wire
+		(pts
+			(xy 118.618 51.562) (xy 118.618 50.292)
 		)
 		(stroke
 			(width 0)
@@ -1316,7 +2773,17 @@
 	)
 	(wire
 		(pts
-			(xy 184.658 71.374) (xy 182.118 71.374)
+			(xy 45.212 143.256) (xy 45.212 143.002)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e58559e-f25f-4a31-bda5-2ae8dae21db0")
+	)
+	(wire
+		(pts
+			(xy 197.358 68.834) (xy 196.85 68.834)
 		)
 		(stroke
 			(width 0)
@@ -1326,7 +2793,77 @@
 	)
 	(wire
 		(pts
-			(xy 104.648 58.674) (xy 117.348 58.674)
+			(xy 239.776 123.698) (xy 239.776 124.714)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b11b66-261f-4f96-ac4f-eefaa0ae25f5")
+	)
+	(wire
+		(pts
+			(xy 237.744 115.316) (xy 227.838 115.316)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82688cb0-85dc-48fa-ac34-1e175e6545eb")
+	)
+	(wire
+		(pts
+			(xy 196.088 133.858) (xy 197.358 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "840a391c-b65a-4112-84bb-b7bb8a8d415c")
+	)
+	(wire
+		(pts
+			(xy 175.26 141.478) (xy 182.88 141.478)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84aff553-d412-46d0-9f25-fc1f905b047c")
+	)
+	(wire
+		(pts
+			(xy 102.108 149.606) (xy 99.822 149.606)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d80897-4a97-448c-b09a-a84914daed89")
+	)
+	(wire
+		(pts
+			(xy 175.514 78.994) (xy 181.102 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c7e791-472d-49a7-9cf7-a132144ae09a")
+	)
+	(wire
+		(pts
+			(xy 175.514 76.454) (xy 188.976 76.454)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a186ec4-5ea2-4094-b6e2-d28f0106a84f")
+	)
+	(wire
+		(pts
+			(xy 105.918 42.672) (xy 118.618 42.672)
 		)
 		(stroke
 			(width 0)
@@ -1336,7 +2873,47 @@
 	)
 	(wire
 		(pts
-			(xy 194.818 58.674) (xy 194.818 66.294)
+			(xy 227.838 124.714) (xy 227.838 123.952)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b74981-0a05-4546-bde0-69cbfe1f8a35")
+	)
+	(wire
+		(pts
+			(xy 114.554 109.982) (xy 114.554 112.776)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94781a85-df61-453f-ac25-6bd7efe8e6ff")
+	)
+	(wire
+		(pts
+			(xy 32.258 74.676) (xy 37.846 74.676)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957af0f2-cb88-489a-bbea-73f0caefd591")
+	)
+	(wire
+		(pts
+			(xy 116.84 72.136) (xy 114.046 72.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ab017c-815a-44fe-a1a4-06a3d0cc4e2f")
+	)
+	(wire
+		(pts
+			(xy 207.518 61.722) (xy 207.518 63.754)
 		)
 		(stroke
 			(width 0)
@@ -1346,7 +2923,17 @@
 	)
 	(wire
 		(pts
-			(xy 182.118 71.374) (xy 182.118 66.294)
+			(xy 45.212 143.256) (xy 52.832 143.256)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ae27c8-17f7-4dd8-bf57-7c3d52c134e1")
+	)
+	(wire
+		(pts
+			(xy 196.85 68.834) (xy 196.85 63.754)
 		)
 		(stroke
 			(width 0)
@@ -1356,27 +2943,27 @@
 	)
 	(wire
 		(pts
-			(xy 208.788 58.674) (xy 221.488 58.674)
+			(xy 229.87 138.938) (xy 228.092 138.938)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b627691-d0b3-4adc-a63b-7ef90d252278")
+		(uuid "9a8722a4-af10-4bac-b152-66bf48fefc9d")
 	)
 	(wire
 		(pts
-			(xy 100.838 58.674) (xy 104.648 58.674)
+			(xy 32.258 82.296) (xy 37.338 82.296)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c790184-5ef6-4a3c-a6b8-209e7f1054a1")
+		(uuid "9c533426-a5a1-46f3-881e-4dd5cf040fed")
 	)
 	(wire
 		(pts
-			(xy 104.648 58.674) (xy 104.648 59.944)
+			(xy 105.918 42.672) (xy 105.918 43.942)
 		)
 		(stroke
 			(width 0)
@@ -1386,7 +2973,17 @@
 	)
 	(wire
 		(pts
-			(xy 208.788 67.564) (xy 208.788 66.294)
+			(xy 111.252 121.92) (xy 111.252 122.682)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23a8bf8-bedc-41c9-b3c3-407ec033bce0")
+	)
+	(wire
+		(pts
+			(xy 227.076 54.864) (xy 227.076 53.594)
 		)
 		(stroke
 			(width 0)
@@ -1396,7 +2993,97 @@
 	)
 	(wire
 		(pts
-			(xy 130.048 67.564) (xy 130.048 66.294)
+			(xy 175.26 133.858) (xy 188.468 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e9ccd7-8680-47a8-922f-ed754113c8a7")
+	)
+	(wire
+		(pts
+			(xy 238.76 124.714) (xy 227.838 124.714)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaeb5ef1-8ca7-450a-8e14-44fb31ea9ec5")
+	)
+	(wire
+		(pts
+			(xy 102.108 151.892) (xy 102.108 149.606)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae135acb-b801-4a54-8ff9-e4f8a447285e")
+	)
+	(wire
+		(pts
+			(xy 80.772 124.46) (xy 80.772 126.746)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae34ec86-3836-4ce2-9662-ecefa4a9d8bd")
+	)
+	(wire
+		(pts
+			(xy 175.514 73.914) (xy 181.864 73.914)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c75c0a-72e2-458d-bad7-69c3512a93e2")
+	)
+	(wire
+		(pts
+			(xy 122.936 122.682) (xy 122.936 121.158)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b81b2c00-03c2-42f7-a4fa-ffda3e4109fb")
+	)
+	(wire
+		(pts
+			(xy 106.172 122.682) (xy 106.172 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff104f2-43c5-41e8-bade-8749dd919278")
+	)
+	(wire
+		(pts
+			(xy 245.11 116.078) (xy 245.11 115.316)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c244ea8a-2de0-49c0-8a73-07bb151d07b1")
+	)
+	(wire
+		(pts
+			(xy 52.324 66.802) (xy 52.324 68.072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c9bb6f-a732-4433-a3e4-a30cd7a7f3dc")
+	)
+	(wire
+		(pts
+			(xy 124.46 51.562) (xy 124.46 50.292)
 		)
 		(stroke
 			(width 0)
@@ -1406,7 +3093,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.118 66.294) (xy 179.578 66.294)
+			(xy 196.85 63.754) (xy 195.072 63.754)
 		)
 		(stroke
 			(width 0)
@@ -1416,7 +3103,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.838 58.674) (xy 100.838 66.294)
+			(xy 105.41 63.5) (xy 105.41 64.516)
 		)
 		(stroke
 			(width 0)
@@ -1426,7 +3113,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.818 86.614) (xy 194.818 89.154)
+			(xy 207.518 84.074) (xy 207.518 86.614)
 		)
 		(stroke
 			(width 0)
@@ -1436,7 +3123,17 @@
 	)
 	(wire
 		(pts
-			(xy 117.348 58.674) (xy 130.048 58.674)
+			(xy 179.578 119.126) (xy 179.578 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b56afa-a73f-4203-9d0d-e6cc70e10c1a")
+	)
+	(wire
+		(pts
+			(xy 118.618 42.672) (xy 122.682 42.672)
 		)
 		(stroke
 			(width 0)
@@ -1446,13 +3143,173 @@
 	)
 	(wire
 		(pts
-			(xy 221.488 66.294) (xy 221.488 67.564)
+			(xy 181.102 56.642) (xy 181.102 60.198)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d678e7a8-d689-4e79-9056-7ee946015bc0")
+	)
+	(wire
+		(pts
+			(xy 179.578 145.288) (xy 197.358 145.288)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8377855-d9eb-40c8-8b94-f69f3df8e693")
+	)
+	(wire
+		(pts
+			(xy 45.212 145.796) (xy 47.244 145.796)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9db1ce9-f9fe-4f05-a96e-de0f13bfa78b")
+	)
+	(wire
+		(pts
+			(xy 227.838 115.316) (xy 227.838 116.332)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da02e519-08b0-4281-9e5f-5e4015cb15af")
+	)
+	(wire
+		(pts
+			(xy 190.5 141.478) (xy 197.358 141.478)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daba597e-c81c-41e8-a7b1-12b563c4587f")
+	)
+	(wire
+		(pts
+			(xy 105.41 84.836) (xy 105.41 87.376)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac023a6-e6eb-4b6b-baa3-acaa02ebe3ee")
+	)
+	(wire
+		(pts
+			(xy 111.252 122.682) (xy 106.172 122.682)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deba8278-14d3-4876-9790-ddb9485e42f1")
+	)
+	(wire
+		(pts
+			(xy 210.058 152.4) (xy 210.058 151.638)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e325d3f3-6006-4d3d-a809-ec06b2983700")
+	)
+	(wire
+		(pts
+			(xy 196.85 137.668) (xy 197.358 137.668)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e52f4fcd-9fe1-4a6c-a819-9149292fd789")
+	)
+	(wire
+		(pts
+			(xy 44.958 82.296) (xy 54.61 82.296)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d8d207-287d-4391-bda6-0e0ab2fbb0e4")
+	)
+	(wire
+		(pts
+			(xy 239.776 53.594) (xy 239.776 54.864)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ec898a17-616c-4970-92ca-da27195fd7d9")
+	)
+	(wire
+		(pts
+			(xy 105.41 79.756) (xy 105.41 82.296)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec89a29e-770c-4daf-9d95-674117e84066")
+	)
+	(wire
+		(pts
+			(xy 237.744 110.998) (xy 237.744 115.316)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecfe6b43-3b45-497b-b926-ee1f4628b1b9")
+	)
+	(wire
+		(pts
+			(xy 227.076 45.974) (xy 239.776 45.974)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed881bd-156d-493b-b8b0-16ee37b1091c")
+	)
+	(wire
+		(pts
+			(xy 105.41 92.456) (xy 106.68 92.456)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06f3adc-43de-4df2-813f-a017673018a1")
+	)
+	(wire
+		(pts
+			(xy 196.596 76.454) (xy 197.358 76.454)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ed384e-9fad-46c7-9e17-f33eb6a4e1a4")
+	)
+	(wire
+		(pts
+			(xy 54.864 145.796) (xy 61.468 145.796)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa875c85-cd74-4783-9d29-d22dcef3c9c0")
 	)
 	(image
 		(at 275.59 171.704)
@@ -3995,9 +5852,155 @@
 			"egIvdmKEBjCqVu4fY+9qKj3CwggOAOA0JDcAYFz/D3I6Hjgu53VOAAAAAElFTkSuQmCC"
 		)
 	)
-	(global_label "BARO_SPI_MOSI"
+	(global_label "ICM86_MISO"
+		(shape input)
+		(at 45.212 148.336 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19e6c5a2-a39b-40b7-93cf-c0f96133256d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.9178 148.336 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ICM88_SS"
+		(shape input)
+		(at 32.258 74.676 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a01ac6c-1627-481a-89c2-9c3c615e2ca9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.141 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BMP_SS"
+		(shape input)
+		(at 175.26 145.288 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ac34a08-2779-4c3a-a079-1123d9bfc29e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.8968 145.288 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ICM88_SCK"
+		(shape input)
+		(at 32.258 77.216 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ee3bc7a-f00c-460c-a00b-41dacdeca949")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.8105 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BMP_MOSI"
+		(shape input)
+		(at 175.26 137.668 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5aa2c0e7-2d84-4e90-996c-90ad3a90a8ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.7196 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MS_SPI_SS"
+		(shape output)
+		(at 175.514 78.994 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "5ffd729a-df53-4fe2-bfed-c0b8c6bc0e1b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.9534 78.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MS_SPI_MISO"
 		(shape bidirectional)
-		(at 234.442 92.202 0)
+		(at 175.514 71.374 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4005,11 +6008,35 @@
 				(thickness 0.254)
 				(bold yes)
 			)
+			(justify right)
+		)
+		(uuid "66c9dc1c-5323-4a01-96c8-6d406ad60b12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.6649 71.374 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BMP_INT"
+		(shape output)
+		(at 229.87 138.938 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 			(justify left)
 		)
-		(uuid "00a96d3a-9221-4661-b930-1abf72fa04d4")
+		(uuid "816e1cf4-936a-45d5-9fac-36b4f902d0e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.5893 92.202 0)
+			(at 240.7171 138.938 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4021,9 +6048,251 @@
 			)
 		)
 	)
-	(global_label "BARO_SPI_MISO"
+	(global_label "MS_SPI_CLK"
+		(shape output)
+		(at 175.514 76.454 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "81a5772d-7cae-4a33-ab8b-e6a6d6d4ebf5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.8043 76.454 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ICM88_INT"
+		(shape output)
+		(at 116.84 72.136 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a524502e-189d-4dfb-81ca-14e5a8c92fe2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.4409 72.136 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ICM88_MISO"
+		(shape output)
+		(at 32.258 82.296 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1602d3f-5d5b-49e8-a5c9-93c1dadbe3f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.9638 82.296 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ICM86_SCLK"
+		(shape output)
+		(at 45.212 143.002 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6efbe5f-62d7-4e7e-b04c-34fd6ab75c25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.7364 143.002 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BMP_MISO"
+		(shape output)
+		(at 175.26 141.478 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7dd265e-28ac-4257-ac67-e0e0d837129b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.7196 141.478 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ICM86_INT"
+		(shape output)
+		(at 112.522 136.906 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e094d2fe-9c83-45c5-b70a-133173d251e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.1229 136.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BMP_SCK"
+		(shape input)
+		(at 175.26 133.858 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4775aca-92e3-42b7-a917-895d5ea166a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.5663 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ICM86_SS"
+		(shape output)
+		(at 45.212 140.716 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2d6fa5b-c84d-4c49-a267-a71f59d19958")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.095 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ICM86_MOSI"
+		(shape output)
+		(at 45.212 145.796 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa939331-5fab-4d35-b83a-6d312b5cea8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.9178 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ICM88_MOSI"
+		(shape input)
+		(at 32.258 79.756 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe757a50-bf9a-4e96-86da-c5da7a866248")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.9638 79.756 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MS_SPI_MOSI"
 		(shape bidirectional)
-		(at 234.95 88.9 0)
+		(at 175.514 73.914 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4031,11 +6300,11 @@
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "303a000b-a2da-4cd5-a696-8cf3abdde52b")
+		(uuid "ffbac827-403b-4a9b-9dfd-78932a407242")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.0973 88.9 0)
+			(at 158.6649 73.914 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4043,160 +6312,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-	)
-	(global_label "BARO_SPI_CLK"
-		(shape input)
-		(at 216.408 92.456 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "9cf837ee-4cc1-4309-9606-5cb8c97c6dea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.4159 92.456 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "BARO_SPI_SS"
-		(shape input)
-		(at 238.252 96.012 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "e2de3f7b-749a-4043-b7f1-0dd9ecf22ee9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.1108 96.012 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(hierarchical_label "IMU_INT"
-		(shape input)
-		(at 102.108 73.914 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "05ecfb06-8507-4954-bbf2-d93f5bf86d9a")
-	)
-	(hierarchical_label "IMU_SPI_MISO"
-		(shape input)
-		(at 50.038 84.074 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "182d812c-0204-4436-b2d7-b54ccc1c831d")
-	)
-	(hierarchical_label "IMU_SPI_SCLK"
-		(shape input)
-		(at 50.038 78.994 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46590928-fc06-45f5-921b-a0f53b5ee70a")
-	)
-	(hierarchical_label "BARO_SPI_SCLK"
-		(shape input)
-		(at 184.658 78.994 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5a7fbd04-57ed-4c5a-81ea-b2c782007fb9")
-	)
-	(hierarchical_label "BARO_SPI_MOSI"
-		(shape input)
-		(at 184.658 76.454 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6ab0b93d-19bb-4919-98a6-7024781ec5a1")
-	)
-	(hierarchical_label "IMU_SPI_SS"
-		(shape input)
-		(at 50.038 76.454 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6d5a53ca-f823-43ab-9baf-3311a8b8f85c")
-	)
-	(hierarchical_label "BARO_SPI_MISO"
-		(shape input)
-		(at 184.658 73.914 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "daa16ec5-795e-4594-9fbd-6241515c119c")
-	)
-	(hierarchical_label "BARO_SPI_SS"
-		(shape input)
-		(at 184.658 81.534 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ef39257e-736e-4757-be0d-9af34128dcbd")
-	)
-	(hierarchical_label "IMU_SPI_MOSI"
-		(shape input)
-		(at 50.038 81.534 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f8a8a1f1-d595-4411-89f8-6ec4e5d20e49")
 	)
 	(rule_area
 		(exclude_from_sim no)
@@ -4205,7 +6323,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 27.178 37.084) (xy 27.178 105.664) (xy 146.558 105.664) (xy 146.558 38.354) (xy 146.558 36.83)
+				(xy 17.272 34.29) (xy 17.272 102.87) (xy 136.652 102.87) (xy 136.652 35.56) (xy 136.652 34.036)
 			)
 			(stroke
 				(width 0)
@@ -4224,7 +6342,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 27.178 105.664) (xy 27.178 174.244) (xy 146.558 174.244) (xy 146.558 106.934) (xy 146.558 105.41)
+				(xy 17.272 103.124) (xy 17.272 171.704) (xy 136.652 171.704) (xy 136.652 104.394) (xy 136.652 102.87)
 			)
 			(stroke
 				(width 0)
@@ -4243,7 +6361,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 146.558 105.664) (xy 146.558 174.244) (xy 265.938 174.244) (xy 265.938 106.934) (xy 265.938 105.41)
+				(xy 136.652 102.87) (xy 136.652 171.45) (xy 256.032 171.45) (xy 256.032 104.14) (xy 256.032 102.616)
 			)
 			(stroke
 				(width 0)
@@ -4262,7 +6380,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 146.558 37.084) (xy 146.558 105.664) (xy 265.938 105.664) (xy 265.938 38.354) (xy 265.938 36.83)
+				(xy 136.652 34.29) (xy 136.652 102.87) (xy 256.032 102.87) (xy 256.032 35.56) (xy 256.032 34.036)
 			)
 			(stroke
 				(width 0)
@@ -4275,8 +6393,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 194.818 56.134 0)
+		(lib_id "power:+3.3V")
+		(at 37.846 58.674 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4285,9 +6403,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4fe905ca-3ea8-402b-b709-5ca6c31dd66b")
+		(uuid "0680ce1c-656a-48d4-b158-9b0ea41fbae1")
 		(property "Reference" "#PWR083"
-			(at 194.818 59.944 0)
+			(at 37.846 62.484 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4297,8 +6415,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VA"
-			(at 194.818 51.054 0)
+		(property "Value" "+3.3V"
+			(at 37.846 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4308,7 +6426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.818 56.134 0)
+			(at 37.846 58.674 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4319,7 +6437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.818 56.134 0)
+			(at 37.846 58.674 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4329,8 +6447,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 194.818 56.134 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 37.846 58.674 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4341,7 +6459,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8e5a1a1-49da-4f7f-a5e6-89b0835bab37")
+			(uuid "8b3e89b3-8c6f-48c4-9322-d073cf37815e")
 		)
 		(instances
 			(project "Ahrar Flight Controller"
@@ -4353,8 +6471,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 117.348 62.484 0)
+		(lib_id "Device:R")
+		(at 193.04 137.668 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4363,9 +6481,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "63256fa6-fc5d-4a03-ba0e-2c847cd52804")
-		(property "Reference" "C13"
-			(at 123.444 62.23 0)
+		(uuid "0900afde-c629-41b2-9153-f7a85efb42bd")
+		(property "Reference" "R43"
+			(at 192.786 139.954 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4374,18 +6492,851 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
-			(at 123.19 64.262 0)
+		(property "Value" "20"
+			(at 192.786 137.668 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 193.04 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 193.04 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 193.04 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
+			(at 193.04 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ2GEJ200X"
+			(at 193.04 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 193.04 137.668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b9755260-e9b9-49b0-93d4-d241dfe2ffe3")
+		)
+		(pin "1"
+			(uuid "d0246c5b-fc9c-4cb1-8d85-3172bec1a17f")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.324 68.072 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0aaa44f5-1f0b-4967-be53-832ee127de52")
+		(property "Reference" "#PWR076"
+			(at 52.324 74.422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.324 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.324 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.324 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.324 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa7938cb-0ff9-42fc-a53d-4a475b7b438a")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 56.642 143.256 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0df8d4e3-f3bd-4537-b66f-753a262bb5af")
+		(property "Reference" "R26"
+			(at 56.388 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 56.388 143.256 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 56.642 145.034 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 56.642 143.256 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 56.642 143.256 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
+			(at 56.642 143.256 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ2GEJ200X"
+			(at 56.642 143.256 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 56.642 143.256 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4a4e5ce8-8a0b-4c54-880c-b49d9f81d95b")
+		)
+		(pin "1"
+			(uuid "c3128e18-dc4f-4610-a0b6-328eb8c74fad")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ICM-42670-P_1")
+		(lib_id "ICM-42670-P:ICM-42670-P")
+		(at 78.232 140.716 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ff49458-1f5a-4940-a871-5f538bc4879f")
+		(property "Reference" "MT2"
+			(at 89.916 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ICM-45686"
+			(at 89.916 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ICM_42688_P:LGA14_2P5X3X0P91_TDK-L"
+			(at 78.232 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/TDK_DS_000577_ICM_45686.pdf?_gl=1*1licbxw*_gcl_au*MTE5OTExMDg2MC4xNzg1MzE1NjE3LjE3MTA4MzM3MjguMTc4NTUwNTUzNC4xNzg1NTA1OTM2LjI3ODIzNzkyMi4xNzg1NDg4NzAwLjE3ODU1MDU5MzY.*_ga*MzY4NTY4MDQxLjE3ODUzMTU2MTc.*_ga_15W4STQT4T*czE3ODU1NzAyNTAkbzYkZzAkdDE3ODU1NzAyNTAkajYwJGwwJGgw"
+			(at 78.232 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IMUs - Inertial Measurement Units Ultra-Low Power, High-Performance Integrated 6-Axis MEMS MotionTracking Device with BalanceGyro Technology, 4000dps/ 32g, dual interface"
+			(at 78.232 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "1.1"
+			(at 78.232 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 78.232 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.81 mm"
+			(at 78.232 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "TDK InvenSense"
+			(at 78.232 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Part Number" "ICM-45686"
+			(at 78.232 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 78.232 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.mouser.com.tr/en/ProductDetail/TDK-InvenSense/ICM-45686?qs=vvQtp7zwQdPk96IFOwypvQ%3D%3D&srsltid=AfmBOopzS6Hi4rt2IMsVjNO9ZnzeNvrEf0Ug_LviIy-21r5TRO29So0i"
+			(at 78.232 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 78.232 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "df25f0bb-c1a4-4295-9977-f500cbda0447")
+		)
+		(pin "9"
+			(uuid "681b00a1-4792-47d8-82a4-82a71604b1d7")
+		)
+		(pin "5"
+			(uuid "5048bc6e-3c16-49ca-9e21-c0e622133640")
+		)
+		(pin "3"
+			(uuid "af8ca46f-28fc-409e-ba79-a2df432df05b")
+		)
+		(pin "10"
+			(uuid "da63aff5-34b1-4f33-af08-8f79f810ae48")
+		)
+		(pin "6"
+			(uuid "7d12c043-e274-485c-9ddc-616bbbb15656")
+		)
+		(pin "14"
+			(uuid "11b79303-f84d-4d94-9ec5-126c740ce876")
+		)
+		(pin "2"
+			(uuid "ff50ff1d-1e2b-46e7-af34-5fee822764ca")
+		)
+		(pin "1"
+			(uuid "8d20b78f-9370-4165-a2de-a24b102fdf08")
+		)
+		(pin "7"
+			(uuid "837b578f-e5c8-4854-8f65-43619d533ea8")
+		)
+		(pin "11"
+			(uuid "0433099c-dd2e-4bd6-989d-1ed52c006ca2")
+		)
+		(pin "13"
+			(uuid "06d8077d-6f36-47d8-b301-407902b703d3")
+		)
+		(pin "12"
+			(uuid "ee71d6a4-a7de-43f9-9cf5-6c230ef83eb9")
+		)
+		(pin "8"
+			(uuid "52d73607-c115-4830-b525-7be5121c08ba")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "MT2")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.236 72.136 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "123174c7-f13b-4d52-bfb2-774af5fd4982")
+		(property "Reference" "R56"
+			(at 109.728 70.104 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 109.982 72.136 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 110.236 73.914 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 110.236 72.136 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 220 Ohms 1% 1/10W AUTOMOTIV"
+			(at 110.236 72.136 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2rkf2200x-621350?catSequenceId=194"
+			(at 110.236 72.136 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ2RKF2200X"
+			(at 110.236 72.136 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 110.236 72.136 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 110.236 72.136 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47059fbb-a6a5-4296-92c0-50795eed77cb")
+		)
+		(pin "2"
+			(uuid "8b983695-8aac-4010-aa73-5337eeb41a0f")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R56")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 122.682 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "171f6cab-3dd1-4125-8bf6-2f08d2ad076d")
+		(property "Reference" "#PWR024"
+			(at 122.682 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 122.682 37.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 122.682 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 122.682 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 122.682 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04a4ad5a-5c1e-4c6e-bc84-98ca0fb021d9")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 192.278 133.858 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a8fe24e-6e7d-47fc-ad78-db196e4fed90")
+		(property "Reference" "R38"
+			(at 192.024 131.572 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 192.024 133.858 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 192.278 135.636 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 192.278 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 192.278 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
+			(at 192.278 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ2GEJ200X"
+			(at 192.278 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 192.278 133.858 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f8f35530-648d-44f5-8b50-2c38b9ad373e")
+		)
+		(pin "1"
+			(uuid "36d2bb29-5623-42c0-ba9b-9cef31e35eb4")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.172 118.11 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e120280-b80a-4824-b87e-660c84064d00")
+		(property "Reference" "C73"
+			(at 103.124 116.078 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 103.124 118.618 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 118.3132 58.674 0)
+			(at 105.2068 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4396,7 +7347,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 117.348 62.484 0)
+			(at 106.172 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4407,7 +7358,1646 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 117.348 62.484 0)
+			(at 106.172 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grm155r71c104ka88d-423396"
+			(at 106.172 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "GRM155R71C104KA88D"
+			(at 106.172 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 106.172 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 106.172 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dff6a553-cb12-4cf4-9c19-d4f8329ba003")
+		)
+		(pin "2"
+			(uuid "0e74093f-660c-4409-9651-db92bdd4f71e")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "C73")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 119.888 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24b0487e-a7fd-4fec-91ce-f19d6d014876")
+		(property "Reference" "C70"
+			(at 248.158 117.856 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 248.158 120.396 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 246.0752 123.698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 245.11 119.888 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 245.11 119.888 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grm155r71c104ka88d-423396"
+			(at 245.11 119.888 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "GRM155R71C104KA88D"
+			(at 245.11 119.888 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 245.11 119.888 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 245.11 119.888 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ecda48a4-4193-444b-9b68-088307b9ce3e")
+		)
+		(pin "2"
+			(uuid "8228e471-504a-4596-963b-f0477845c581")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "C70")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 185.674 73.914 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2baa4ded-7266-494f-9a61-000f86bdedfe")
+		(property "Reference" "R48"
+			(at 185.42 71.628 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 185.42 73.914 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 185.674 75.692 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 185.674 73.914 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 185.674 73.914 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
+			(at 185.674 73.914 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ2GEJ200X"
+			(at 185.674 73.914 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 185.674 73.914 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f18e2b4-1937-463e-880c-ec0a02693429")
+		)
+		(pin "1"
+			(uuid "f54ce637-16fd-49d6-945f-f566da1233a0")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 41.148 82.296 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f4a6857-c22b-4900-8878-b582589270e8")
+		(property "Reference" "R25"
+			(at 40.894 84.582 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 40.894 82.296 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 41.148 80.518 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 41.148 82.296 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 41.148 82.296 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
+			(at 41.148 82.296 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ2GEJ200X"
+			(at 41.148 82.296 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 41.148 82.296 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "91671556-506f-4ffe-9bf5-346b949461fa")
+		)
+		(pin "1"
+			(uuid "86a52442-6934-4486-8376-c49549799d47")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 51.054 145.796 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "41b2ded4-7d08-4b8e-8fae-350156940708")
+		(property "Reference" "R3"
+			(at 50.8 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 50.8 145.796 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 51.054 147.574 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 51.054 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 51.054 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
+			(at 51.054 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ2GEJ200X"
+			(at 51.054 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 51.054 145.796 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ef39e3d3-2adc-40c8-9b1c-ebfc66963faa")
+		)
+		(pin "1"
+			(uuid "bd00040e-3436-4041-ace9-d65dfc1dcbc5")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 227.076 43.688 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41d7fd67-cd91-4b9e-b114-4507a65ad7f4")
+		(property "Reference" "#PWR090"
+			(at 227.076 47.498 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 227.076 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.076 43.688 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.076 43.688 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 227.076 43.688 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e089e98c-ec73-4d6e-ae3c-9dfe4538aaac")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 239.776 119.888 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d2e0eb7-0935-4933-8d28-78861e43dc8e")
+		(property "Reference" "C71"
+			(at 236.728 117.856 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 236.728 120.396 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 238.8108 123.698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 239.776 119.888 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 239.776 119.888 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grm155r71c104ka88d-423396"
+			(at 239.776 119.888 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "GRM155R71C104KA88D"
+			(at 239.776 119.888 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 239.776 119.888 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 239.776 119.888 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6627af30-904c-4da0-be3f-d379e3a65319")
+		)
+		(pin "2"
+			(uuid "97802e69-f7ba-4e7c-91a5-a52a242512d0")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "C71")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.062 123.444 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ff15c5f-b8b6-42a6-b2be-d6c6dc68a541")
+		(property "Reference" "#PWR089"
+			(at 115.062 129.794 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.062 128.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.062 123.444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.062 123.444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.062 123.444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adfd5117-aa1c-41cf-8bec-96829d2cf1f7")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 122.936 117.348 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53144878-7072-44fe-a90b-d509d7f93b05")
+		(property "Reference" "C20"
+			(at 128.27 118.364 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 128.016 116.332 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 123.9012 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/SAMSUNG%20MLCC_JAN-2024.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 122.936 117.348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MLCC (1608) 0603 2.2uF 10VDC ±10% X7R"
+			(at 122.936 117.348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/samsung-cl10b225kp8nnnc-359581?catSequenceId=184"
+			(at 122.936 117.348 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL10B225KP8NNNC"
+			(at 122.936 117.348 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 122.936 117.348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 122.936 117.348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c1a70c0-a806-44e0-a839-fb376bcc40b3")
+		)
+		(pin "2"
+			(uuid "5cc9ee06-1857-457e-8d30-4baae4f59eda")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "C20")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.578 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58c84a02-c1e3-4bb2-ac9b-14e6b0569a53")
+		(property "Reference" "R45"
+			(at 182.118 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 182.118 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 177.8 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 179.578 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 10K Ohms 5% 1/16W AUTOMOTIV"
+			(at 179.578 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgj0103tce-587874?catSequenceId=194"
+			(at 179.578 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGJ0103TCE"
+			(at 179.578 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 179.578 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 179.578 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "56740b48-4b33-4ba8-8d33-05ee2a1e3580")
+		)
+		(pin "1"
+			(uuid "e1234e25-c39e-4fb5-bb58-52cd686d846c")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R45")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 227.838 120.142 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a34e2a9-9a8a-40bc-b458-48bb077c4b72")
+		(property "Reference" "C19"
+			(at 222.504 121.158 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 222.758 119.126 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 226.8728 123.952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/SAMSUNG%20MLCC_JAN-2024.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 227.838 120.142 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MLCC (1608) 0603 2.2uF 10VDC ±10% X7R"
+			(at 227.838 120.142 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/samsung-cl10b225kp8nnnc-359581?catSequenceId=184"
+			(at 227.838 120.142 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL10B225KP8NNNC"
+			(at 227.838 120.142 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 227.838 120.142 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 227.838 120.142 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d58b7654-55e3-45bf-b65c-97fd473a1fc0")
+		)
+		(pin "2"
+			(uuid "00571c60-f4eb-433f-bb86-7da590efe2dc")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "C19")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 207.518 61.722 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a4ec075-b594-4290-abae-d7a1c65f5e0f")
+		(property "Reference" "#PWR019"
+			(at 207.518 65.532 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 207.518 57.404 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.518 61.722 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.518 61.722 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 207.518 61.722 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4273191-2c50-481b-8730-79a438ea9b95")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.058 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e418632-ba70-4174-a457-19b91d0e71c4")
+		(property "Reference" "#PWR032"
+			(at 210.058 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.058 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.058 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.058 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.058 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6b6a8ab-3ed2-4dc7-bb63-9d8ea1660f7a")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 186.69 141.478 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5eaf5a23-45ba-47db-a238-8519489c9e64")
+		(property "Reference" "R44"
+			(at 186.436 143.764 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 186.436 141.478 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 186.69 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 186.69 141.478 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 186.69 141.478 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
+			(at 186.69 141.478 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ2GEJ200X"
+			(at 186.69 141.478 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 186.69 141.478 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2cdd3c69-c351-4ae0-8e1f-1896e8b8016d")
+		)
+		(pin "1"
+			(uuid "ce490d9b-d913-4154-b18a-2d39f340357f")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 50.038 79.756 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f7fff7c-f70c-4024-8c86-1eca04728262")
+		(property "Reference" "R17"
+			(at 49.784 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 49.784 79.756 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 50.038 81.534 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 50.038 79.756 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 50.038 79.756 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
+			(at 50.038 79.756 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ2GEJ200X"
+			(at 50.038 79.756 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 50.038 79.756 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "83e57b1a-d6d8-4cd9-b6aa-ccfdde5de894")
+		)
+		(pin "1"
+			(uuid "6c24c53a-3889-4528-93b3-4630336dbf39")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 118.618 46.482 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63256fa6-fc5d-4a03-ba0e-2c847cd52804")
+		(property "Reference" "C13"
+			(at 112.522 46.228 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 112.776 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 117.6528 42.672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 118.618 46.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.618 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4418,7 +9008,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grt155c81a225me13d-624222"
-			(at 117.348 62.484 90)
+			(at 118.618 46.482 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4429,7 +9019,29 @@
 			)
 		)
 		(property "Part Number" "GRT155C81A225ME13D"
-			(at 117.348 62.484 90)
+			(at 118.618 46.482 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 118.618 46.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 118.618 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4458,8 +9070,222 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 237.744 110.998 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6658b4bf-df3f-4315-8cec-300460c6628d")
+		(property "Reference" "#PWR085"
+			(at 237.744 114.808 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 237.744 105.918 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.744 110.998 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.744 110.998 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 237.744 110.998 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2d2e29b-7b04-410e-92eb-ecee0e5e973f")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IR2103STRPBF:BMP380")
+		(at 201.168 131.318 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6730c406-f9c1-4a1d-93d1-bdb6ed3d8fa1")
+		(property "Reference" "U5"
+			(at 217.424 126.746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BMP581"
+			(at 215.9 128.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BMP581:BMP581"
+			(at 201.168 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"
+			(at 201.168 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SENSOR 18.13PSIA 10LGA"
+			(at 201.168 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.e-komponent.com/pressure-sensor-26077?gad_source=1&gad_campaignid=20197744476&gbraid=0AAAAAD7w7pEnxAzYTwDytIkJ0WVYn6Pt7&gclid=CjwKCAjwsrbTBhAvEiwA0Bpp4RftLqtM7Z6S2P3Y3DeB1TrdkItr7yxSpePVKUzDnitzPg6ORR7r5RoCLUkQAvD_BwE"
+			(at 201.168 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "BMP581"
+			(at 201.168 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 201.168 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb059cf8-a9f0-4f95-9056-1f996c14c96e")
+		)
+		(pin "9"
+			(uuid "95bb0b86-8b2a-441e-8783-d16588985e0c")
+		)
+		(pin "4"
+			(uuid "58d85f20-e239-433d-b2b4-f0033692bbb5")
+		)
+		(pin "5"
+			(uuid "a0d8cfac-5362-4db4-b0a3-1f2e3c6bdb12")
+		)
+		(pin "2"
+			(uuid "d276218a-4e21-4996-be9e-679ca0c35806")
+		)
+		(pin "3"
+			(uuid "a8b623ae-2239-45b4-8594-bd795135c385")
+		)
+		(pin "6"
+			(uuid "30e8aa6c-8f88-47c1-9de8-5c2225ed9d85")
+		)
+		(pin "7"
+			(uuid "b3bdded9-22ba-4a50-936e-7672f01ba17c")
+		)
+		(pin "8"
+			(uuid "3a29b8c6-8543-4489-b1c6-e91b434b562c")
+		)
+		(pin "10"
+			(uuid "c4d77e20-acec-4710-aa1a-2ac149fb85c2")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ICM-42670-P:ICM-42670-P")
-		(at 75.438 76.454 0)
+		(at 80.01 74.676 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4470,7 +9296,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c4ba0c9-fdcc-4b64-a0ce-15be427ca182")
 		(property "Reference" "MT1"
-			(at 75.438 58.674 0)
+			(at 80.01 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4480,7 +9306,7 @@
 			)
 		)
 		(property "Value" "ICM-42688-P"
-			(at 75.438 61.214 0)
+			(at 80.01 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4490,7 +9316,7 @@
 			)
 		)
 		(property "Footprint" "ICM_42688_P:LGA14_2P5X3X0P91_TDK-L"
-			(at 75.438 76.454 0)
+			(at 80.01 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4502,7 +9328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 75.438 76.454 0)
+			(at 80.01 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4513,7 +9339,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 75.438 76.454 0)
+			(at 80.01 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4524,7 +9350,7 @@
 			)
 		)
 		(property "PARTREV" "1.1"
-			(at 75.438 76.454 0)
+			(at 80.01 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4536,7 +9362,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 75.438 76.454 0)
+			(at 80.01 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4548,7 +9374,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.81 mm"
-			(at 75.438 76.454 0)
+			(at 80.01 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4560,7 +9386,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TDK InvenSense"
-			(at 75.438 76.454 0)
+			(at 80.01 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4572,7 +9398,29 @@
 			)
 		)
 		(property "Part Number" "ICM-42688-P"
-			(at 75.438 76.454 0)
+			(at 80.01 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 80.01 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 80.01 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4637,8 +9485,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 102.108 95.504 0)
+		(lib_id "Device:R")
+		(at 224.282 138.938 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4646,10 +9494,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f725728-c537-45d4-b333-7312c2e8284b")
-		(property "Reference" "#PWR052"
-			(at 102.108 101.854 0)
+		(uuid "6c945e8f-619e-4ce1-a3b4-1bd82cad2279")
+		(property "Reference" "R78"
+			(at 223.774 136.906 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 224.028 138.938 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 224.282 140.716 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4659,8 +9526,115 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 102.108 100.584 0)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 224.282 138.938 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 220 Ohms 1% 1/10W AUTOMOTIV"
+			(at 224.282 138.938 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2rkf2200x-621350?catSequenceId=194"
+			(at 224.282 138.938 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ2RKF2200X"
+			(at 224.282 138.938 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 224.282 138.938 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 224.282 138.938 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef9401e0-3c80-4132-8f96-23af1da48c9e")
+		)
+		(pin "2"
+			(uuid "a74fd86f-ca29-41b4-86cf-10eb5e8d7b40")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R78")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 179.578 119.126 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6eff2a4c-5982-46cf-a33b-6b4d7e5876cc")
+		(property "Reference" "#PWR065"
+			(at 179.578 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 179.578 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4670,7 +9644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.108 95.504 0)
+			(at 179.578 119.126 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4681,7 +9655,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.108 95.504 0)
+			(at 179.578 119.126 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 179.578 119.126 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b80ae5ee-9ef7-440d-8222-f30b828e96eb")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 93.726 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f725728-c537-45d4-b333-7312c2e8284b")
+		(property "Reference" "#PWR052"
+			(at 106.68 100.076 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 98.806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 93.726 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 93.726 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4692,7 +9744,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.108 95.504 0)
+			(at 106.68 93.726 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4715,8 +9767,311 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 56.896 148.336 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "754f4299-68dc-415b-bdf9-91706494eb82")
+		(property "Reference" "R27"
+			(at 56.642 150.622 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 56.642 148.336 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 56.896 146.558 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 56.896 148.336 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 56.896 148.336 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
+			(at 56.896 148.336 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ2GEJ200X"
+			(at 56.896 148.336 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 56.896 148.336 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b2edf2b2-b0ba-481e-8e77-e3c2592e4ed6")
+		)
+		(pin "1"
+			(uuid "0988f772-dde9-469c-9162-906bb5667728")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 192.786 71.374 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "762b3ad6-89f3-4610-9dc5-a0f5ff20c7bd")
+		(property "Reference" "R47"
+			(at 192.532 69.088 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 192.532 71.374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 192.786 73.152 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 192.786 71.374 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 192.786 71.374 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
+			(at 192.786 71.374 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ2GEJ200X"
+			(at 192.786 71.374 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 192.786 71.374 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3b1bca14-460c-4f40-ae2b-aff1eb95ddd5")
+		)
+		(pin "1"
+			(uuid "821c97de-7b39-4b17-a995-ca6127a7899b")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 50.546 127.254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c015470-9a5b-437b-8e69-e5650638724b")
+		(property "Reference" "#PWR047"
+			(at 50.546 131.064 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 50.546 122.936 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.546 127.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.546 127.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 50.546 127.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b81bf2d-8a2e-4461-bac5-97839c3dad66")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Pressure:MS5611-01BA")
-		(at 194.818 76.454 0)
+		(at 207.518 73.914 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4727,7 +10082,7 @@
 		(fields_autoplaced yes)
 		(uuid "8432285e-96c1-489c-9678-672585e8552e")
 		(property "Reference" "U3"
-			(at 203.708 75.1839 0)
+			(at 216.408 72.6439 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4738,7 +10093,7 @@
 			)
 		)
 		(property "Value" "MS5611-01BA"
-			(at 203.708 77.7239 0)
+			(at 216.408 75.1839 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4749,7 +10104,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:LGA-8_3x5mm_P1.25mm"
-			(at 194.818 76.454 0)
+			(at 207.518 73.914 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4760,7 +10115,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5611-01BA03&DocType=Data+Sheet&DocLang=English"
-			(at 194.818 76.454 0)
+			(at 207.518 73.914 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4771,7 +10126,7 @@
 			)
 		)
 		(property "Description" "Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8"
-			(at 194.818 76.454 0)
+			(at 207.518 73.914 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4782,7 +10137,7 @@
 			)
 		)
 		(property "Distributer link" "https://www.ozdisan.com/p/basinc-sensorleri-924/te-connectivity-ms561101ba03-50-616292"
-			(at 194.818 76.454 0)
+			(at 207.518 73.914 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4793,7 +10148,29 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 194.818 76.454 0)
+			(at 207.518 73.914 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 207.518 73.914 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 207.518 73.914 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4845,7 +10222,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.048 68.834 0)
+		(at 82.042 161.036 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4854,9 +10231,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9eeeb4cc-0b12-4811-a6f1-2f6c0b70cbe2")
-		(property "Reference" "#PWR038"
-			(at 130.048 75.184 0)
+		(uuid "87442ca8-8613-4377-9afd-a0111a6cf6aa")
+		(property "Reference" "#PWR077"
+			(at 82.042 167.386 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4867,7 +10244,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.048 73.914 0)
+			(at 82.042 166.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4877,7 +10254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.048 68.834 0)
+			(at 82.042 161.036 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4888,7 +10265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.048 68.834 0)
+			(at 82.042 161.036 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4899,7 +10276,241 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.048 68.834 0)
+			(at 82.042 161.036 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ef1bf0a-17a4-4fa9-a957-3e31a8d0a6f4")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 209.042 126.492 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93d5b9d4-ad05-4143-9f3f-9b47e28b7f35")
+		(property "Reference" "#PWR030"
+			(at 209.042 130.302 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 209.042 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.042 126.492 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.042 126.492 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 209.042 126.492 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee0e091f-f59f-4984-bea4-25124ff85a1c")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.108 151.892 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9857e344-d93f-409a-99c1-ad9515c63b30")
+		(property "Reference" "#PWR091"
+			(at 102.108 158.242 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.108 156.972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.108 151.892 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.108 151.892 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.108 151.892 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1cbb557-5ce8-4711-9a87-fe083d7c2a83")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.142 53.594 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9eeeb4cc-0b12-4811-a6f1-2f6c0b70cbe2")
+		(property "Reference" "#PWR038"
+			(at 120.142 59.944 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.142 58.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.142 53.594 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.142 53.594 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.142 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4923,7 +10534,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.788 67.564 0)
+		(at 227.076 54.864 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4934,7 +10545,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ff7bdd8-e929-46e7-acdb-e06f2b04bb5b")
 		(property "Reference" "#PWR021"
-			(at 208.788 73.914 0)
+			(at 227.076 61.214 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4945,7 +10556,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.788 72.644 0)
+			(at 227.076 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4955,7 +10566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.788 67.564 0)
+			(at 227.076 54.864 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4966,7 +10577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.788 67.564 0)
+			(at 227.076 54.864 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4977,7 +10588,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.788 67.564 0)
+			(at 227.076 54.864 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5001,7 +10612,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.818 89.154 0)
+		(at 207.518 86.614 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5012,7 +10623,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad6bef92-5372-4f46-9d3d-a91d716ef0c9")
 		(property "Reference" "#PWR020"
-			(at 194.818 95.504 0)
+			(at 207.518 92.964 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5023,7 +10634,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.818 94.234 0)
+			(at 207.518 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5033,7 +10644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.818 89.154 0)
+			(at 207.518 86.614 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5044,7 +10655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.818 89.154 0)
+			(at 207.518 86.614 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5055,7 +10666,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.818 89.154 0)
+			(at 207.518 86.614 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5078,8 +10689,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 179.578 66.294 0)
+		(lib_id "power:+3.3V")
+		(at 105.41 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5087,9 +10698,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b461e006-61a8-4e01-b453-83fa9b279ff7")
-		(property "Reference" "#PWR022"
-			(at 179.578 72.644 0)
+		(fields_autoplaced yes)
+		(uuid "af59b7b8-450a-4a41-8e70-29171ba6c57d")
+		(property "Reference" "#PWR078"
+			(at 105.41 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5099,8 +10711,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 175.514 67.564 0)
+		(property "Value" "+3.3V"
+			(at 105.41 59.182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5110,7 +10722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.578 66.294 0)
+			(at 105.41 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5121,7 +10733,212 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.578 66.294 0)
+			(at 105.41 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 105.41 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5958430a-13a1-4f89-a8e0-ec2ec9e2bed7")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 111.252 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b25aea01-e664-487a-89f3-c3ccb519cd43")
+		(property "Reference" "C72"
+			(at 114.3 116.078 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 114.3 118.618 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 112.2172 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 111.252 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 111.252 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grm155r71c104ka88d-423396"
+			(at 111.252 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "GRM155R71C104KA88D"
+			(at 111.252 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 111.252 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 111.252 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ac8e0fa-52fe-4994-85da-b182277859cb")
+		)
+		(pin "2"
+			(uuid "f25f4d93-20f9-4e16-8e26-77030ab0617b")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "C72")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.072 63.754 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b461e006-61a8-4e01-b453-83fa9b279ff7")
+		(property "Reference" "#PWR022"
+			(at 195.072 70.104 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.072 67.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.072 63.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.072 63.754 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5132,7 +10949,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.578 66.294 0)
+			(at 195.072 63.754 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5155,8 +10972,213 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 80.772 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7151d82-b1fa-4c3b-abde-251b1701fe32")
+		(property "Reference" "#PWR034"
+			(at 80.772 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 80.772 120.142 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.772 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.772 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 80.772 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57958e9a-03e0-4a31-9da9-24bea6eb9798")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 104.648 63.754 0)
+		(at 227.076 49.784 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "caabc2d2-02b6-4c4e-86b9-7d5221cd3032")
+		(property "Reference" "C21"
+			(at 232.41 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 232.156 48.768 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 228.0412 53.594 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/SAMSUNG%20MLCC_JAN-2024.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 227.076 49.784 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MLCC (1608) 0603 2.2uF 10VDC ±10% X7R"
+			(at 227.076 49.784 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/samsung-cl10b225kp8nnnc-359581?catSequenceId=184"
+			(at 227.076 49.784 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL10B225KP8NNNC"
+			(at 227.076 49.784 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 227.076 49.784 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 227.076 49.784 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c93dfda-8e0d-47aa-94c1-50ace6b22965")
+		)
+		(pin "2"
+			(uuid "f09a4ef2-b9a6-4f4f-848a-2104005f0aa7")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "C21")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.918 47.752 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5166,7 +11188,7 @@
 		(dnp no)
 		(uuid "cc338d0f-7097-4f3f-8269-057d15c6183d")
 		(property "Reference" "C65"
-			(at 107.696 61.722 0)
+			(at 102.87 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5177,7 +11199,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 107.696 64.262 0)
+			(at 102.87 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5188,7 +11210,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.6132 67.564 0)
+			(at 104.9528 51.562 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5199,7 +11221,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 104.648 63.754 0)
+			(at 105.918 47.752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5210,7 +11232,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 104.648 63.754 0)
+			(at 105.918 47.752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5221,7 +11243,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grm155r71c104ka88d-423396"
-			(at 104.648 63.754 0)
+			(at 105.918 47.752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5232,7 +11254,29 @@
 			)
 		)
 		(property "Part Number" "GRM155R71C104KA88D"
-			(at 104.648 63.754 0)
+			(at 105.918 47.752 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 105.918 47.752 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 105.918 47.752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5261,8 +11305,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 221.488 62.484 0)
+		(lib_id "Device:R")
+		(at 38.1 77.216 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5270,9 +11315,122 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ed047159-65e7-4e49-89ec-f7bb0bc99a0c")
-		(property "Reference" "C58"
-			(at 224.536 60.452 0)
+		(uuid "cc872a08-5ee1-4ddb-a035-bbb07ab4d4e7")
+		(property "Reference" "R12"
+			(at 37.846 79.502 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 37.846 77.216 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 38.1 75.438 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 38.1 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 38.1 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
+			(at 38.1 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ2GEJ200X"
+			(at 38.1 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 38.1 77.216 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "afb3b4f6-ea23-4456-aa5b-0918ce6ce94e")
+		)
+		(pin "1"
+			(uuid "c98af09f-a1e7-4fe4-b681-860d9a623c6c")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.102 64.008 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cdc3ee0a-7366-479f-9027-fd8ccd9e2f91")
+		(property "Reference" "R46"
+			(at 179.07 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5282,8 +11440,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 224.536 62.992 0)
+		(property "Value" "10kΩ"
+			(at 179.07 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5294,7 +11452,659 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 222.4532 66.294 0)
+			(at 182.88 64.008 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 181.102 64.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 10K Ohms 5% 1/16W AUTOMOTIV"
+			(at 181.102 64.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgj0103tce-587874?catSequenceId=194"
+			(at 181.102 64.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGJ0103TCE"
+			(at 181.102 64.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 181.102 64.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 181.102 64.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "43fd3805-02bd-4d5e-a2ec-d64c31e8329a")
+		)
+		(pin "1"
+			(uuid "a0893df6-ad40-460a-b60a-44a773e7885a")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R46")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 50.546 134.366 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5cf706f-9b49-4e7e-990c-407ca28716c2")
+		(property "Reference" "R36"
+			(at 53.086 133.0959 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 53.086 135.6359 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 48.768 134.366 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 50.546 134.366 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 10K Ohms 5% 1/16W AUTOMOTIV"
+			(at 50.546 134.366 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgj0103tce-587874?catSequenceId=194"
+			(at 50.546 134.366 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGJ0103TCE"
+			(at 50.546 134.366 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 50.546 134.366 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 50.546 134.366 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7ef4d535-46cb-4706-b061-2b29afe72862")
+		)
+		(pin "1"
+			(uuid "5f2cf52a-eb24-4c3d-bffe-50cac9e557f7")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R36")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 114.554 109.982 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d779633a-2ea4-4765-8987-e7d041a3230a")
+		(property "Reference" "#PWR063"
+			(at 114.554 113.792 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 114.554 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.554 109.982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.554 109.982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 114.554 109.982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47d7ad47-7bc2-4e62-8c59-3a81f7f565bb")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.156 136.906 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9ffcf2e-7ac0-4bfe-ae2d-52d05318cb90")
+		(property "Reference" "R77"
+			(at 104.648 134.874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 104.902 136.906 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 105.156 138.684 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 105.156 136.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 220 Ohms 1% 1/10W AUTOMOTIV"
+			(at 105.156 136.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2rkf2200x-621350?catSequenceId=194"
+			(at 105.156 136.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ2RKF2200X"
+			(at 105.156 136.906 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 105.156 136.906 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 105.156 136.906 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc261d6a-bf68-431a-9787-ff5bed14f157")
+		)
+		(pin "2"
+			(uuid "6b06bcee-2696-4b31-bc15-a398aa1f4e16")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R77")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 125.984 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e77741ac-a92f-4b0b-b490-97f8257cbb99")
+		(property "Reference" "#PWR061"
+			(at 238.76 132.334 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 131.064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 125.984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 125.984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 125.984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e14cd829-5976-43ed-9323-db1f5f319ed3")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 192.786 76.454 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7be9f13-6d16-44c5-b19d-289d40d29934")
+		(property "Reference" "R49"
+			(at 192.532 78.486 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 192.532 76.454 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 192.786 74.676 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 192.786 76.454 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 192.786 76.454 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
+			(at 192.786 76.454 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ2GEJ200X"
+			(at 192.786 76.454 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 192.786 76.454 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "39a908a8-524e-446c-846b-6e7bcc348f2d")
+		)
+		(pin "1"
+			(uuid "a9333fa3-a424-4d6f-bd92-a3f0d53a711c")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 239.776 49.784 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed047159-65e7-4e49-89ec-f7bb0bc99a0c")
+		(property "Reference" "C58"
+			(at 242.824 47.752 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 242.824 50.292 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 240.7412 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5305,7 +12115,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 221.488 62.484 0)
+			(at 239.776 49.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5316,7 +12126,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 221.488 62.484 0)
+			(at 239.776 49.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5327,7 +12137,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grm155r71c104ka88d-423396"
-			(at 221.488 62.484 0)
+			(at 239.776 49.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5338,7 +12148,29 @@
 			)
 		)
 		(property "Part Number" "GRM155R71C104KA88D"
-			(at 221.488 62.484 0)
+			(at 239.776 49.784 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 239.776 49.784 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 239.776 49.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5367,8 +12199,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 208.788 62.484 0)
+		(lib_id "power:+3.3V")
+		(at 181.102 56.642 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5377,31 +12209,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f2f77f65-ee9b-4481-8aad-2cad21d9f174")
-		(property "Reference" "C31"
-			(at 212.598 61.2139 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 212.598 63.7539 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 209.7532 66.294 0)
+		(uuid "eeb82758-dc08-427a-bf36-bde7b29bc7ea")
+		(property "Reference" "#PWR066"
+			(at 181.102 60.452 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5411,93 +12221,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 208.788 62.484 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 208.788 62.484 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grm155r61a105ke15d-480735"
-			(at 208.788 62.484 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "GRM155R61A105KE15D"
-			(at 208.788 62.484 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ca3d1434-9f96-409e-a4ce-3c83d5ab955d")
-		)
-		(pin "2"
-			(uuid "b7be0d66-4899-4ba0-b353-e390612654fc")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "C31")
-					(unit 1)
-					(variant
-						(name "Distributer Link")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 130.048 57.404 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3a92358-42c7-4074-b3d2-543a40a88da6")
-		(property "Reference" "#PWR047"
-			(at 130.048 61.214 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 130.048 52.324 0)
+		(property "Value" "+3.3V"
+			(at 181.102 51.562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5507,7 +12232,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.048 57.404 0)
+			(at 181.102 56.642 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5518,7 +12243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.048 57.404 0)
+			(at 181.102 56.642 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5528,8 +12253,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 130.048 57.404 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 181.102 56.642 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5540,12 +12265,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b7ed953-6e61-41b3-8dce-d72dd318786e")
+			(uuid "ec16b70b-f94f-4891-bbb1-5a0209cf7d33")
 		)
 		(instances
 			(project "Ahrar Flight Controller"
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "#PWR047")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -5553,7 +12278,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 130.048 62.484 0)
+		(at 124.46 46.482 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5563,7 +12288,7 @@
 		(dnp no)
 		(uuid "f97b602e-19f6-4816-8e70-ad48461cc705")
 		(property "Reference" "C66"
-			(at 133.096 60.452 0)
+			(at 127.508 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5574,7 +12299,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 133.096 62.992 0)
+			(at 127.508 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5585,7 +12310,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 131.0132 66.294 0)
+			(at 125.4252 50.292 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5596,7 +12321,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 130.048 62.484 0)
+			(at 124.46 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5607,7 +12332,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 130.048 62.484 0)
+			(at 124.46 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5618,7 +12343,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grm155r71c104ka88d-423396"
-			(at 130.048 62.484 0)
+			(at 124.46 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5629,7 +12354,29 @@
 			)
 		)
 		(property "Part Number" "GRM155R71C104KA88D"
-			(at 130.048 62.484 0)
+			(at 124.46 46.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 124.46 46.482 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 124.46 46.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5649,6 +12396,135 @@
 			(project "Ahrar Flight Controller"
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
 					(reference "C66")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 37.846 65.786 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcfe9f37-9b1d-45f5-9bcb-5d6b2cc20b40")
+		(property "Reference" "R50"
+			(at 40.386 64.5159 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 40.386 67.0559 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 36.068 65.786 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 37.846 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 10K Ohms 5% 1/16W AUTOMOTIV"
+			(at 37.846 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgj0103tce-587874?catSequenceId=194"
+			(at 37.846 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGJ0103TCE"
+			(at 37.846 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 37.846 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 37.846 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d03076ee-ee4a-40d3-b467-fe2d18df5bd4")
+		)
+		(pin "1"
+			(uuid "99aaec57-a91e-4010-b73d-f61d766bdc8a")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R50")
 					(unit 1)
 					(variant
 						(name "Distributer Link")
