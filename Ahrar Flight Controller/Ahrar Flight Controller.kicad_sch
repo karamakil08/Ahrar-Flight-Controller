@@ -390,19 +390,6 @@
 		)
 		(uuid "749d180e-d5c3-4432-b538-8e41c6f1f277")
 	)
-	(text "What's left inshAllah:\n- Buzzer\n- Adding 3D model of components\n"
-		(exclude_from_sim no)
-		(at -138.176 32.512 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "7f514a92-9b6d-4fcb-985d-15b139b63a50")
-	)
 	(text "Mounting\nHoles"
 		(exclude_from_sim no)
 		(at 135.636 71.12 0)
@@ -23430,8 +23417,8 @@
 		)
 	)
 	(image
-		(at 34.544 34.29)
-		(scale 1.67094)
+		(at 40.894 40.894)
+		(scale 2.14896)
 		(uuid "88dcb366-6981-4b69-a3f1-bce80f199205")
 		(data "iVBORw0KGgoAAAANSUhEUgAAATwAAAE7CAYAAABAAD2+AAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzsvXmYJmV57/95nqf2erfee/aNYZgVhn0bASEgoIISDe57NGrMiXtMosbkJPqLOYjGNSoadwSD"
@@ -30187,7 +30174,7 @@
 		)
 	)
 	(sheet
-		(at 85.598 79.502)
+		(at 85.852 93.98)
 		(size 23.368 13.716)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30202,7 +30189,7 @@
 		)
 		(uuid "43d59d67-38e3-4fa5-9eed-8dfcd054557e")
 		(property "Sheetname" "USB-c"
-			(at 86.106 81.534 0)
+			(at 86.36 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30213,7 +30200,7 @@
 			)
 		)
 		(property "Sheetfile" "USB-c.kicad_sch"
-			(at 85.344 77.724 0)
+			(at 85.598 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30232,7 +30219,7 @@
 		)
 	)
 	(sheet
-		(at 58.42 101.6)
+		(at 58.674 116.078)
 		(size 21.336 13.208)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30247,7 +30234,7 @@
 		)
 		(uuid "7551fb1b-2757-4e8f-be00-2ca2ebab2b62")
 		(property "Sheetname" "Power"
-			(at 58.928 103.378 0)
+			(at 59.182 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30258,7 +30245,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 58.42 99.568 0)
+			(at 58.674 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30277,7 +30264,7 @@
 		)
 	)
 	(sheet
-		(at 30.48 78.486)
+		(at 30.734 92.964)
 		(size 20.066 14.224)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30292,7 +30279,7 @@
 		)
 		(uuid "7f06b02a-86af-429e-88ca-289556d612d7")
 		(property "Sheetname" "MCU"
-			(at 31.242 81.026 0)
+			(at 31.496 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30303,7 +30290,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 30.226 76.708 0)
+			(at 30.48 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30322,7 +30309,7 @@
 		)
 	)
 	(sheet
-		(at 85.598 100.33)
+		(at 85.852 114.808)
 		(size 23.876 13.716)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30337,7 +30324,7 @@
 		)
 		(uuid "8994d755-2740-4a19-8890-2ca021e20c88")
 		(property "Sheetname" "SD-card"
-			(at 85.852 102.616 0)
+			(at 86.106 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30348,7 +30335,7 @@
 			)
 		)
 		(property "Sheetfile" "SD-card.kicad_sch"
-			(at 85.344 98.298 0)
+			(at 85.598 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30367,7 +30354,7 @@
 		)
 	)
 	(sheet
-		(at 57.404 78.994)
+		(at 57.658 93.472)
 		(size 20.828 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30382,7 +30369,7 @@
 		)
 		(uuid "ab73ea48-713a-4752-b5f6-b96d3848d1d9")
 		(property "Sheetname" "Sensors"
-			(at 57.912 81.026 0)
+			(at 58.166 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30393,7 +30380,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 56.896 76.708 0)
+			(at 57.15 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30412,7 +30399,7 @@
 		)
 	)
 	(sheet
-		(at 31.242 101.854)
+		(at 31.496 116.332)
 		(size 18.542 13.208)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30427,7 +30414,7 @@
 		)
 		(uuid "ae4905a4-2743-4abf-8508-a5ee9ef094ae")
 		(property "Sheetname" "Connectors"
-			(at 31.496 103.632 0)
+			(at 31.75 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30438,7 +30425,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 30.988 100.076 0)
+			(at 31.242 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

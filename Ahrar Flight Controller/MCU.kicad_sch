@@ -11797,7 +11797,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "22"
 			(at 209.042 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11807,7 +11807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 209.042 133.096 90)
 			(hide yes)
 			(show_name no)
@@ -11818,7 +11818,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
 			(at 209.042 131.318 0)
 			(hide yes)
 			(show_name no)
@@ -11829,7 +11829,29 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES.(1608) 0603 22 Ohms 5% 1/3W 200PPM AECQ200"
+			(at 209.042 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erjpa3j220v-1189964?catSequenceId=194"
+			(at 209.042 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJPA3J220V"
 			(at 209.042 131.318 0)
 			(hide yes)
 			(show_name no)
