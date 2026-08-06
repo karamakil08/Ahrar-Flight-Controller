@@ -1990,34 +1990,34 @@
 		(uuid "072894e8-bdda-4366-99cc-7a70c8d21257")
 	)
 	(junction
-		(at 238.76 124.714)
+		(at 235.458 123.444)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1998aad4-f211-4f2d-a36b-7be2d3afa5cd")
 	)
 	(junction
-		(at 239.776 124.714)
+		(at 196.088 78.994)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20c1ca84-cb1e-454f-a914-471cf22acab6")
+	)
+	(junction
+		(at 188.722 144.018)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "224f72e7-37bb-4c97-9726-94512e10cadd")
+	)
+	(junction
+		(at 236.474 123.444)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22ad25bb-ee1a-440e-9536-6b37565030cd")
-	)
-	(junction
-		(at 179.578 145.288)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "417049db-86ee-4a20-9209-ce6c5908a05e")
 	)
 	(junction
 		(at 120.142 51.562)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44eeebb4-fdc6-4b66-bf01-c7a9b809580f")
-	)
-	(junction
-		(at 181.102 78.994)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "525f9f96-8ba2-41c1-94f4-950c6faea4eb")
 	)
 	(junction
 		(at 111.252 112.776)
@@ -2038,10 +2038,16 @@
 		(uuid "67551d91-dcb7-4828-bd48-d45ea3ce90b8")
 	)
 	(junction
-		(at 239.776 115.316)
+		(at 236.474 114.046)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6dd8aadd-87b0-4278-b518-1296c8b9b6b1")
+	)
+	(junction
+		(at 50.546 74.676)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7af23a90-6af4-4e40-8edc-5905d70226fc")
 	)
 	(junction
 		(at 105.41 92.456)
@@ -2074,12 +2080,6 @@
 		(uuid "b3596152-ad7a-46e4-884f-b1765be83731")
 	)
 	(junction
-		(at 47.244 140.716)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb733bd2-867e-4123-91c2-06e8105a97cf")
-	)
-	(junction
 		(at 111.252 122.682)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2098,6 +2098,12 @@
 		(uuid "cb4f4dde-9813-4d40-9f87-1030e0778139")
 	)
 	(junction
+		(at 60.452 140.716)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf59991e-eaa3-4dd4-a95b-26702ee8e0e9")
+	)
+	(junction
 		(at 227.076 54.864)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2110,13 +2116,7 @@
 		(uuid "daaebf60-ed6c-4aaa-8651-0271b96d308e")
 	)
 	(junction
-		(at 37.846 74.676)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb874a8c-7459-462b-a5df-3a666bbcfb13")
-	)
-	(junction
-		(at 209.042 127.508)
+		(at 205.74 126.238)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb895aa4-0328-4e39-b4ff-325f87eefdc9")
@@ -2128,7 +2128,7 @@
 		(uuid "f18ba26e-c9b6-4b3d-8558-302d24442801")
 	)
 	(junction
-		(at 237.744 115.316)
+		(at 234.442 114.046)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f327238a-d176-468b-9c34-0d99d2eaea39")
@@ -2153,7 +2153,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 124.714) (xy 239.776 124.714)
+			(xy 241.808 123.444) (xy 236.474 123.444)
 		)
 		(stroke
 			(width 0)
@@ -2183,7 +2183,7 @@
 	)
 	(wire
 		(pts
-			(xy 37.846 69.596) (xy 37.846 74.676)
+			(xy 50.546 67.818) (xy 50.546 74.676)
 		)
 		(stroke
 			(width 0)
@@ -2193,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.042 126.492) (xy 209.042 127.508)
+			(xy 205.74 125.222) (xy 205.74 126.238)
 		)
 		(stroke
 			(width 0)
@@ -2213,7 +2213,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.472 138.938) (xy 219.202 138.938)
+			(xy 217.17 137.668) (xy 215.9 137.668)
 		)
 		(stroke
 			(width 0)
@@ -2223,7 +2223,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 124.714) (xy 238.76 125.984)
+			(xy 235.458 123.444) (xy 235.458 124.714)
 		)
 		(stroke
 			(width 0)
@@ -2233,7 +2233,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.102 78.994) (xy 188.976 78.994)
+			(xy 175.514 78.994) (xy 177.292 78.994)
 		)
 		(stroke
 			(width 0)
@@ -2243,7 +2243,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.212 140.716) (xy 47.244 140.716)
+			(xy 45.212 140.716) (xy 48.006 140.716)
 		)
 		(stroke
 			(width 0)
@@ -2263,7 +2263,17 @@
 	)
 	(wire
 		(pts
-			(xy 209.042 127.508) (xy 211.328 127.508)
+			(xy 174.498 98.298) (xy 174.498 100.076)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15921b26-79e9-44d5-a9f6-51ea2615c623")
+	)
+	(wire
+		(pts
+			(xy 205.74 126.238) (xy 208.026 126.238)
 		)
 		(stroke
 			(width 0)
@@ -2283,7 +2293,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.776 115.316) (xy 237.744 115.316)
+			(xy 236.474 114.046) (xy 234.442 114.046)
 		)
 		(stroke
 			(width 0)
@@ -2313,7 +2323,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 115.316) (xy 239.776 115.316)
+			(xy 241.808 114.046) (xy 236.474 114.046)
 		)
 		(stroke
 			(width 0)
@@ -2323,7 +2333,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 145.288) (xy 179.578 145.288)
+			(xy 171.958 144.018) (xy 173.99 144.018)
 		)
 		(stroke
 			(width 0)
@@ -2343,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 137.668) (xy 189.23 137.668)
+			(xy 171.958 136.398) (xy 185.928 136.398)
 		)
 		(stroke
 			(width 0)
@@ -2360,16 +2370,6 @@
 			(type default)
 		)
 		(uuid "24b0be43-f796-48fb-b29f-d0de0b90b3ac")
-	)
-	(wire
-		(pts
-			(xy 181.102 67.818) (xy 181.102 78.994)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24dcb066-b40c-467e-bbf7-c60776e74fee")
 	)
 	(wire
 		(pts
@@ -2443,23 +2443,13 @@
 	)
 	(wire
 		(pts
-			(xy 207.518 127.508) (xy 209.042 127.508)
+			(xy 204.216 126.238) (xy 205.74 126.238)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "338beeb7-c765-40b2-a165-13b6bf9232a0")
-	)
-	(wire
-		(pts
-			(xy 49.53 74.676) (xy 54.61 74.676)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "348204f4-1866-43b7-9891-a0bfed443074")
 	)
 	(wire
 		(pts
@@ -2483,7 +2473,7 @@
 	)
 	(wire
 		(pts
-			(xy 47.244 127) (xy 47.244 130.302)
+			(xy 60.452 127.254) (xy 60.452 130.556)
 		)
 		(stroke
 			(width 0)
@@ -2503,7 +2493,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 124.714) (xy 239.776 124.714)
+			(xy 235.458 123.444) (xy 236.474 123.444)
 		)
 		(stroke
 			(width 0)
@@ -2543,7 +2533,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 123.698) (xy 245.11 124.714)
+			(xy 241.808 122.428) (xy 241.808 123.444)
 		)
 		(stroke
 			(width 0)
@@ -2563,7 +2553,7 @@
 	)
 	(wire
 		(pts
-			(xy 47.244 137.922) (xy 47.244 140.716)
+			(xy 60.452 138.176) (xy 60.452 140.716)
 		)
 		(stroke
 			(width 0)
@@ -2580,6 +2570,16 @@
 			(type default)
 		)
 		(uuid "4f41222f-faae-4e65-92fa-a0ccffd180d2")
+	)
+	(wire
+		(pts
+			(xy 188.722 144.018) (xy 194.056 144.018)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502dcc79-6450-4396-bd46-4dfe5c891f25")
 	)
 	(wire
 		(pts
@@ -2613,16 +2613,6 @@
 	)
 	(wire
 		(pts
-			(xy 47.244 140.716) (xy 52.832 140.716)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54ad2bf9-aee4-44a9-8d79-f33a9c5125f5")
-	)
-	(wire
-		(pts
 			(xy 239.776 54.864) (xy 227.076 54.864)
 		)
 		(stroke
@@ -2640,16 +2630,6 @@
 			(type default)
 		)
 		(uuid "5ad12a9a-f87c-4630-ab07-f7fd2665070d")
-	)
-	(wire
-		(pts
-			(xy 179.578 129.54) (xy 179.578 145.288)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6329b104-f0e8-4acb-ba14-392079d27e4a")
 	)
 	(wire
 		(pts
@@ -2683,6 +2663,26 @@
 	)
 	(wire
 		(pts
+			(xy 44.958 74.676) (xy 50.546 74.676)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8421b4-3ba9-4717-a3de-5123267ff919")
+	)
+	(wire
+		(pts
+			(xy 184.912 78.994) (xy 196.088 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d120da1-8da7-4ef5-b46d-1e7642de71cf")
+	)
+	(wire
+		(pts
 			(xy 118.618 51.562) (xy 120.142 51.562)
 		)
 		(stroke
@@ -2690,16 +2690,6 @@
 			(type default)
 		)
 		(uuid "6d1af4a8-d218-47eb-904a-d76b8552f9f0")
-	)
-	(wire
-		(pts
-			(xy 196.596 78.994) (xy 197.358 78.994)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "709c2ce3-8d8e-44ef-a526-6f97dc308917")
 	)
 	(wire
 		(pts
@@ -2713,13 +2703,13 @@
 	)
 	(wire
 		(pts
-			(xy 37.846 74.676) (xy 41.91 74.676)
+			(xy 196.088 78.994) (xy 197.358 78.994)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73a7ab11-7f2c-48f4-8d60-6577df65aec5")
+		(uuid "74a34898-3161-45da-9a6d-f72fa94ea289")
 	)
 	(wire
 		(pts
@@ -2730,6 +2720,26 @@
 			(type default)
 		)
 		(uuid "7669da72-31c0-438b-9ecd-a177bcb46920")
+	)
+	(wire
+		(pts
+			(xy 174.498 100.076) (xy 196.088 100.076)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a1ed00-ed27-4010-b811-a0b593b0552e")
+	)
+	(wire
+		(pts
+			(xy 167.132 163.83) (xy 188.722 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c5c4fd-782c-4ef9-b998-62cbd5b695f5")
 	)
 	(wire
 		(pts
@@ -2753,7 +2763,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.776 115.316) (xy 239.776 116.078)
+			(xy 236.474 114.046) (xy 236.474 114.808)
 		)
 		(stroke
 			(width 0)
@@ -2773,7 +2783,7 @@
 	)
 	(wire
 		(pts
-			(xy 37.846 58.674) (xy 37.846 61.976)
+			(xy 50.546 56.896) (xy 50.546 60.198)
 		)
 		(stroke
 			(width 0)
@@ -2803,6 +2813,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.546 74.676) (xy 54.61 74.676)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcaea78-9873-42b5-b4e1-8fa7fa371c26")
+	)
+	(wire
+		(pts
 			(xy 197.358 68.834) (xy 196.85 68.834)
 		)
 		(stroke
@@ -2813,7 +2833,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.776 123.698) (xy 239.776 124.714)
+			(xy 236.474 122.428) (xy 236.474 123.444)
 		)
 		(stroke
 			(width 0)
@@ -2823,7 +2843,27 @@
 	)
 	(wire
 		(pts
-			(xy 237.744 115.316) (xy 227.838 115.316)
+			(xy 55.626 140.716) (xy 60.452 140.716)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "815911ad-6409-48c1-abbb-a93505359d1f")
+	)
+	(wire
+		(pts
+			(xy 188.722 163.83) (xy 188.722 144.018)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81dd1c11-0a73-407f-9e00-79277ce29cca")
+	)
+	(wire
+		(pts
+			(xy 234.442 114.046) (xy 224.536 114.046)
 		)
 		(stroke
 			(width 0)
@@ -2833,7 +2873,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.088 133.858) (xy 197.358 133.858)
+			(xy 192.786 132.588) (xy 194.056 132.588)
 		)
 		(stroke
 			(width 0)
@@ -2843,7 +2883,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 141.478) (xy 182.88 141.478)
+			(xy 171.958 140.208) (xy 179.578 140.208)
 		)
 		(stroke
 			(width 0)
@@ -2860,16 +2900,6 @@
 			(type default)
 		)
 		(uuid "86d80897-4a97-448c-b09a-a84914daed89")
-	)
-	(wire
-		(pts
-			(xy 175.514 78.994) (xy 181.102 78.994)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89c7e791-472d-49a7-9cf7-a132144ae09a")
 	)
 	(wire
 		(pts
@@ -2893,7 +2923,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.838 124.714) (xy 227.838 123.952)
+			(xy 224.536 123.444) (xy 224.536 122.682)
 		)
 		(stroke
 			(width 0)
@@ -2910,16 +2940,6 @@
 			(type default)
 		)
 		(uuid "94781a85-df61-453f-ac25-6bd7efe8e6ff")
-	)
-	(wire
-		(pts
-			(xy 32.258 74.676) (xy 37.846 74.676)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "957af0f2-cb88-489a-bbea-73f0caefd591")
 	)
 	(wire
 		(pts
@@ -2963,7 +2983,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 138.938) (xy 228.092 138.938)
+			(xy 226.568 137.668) (xy 224.79 137.668)
 		)
 		(stroke
 			(width 0)
@@ -3013,7 +3033,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 133.858) (xy 188.468 133.858)
+			(xy 171.958 132.588) (xy 185.166 132.588)
 		)
 		(stroke
 			(width 0)
@@ -3023,7 +3043,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 124.714) (xy 227.838 124.714)
+			(xy 235.458 123.444) (xy 224.536 123.444)
 		)
 		(stroke
 			(width 0)
@@ -3083,7 +3103,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 116.078) (xy 245.11 115.316)
+			(xy 241.808 114.808) (xy 241.808 114.046)
 		)
 		(stroke
 			(width 0)
@@ -3110,6 +3130,26 @@
 			(type default)
 		)
 		(uuid "c8076c12-71a9-4346-a30f-5ace4adeef82")
+	)
+	(wire
+		(pts
+			(xy 181.61 144.018) (xy 188.722 144.018)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9877aa0-46e2-4238-a420-3f84613f3eac")
+	)
+	(wire
+		(pts
+			(xy 32.258 74.676) (xy 37.338 74.676)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca911c13-40b6-48d1-ad74-02534a127fb5")
 	)
 	(wire
 		(pts
@@ -3153,13 +3193,23 @@
 	)
 	(wire
 		(pts
-			(xy 179.578 119.126) (xy 179.578 121.92)
+			(xy 167.132 152.4) (xy 167.132 155.194)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d2b56afa-a73f-4203-9d0d-e6cc70e10c1a")
+	)
+	(wire
+		(pts
+			(xy 167.132 163.83) (xy 167.132 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3854026-0ba2-402a-81e0-b16ccdc13007")
 	)
 	(wire
 		(pts
@@ -3173,23 +3223,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.102 56.642) (xy 181.102 60.198)
+			(xy 174.498 87.122) (xy 174.498 90.678)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d678e7a8-d689-4e79-9056-7ee946015bc0")
-	)
-	(wire
-		(pts
-			(xy 179.578 145.288) (xy 188.468 145.288)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8377855-d9eb-40c8-8b94-f69f3df8e693")
 	)
 	(wire
 		(pts
@@ -3203,7 +3243,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.838 115.316) (xy 227.838 116.332)
+			(xy 224.536 114.046) (xy 224.536 115.062)
 		)
 		(stroke
 			(width 0)
@@ -3213,7 +3253,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 141.478) (xy 197.358 141.478)
+			(xy 187.198 140.208) (xy 194.056 140.208)
 		)
 		(stroke
 			(width 0)
@@ -3243,7 +3283,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.058 152.4) (xy 210.058 151.638)
+			(xy 206.756 151.13) (xy 206.756 150.368)
 		)
 		(stroke
 			(width 0)
@@ -3253,13 +3293,23 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 137.668) (xy 197.358 137.668)
+			(xy 193.548 136.398) (xy 194.056 136.398)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e52f4fcd-9fe1-4a6c-a819-9149292fd789")
+	)
+	(wire
+		(pts
+			(xy 196.088 100.076) (xy 196.088 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e6b06a-8a54-4463-a5de-eb5687063050")
 	)
 	(wire
 		(pts
@@ -3293,7 +3343,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.744 110.998) (xy 237.744 115.316)
+			(xy 234.442 109.728) (xy 234.442 114.046)
 		)
 		(stroke
 			(width 0)
@@ -3340,16 +3390,6 @@
 			(type default)
 		)
 		(uuid "fa875c85-cd74-4783-9d29-d22dcef3c9c0")
-	)
-	(wire
-		(pts
-			(xy 196.088 145.288) (xy 197.358 145.288)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd18900a-a9ee-4876-b875-7bd7f7043d68")
 	)
 	(image
 		(at 275.59 171.704)
@@ -5942,7 +5982,7 @@
 	)
 	(global_label "BMP_SS"
 		(shape input)
-		(at 175.26 145.288 180)
+		(at 171.958 144.018 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5952,7 +5992,7 @@
 		)
 		(uuid "1ac34a08-2779-4c3a-a079-1123d9bfc29e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.8968 145.288 0)
+			(at 161.5948 144.018 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5990,7 +6030,7 @@
 	)
 	(global_label "BMP_MOSI"
 		(shape input)
-		(at 175.26 137.668 180)
+		(at 171.958 136.398 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6000,7 +6040,7 @@
 		)
 		(uuid "5aa2c0e7-2d84-4e90-996c-90ad3a90a8ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.7196 137.668 0)
+			(at 159.4176 136.398 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6066,7 +6106,7 @@
 	)
 	(global_label "BMP_INT"
 		(shape output)
-		(at 229.87 138.938 0)
+		(at 226.568 137.668 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6076,7 +6116,7 @@
 		)
 		(uuid "816e1cf4-936a-45d5-9fac-36b4f902d0e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.7171 138.938 0)
+			(at 237.4151 137.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6188,7 +6228,7 @@
 	)
 	(global_label "BMP_MISO"
 		(shape output)
-		(at 175.26 141.478 180)
+		(at 171.958 140.208 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6198,7 +6238,7 @@
 		)
 		(uuid "d7dd265e-28ac-4257-ac67-e0e0d837129b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.7196 141.478 0)
+			(at 159.4176 140.208 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6236,7 +6276,7 @@
 	)
 	(global_label "BMP_SCK"
 		(shape input)
-		(at 175.26 133.858 180)
+		(at 171.958 132.588 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6246,7 +6286,7 @@
 		)
 		(uuid "e4775aca-92e3-42b7-a917-895d5ea166a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.5663 133.858 0)
+			(at 160.2643 132.588 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6259,7 +6299,7 @@
 		)
 	)
 	(global_label "ICM86_SS"
-		(shape output)
+		(shape input)
 		(at 45.212 140.716 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6434,7 +6474,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 37.846 58.674 0)
+		(at 50.546 56.896 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6445,7 +6485,7 @@
 		(fields_autoplaced yes)
 		(uuid "0680ce1c-656a-48d4-b158-9b0ea41fbae1")
 		(property "Reference" "#PWR083"
-			(at 37.846 62.484 0)
+			(at 50.546 60.706 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6456,7 +6496,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 37.846 54.356 0)
+			(at 50.546 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6466,7 +6506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 37.846 58.674 0)
+			(at 50.546 56.896 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6477,7 +6517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 37.846 58.674 0)
+			(at 50.546 56.896 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6488,7 +6528,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 37.846 58.674 0)
+			(at 50.546 56.896 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6506,210 +6546,6 @@
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
 					(reference "#PWR083")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 193.04 137.668 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0900afde-c629-41b2-9153-f7a85efb42bd")
-		(property "Reference" "R43"
-			(at 192.786 139.954 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 192.786 137.668 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 193.04 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 193.04 137.668 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
-			(at 193.04 137.668 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
-			(at 193.04 137.668 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "ERJ2GEJ200X"
-			(at 193.04 137.668 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 193.04 137.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 193.04 137.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 193.04 137.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 193.04 137.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 193.04 137.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 193.04 137.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 193.04 137.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 193.04 137.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 193.04 137.668 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b9755260-e9b9-49b0-93d4-d241dfe2ffe3")
-		)
-		(pin "1"
-			(uuid "d0246c5b-fc9c-4cb1-8d85-3172bec1a17f")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "R43")
-					(unit 1)
-					(variant
-						(name "Distributer Link")
-					)
 				)
 			)
 		)
@@ -6794,8 +6630,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 56.642 143.256 90)
-		(mirror x)
+		(at 41.148 74.676 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6803,9 +6638,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0df8d4e3-f3bd-4537-b66f-753a262bb5af")
-		(property "Reference" "R26"
-			(at 56.388 145.542 90)
+		(uuid "0d68dc6f-a401-4443-99f1-b6fb70414df9")
+		(property "Reference" "R97"
+			(at 40.894 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6814,8 +6649,8 @@
 				)
 			)
 		)
-		(property "Value" "20"
-			(at 56.388 143.256 90)
+		(property "Value" "22"
+			(at 40.894 74.676 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6825,7 +6660,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 56.642 141.478 90)
+			(at 41.148 76.454 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6835,8 +6670,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 56.642 143.256 0)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 41.148 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6847,7 +6682,7 @@
 			)
 		)
 		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
-			(at 56.642 143.256 0)
+			(at 41.148 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6857,8 +6692,8 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
-			(at 56.642 143.256 0)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
+			(at 41.148 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6868,8 +6703,8 @@
 				)
 			)
 		)
-		(property "Part Number" "ERJ2GEJ200X"
-			(at 56.642 143.256 0)
+		(property "Part Number" "CQ02WGF220JTCE"
+			(at 41.148 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6880,7 +6715,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 56.642 143.256 90)
+			(at 41.148 74.676 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6891,7 +6726,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 56.642 143.256 90)
+			(at 41.148 74.676 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6902,7 +6737,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 56.642 143.256 90)
+			(at 41.148 74.676 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6913,7 +6748,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 56.642 143.256 90)
+			(at 41.148 74.676 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6924,7 +6759,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 56.642 143.256 90)
+			(at 41.148 74.676 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6935,7 +6770,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 56.642 143.256 90)
+			(at 41.148 74.676 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6946,7 +6781,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 56.642 143.256 90)
+			(at 41.148 74.676 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6957,7 +6792,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 56.642 143.256 90)
+			(at 41.148 74.676 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6968,7 +6803,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 56.642 143.256 90)
+			(at 41.148 74.676 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6979,15 +6814,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4a4e5ce8-8a0b-4c54-880c-b49d9f81d95b")
+			(uuid "7f156e6d-8413-4c8b-ad77-c4dcc65dd61a")
 		)
 		(pin "1"
-			(uuid "c3128e18-dc4f-4610-a0b6-328eb8c74fad")
+			(uuid "f955eb01-f41e-4da5-9888-4802c9a3cb09")
 		)
 		(instances
 			(project "Ahrar Flight Controller"
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "R26")
+					(reference "R97")
 					(unit 1)
 					(variant
 						(name "Distributer Link")
@@ -7589,209 +7424,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 192.278 133.858 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1a8fe24e-6e7d-47fc-ad78-db196e4fed90")
-		(property "Reference" "R38"
-			(at 192.024 131.572 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 192.024 133.858 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 192.278 135.636 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 192.278 133.858 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
-			(at 192.278 133.858 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
-			(at 192.278 133.858 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "ERJ2GEJ200X"
-			(at 192.278 133.858 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 192.278 133.858 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 192.278 133.858 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 192.278 133.858 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 192.278 133.858 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 192.278 133.858 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 192.278 133.858 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 192.278 133.858 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 192.278 133.858 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 192.278 133.858 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f8f35530-648d-44f5-8b50-2c38b9ad373e")
-		)
-		(pin "1"
-			(uuid "36d2bb29-5623-42c0-ba9b-9cef31e35eb4")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "R38")
-					(unit 1)
-					(variant
-						(name "Distributer Link")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 106.172 118.11 0)
 		(mirror y)
@@ -8010,7 +7642,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 245.11 119.888 0)
+		(at 241.808 118.618 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8020,7 +7652,7 @@
 		(dnp no)
 		(uuid "24b0487e-a7fd-4fec-91ce-f19d6d014876")
 		(property "Reference" "C70"
-			(at 248.158 117.856 0)
+			(at 244.856 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8031,7 +7663,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 248.158 120.396 0)
+			(at 244.856 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8042,7 +7674,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 246.0752 123.698 0)
+			(at 242.7732 122.428 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8053,7 +7685,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 245.11 119.888 0)
+			(at 241.808 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8064,7 +7696,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 245.11 119.888 0)
+			(at 241.808 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8075,7 +7707,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grm155r71c104ka88d-423396"
-			(at 245.11 119.888 0)
+			(at 241.808 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8086,7 +7718,7 @@
 			)
 		)
 		(property "Part Number" "GRM155R71C104KA88D"
-			(at 245.11 119.888 0)
+			(at 241.808 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8097,7 +7729,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 245.11 119.888 0)
+			(at 241.808 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8108,7 +7740,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 245.11 119.888 0)
+			(at 241.808 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8119,7 +7751,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 245.11 119.888 0)
+			(at 241.808 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8130,7 +7762,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 245.11 119.888 0)
+			(at 241.808 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8141,7 +7773,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 245.11 119.888 0)
+			(at 241.808 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8152,7 +7784,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 245.11 119.888 0)
+			(at 241.808 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8163,7 +7795,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 245.11 119.888 0)
+			(at 241.808 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8174,7 +7806,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 245.11 119.888 0)
+			(at 241.808 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8185,7 +7817,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 245.11 119.888 0)
+			(at 241.808 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8196,7 +7828,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 245.11 119.888 0)
+			(at 241.808 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8226,209 +7858,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 185.674 73.914 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2baa4ded-7266-494f-9a61-000f86bdedfe")
-		(property "Reference" "R48"
-			(at 185.42 71.628 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 185.42 73.914 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 185.674 75.692 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 185.674 73.914 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
-			(at 185.674 73.914 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
-			(at 185.674 73.914 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "ERJ2GEJ200X"
-			(at 185.674 73.914 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 185.674 73.914 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 185.674 73.914 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 185.674 73.914 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 185.674 73.914 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 185.674 73.914 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 185.674 73.914 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 185.674 73.914 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 185.674 73.914 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 185.674 73.914 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2f18e2b4-1937-463e-880c-ec0a02693429")
-		)
-		(pin "1"
-			(uuid "f54ce637-16fd-49d6-945f-f566da1233a0")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "R48")
-					(unit 1)
-					(variant
-						(name "Distributer Link")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 41.148 82.296 90)
 		(mirror x)
 		(unit 1)
@@ -8438,8 +7867,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2f4a6857-c22b-4900-8878-b582589270e8")
-		(property "Reference" "R25"
+		(uuid "26395dc8-5f5d-4a68-9ca3-8ebb37b9cb3a")
+		(property "Reference" "R100"
 			(at 40.894 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8449,7 +7878,7 @@
 				)
 			)
 		)
-		(property "Value" "20"
+		(property "Value" "22"
 			(at 40.894 82.296 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8470,7 +7899,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
 			(at 41.148 82.296 0)
 			(hide yes)
 			(show_name no)
@@ -8492,7 +7921,7 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
 			(at 41.148 82.296 0)
 			(hide yes)
 			(show_name no)
@@ -8503,7 +7932,7 @@
 				)
 			)
 		)
-		(property "Part Number" "ERJ2GEJ200X"
+		(property "Part Number" "CQ02WGF220JTCE"
 			(at 41.148 82.296 0)
 			(hide yes)
 			(show_name no)
@@ -8614,15 +8043,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "91671556-506f-4ffe-9bf5-346b949461fa")
+			(uuid "e913ec83-c2bf-44a4-bf51-24adc44af0bf")
 		)
 		(pin "1"
-			(uuid "86a52442-6934-4486-8376-c49549799d47")
+			(uuid "679a1636-aaf7-498f-b31c-aee58cb150f3")
 		)
 		(instances
 			(project "Ahrar Flight Controller"
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "R25")
+					(reference "R100")
 					(unit 1)
 					(variant
 						(name "Distributer Link")
@@ -8633,7 +8062,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 51.054 145.796 90)
+		(at 50.038 79.756 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8641,9 +8070,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "41b2ded4-7d08-4b8e-8fae-350156940708")
-		(property "Reference" "R3"
-			(at 50.8 143.51 90)
+		(uuid "3d677caa-4f80-49b0-bdca-ae0de3f167db")
+		(property "Reference" "R99"
+			(at 49.784 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8652,8 +8081,8 @@
 				)
 			)
 		)
-		(property "Value" "20"
-			(at 50.8 145.796 90)
+		(property "Value" "22"
+			(at 49.784 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8663,7 +8092,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 51.054 147.574 90)
+			(at 50.038 81.534 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8673,8 +8102,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 51.054 145.796 0)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 50.038 79.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8685,7 +8114,7 @@
 			)
 		)
 		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
-			(at 51.054 145.796 0)
+			(at 50.038 79.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8695,8 +8124,8 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
-			(at 51.054 145.796 0)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
+			(at 50.038 79.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8706,8 +8135,8 @@
 				)
 			)
 		)
-		(property "Part Number" "ERJ2GEJ200X"
-			(at 51.054 145.796 0)
+		(property "Part Number" "CQ02WGF220JTCE"
+			(at 50.038 79.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8718,7 +8147,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 51.054 145.796 90)
+			(at 50.038 79.756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8729,7 +8158,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 51.054 145.796 90)
+			(at 50.038 79.756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8740,7 +8169,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 51.054 145.796 90)
+			(at 50.038 79.756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8751,7 +8180,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 51.054 145.796 90)
+			(at 50.038 79.756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8762,7 +8191,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 51.054 145.796 90)
+			(at 50.038 79.756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8773,7 +8202,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 51.054 145.796 90)
+			(at 50.038 79.756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8784,7 +8213,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 51.054 145.796 90)
+			(at 50.038 79.756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8795,7 +8224,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 51.054 145.796 90)
+			(at 50.038 79.756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8806,7 +8235,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 51.054 145.796 90)
+			(at 50.038 79.756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8817,15 +8246,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ef39e3d3-2adc-40c8-9b1c-ebfc66963faa")
+			(uuid "31d06a3b-9596-4c3e-bf61-d5d3eedf7bc4")
 		)
 		(pin "1"
-			(uuid "bd00040e-3436-4041-ace9-d65dfc1dcbc5")
+			(uuid "c626d6cb-1dbf-46ed-8b80-0b48b6564027")
 		)
 		(instances
 			(project "Ahrar Flight Controller"
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "R3")
+					(reference "R99")
 					(unit 1)
 					(variant
 						(name "Distributer Link")
@@ -8914,7 +8343,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 179.578 125.73 0)
+		(at 167.132 159.004 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8925,7 +8354,7 @@
 		(fields_autoplaced yes)
 		(uuid "4afbe06b-c3f9-4675-b013-93a2c3fd4fb2")
 		(property "Reference" "R45"
-			(at 182.118 124.4599 0)
+			(at 169.672 157.7339 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8936,7 +8365,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 182.118 126.9999 0)
+			(at 169.672 160.2739 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8947,7 +8376,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 177.8 125.73 90)
+			(at 165.354 159.004 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8958,7 +8387,7 @@
 			)
 		)
 		(property "Datasheet" "http://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 179.578 125.73 0)
+			(at 167.132 159.004 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8969,7 +8398,7 @@
 			)
 		)
 		(property "Description" "RES.(1005) 0402 10K Ohms 1% 1/10W AUTOMOTIV"
-			(at 179.578 125.73 0)
+			(at 167.132 159.004 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8980,7 +8409,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2rkf1002x-609851?catSequenceId=194"
-			(at 179.578 125.73 0)
+			(at 167.132 159.004 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8991,7 +8420,7 @@
 			)
 		)
 		(property "Part Number" "ERJ2RKF1002X"
-			(at 179.578 125.73 0)
+			(at 167.132 159.004 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9002,7 +8431,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 179.578 125.73 0)
+			(at 167.132 159.004 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9013,7 +8442,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 179.578 125.73 0)
+			(at 167.132 159.004 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9024,7 +8453,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 179.578 125.73 0)
+			(at 167.132 159.004 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9035,7 +8464,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 179.578 125.73 0)
+			(at 167.132 159.004 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9046,7 +8475,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 179.578 125.73 0)
+			(at 167.132 159.004 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9057,7 +8486,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 179.578 125.73 0)
+			(at 167.132 159.004 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9068,7 +8497,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 179.578 125.73 0)
+			(at 167.132 159.004 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9079,7 +8508,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 179.578 125.73 0)
+			(at 167.132 159.004 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9090,7 +8519,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 179.578 125.73 0)
+			(at 167.132 159.004 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9101,7 +8530,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 179.578 125.73 0)
+			(at 167.132 159.004 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9131,7 +8560,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 239.776 119.888 0)
+		(at 236.474 118.618 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9142,7 +8571,7 @@
 		(dnp no)
 		(uuid "4d2e0eb7-0935-4933-8d28-78861e43dc8e")
 		(property "Reference" "C71"
-			(at 236.728 117.856 0)
+			(at 233.426 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9153,7 +8582,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 236.728 120.396 0)
+			(at 233.426 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9164,7 +8593,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 238.8108 123.698 0)
+			(at 235.5088 122.428 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9175,7 +8604,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 239.776 119.888 0)
+			(at 236.474 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9186,7 +8615,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 239.776 119.888 0)
+			(at 236.474 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9197,7 +8626,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grm155r71c104ka88d-423396"
-			(at 239.776 119.888 0)
+			(at 236.474 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9208,7 +8637,7 @@
 			)
 		)
 		(property "Part Number" "GRM155R71C104KA88D"
-			(at 239.776 119.888 0)
+			(at 236.474 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9219,7 +8648,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 239.776 119.888 0)
+			(at 236.474 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9230,7 +8659,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 239.776 119.888 0)
+			(at 236.474 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9241,7 +8670,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 239.776 119.888 0)
+			(at 236.474 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9252,7 +8681,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 239.776 119.888 0)
+			(at 236.474 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9263,7 +8692,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 239.776 119.888 0)
+			(at 236.474 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9274,7 +8703,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 239.776 119.888 0)
+			(at 236.474 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9285,7 +8714,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 239.776 119.888 0)
+			(at 236.474 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9296,7 +8725,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 239.776 119.888 0)
+			(at 236.474 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9307,7 +8736,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 239.776 119.888 0)
+			(at 236.474 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9318,7 +8747,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 239.776 119.888 0)
+			(at 236.474 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9420,6 +8849,209 @@
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
 					(reference "#PWR089")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 185.674 73.914 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "523fc882-2aec-4807-acb4-b7bddba5264a")
+		(property "Reference" "R94"
+			(at 185.42 71.628 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 185.42 73.914 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 185.674 75.692 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 185.674 73.914 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 185.674 73.914 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
+			(at 185.674 73.914 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF220JTCE"
+			(at 185.674 73.914 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 185.674 73.914 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 185.674 73.914 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 185.674 73.914 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 185.674 73.914 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 185.674 73.914 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 185.674 73.914 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 185.674 73.914 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 185.674 73.914 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 185.674 73.914 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "90e847eb-992c-4a8d-8ac5-e254c4894506")
+		)
+		(pin "1"
+			(uuid "f1288e32-2227-466d-9e1c-9f2f6e3cf6c7")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R94")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
 				)
 			)
 		)
@@ -9640,7 +9272,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 227.838 120.142 0)
+		(at 224.536 118.872 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9651,7 +9283,7 @@
 		(dnp no)
 		(uuid "5a34e2a9-9a8a-40bc-b458-48bb077c4b72")
 		(property "Reference" "C19"
-			(at 222.504 121.158 0)
+			(at 219.202 119.888 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9661,7 +9293,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 222.758 119.126 0)
+			(at 219.456 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9671,7 +9303,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 226.8728 123.952 0)
+			(at 223.5708 122.682 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9682,7 +9314,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/SAMSUNG%20MLCC_JAN-2024.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 227.838 120.142 0)
+			(at 224.536 118.872 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9693,7 +9325,7 @@
 			)
 		)
 		(property "Description" "MLCC (1608) 0603 2.2uF 10VDC ±10% X7R"
-			(at 227.838 120.142 0)
+			(at 224.536 118.872 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9704,7 +9336,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/samsung-cl10b225kp8nnnc-359581?catSequenceId=184"
-			(at 227.838 120.142 90)
+			(at 224.536 118.872 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9715,7 +9347,7 @@
 			)
 		)
 		(property "Part Number" "CL10B225KP8NNNC"
-			(at 227.838 120.142 90)
+			(at 224.536 118.872 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9726,7 +9358,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 227.838 120.142 0)
+			(at 224.536 118.872 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9737,7 +9369,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 227.838 120.142 0)
+			(at 224.536 118.872 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9748,7 +9380,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 227.838 120.142 0)
+			(at 224.536 118.872 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9759,7 +9391,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 227.838 120.142 0)
+			(at 224.536 118.872 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9770,7 +9402,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 227.838 120.142 0)
+			(at 224.536 118.872 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9781,7 +9413,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 227.838 120.142 0)
+			(at 224.536 118.872 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9792,7 +9424,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 227.838 120.142 0)
+			(at 224.536 118.872 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9803,7 +9435,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 227.838 120.142 0)
+			(at 224.536 118.872 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9814,7 +9446,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 227.838 120.142 0)
+			(at 224.536 118.872 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9825,7 +9457,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 227.838 120.142 0)
+			(at 224.536 118.872 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9933,7 +9565,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 47.244 134.112 0)
+		(at 60.452 134.366 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9944,7 +9576,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b85ef70-e310-4c46-ab3f-af0cd4f7783e")
 		(property "Reference" "R36"
-			(at 49.784 132.8419 0)
+			(at 62.992 133.0959 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9955,7 +9587,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 49.784 135.3819 0)
+			(at 62.992 135.6359 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9966,7 +9598,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 45.466 134.112 90)
+			(at 58.674 134.366 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9977,7 +9609,7 @@
 			)
 		)
 		(property "Datasheet" "http://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 47.244 134.112 0)
+			(at 60.452 134.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9988,7 +9620,7 @@
 			)
 		)
 		(property "Description" "RES.(1005) 0402 10K Ohms 1% 1/10W AUTOMOTIV"
-			(at 47.244 134.112 0)
+			(at 60.452 134.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9999,7 +9631,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2rkf1002x-609851?catSequenceId=194"
-			(at 47.244 134.112 0)
+			(at 60.452 134.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10010,7 +9642,7 @@
 			)
 		)
 		(property "Part Number" "ERJ2RKF1002X"
-			(at 47.244 134.112 0)
+			(at 60.452 134.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10021,7 +9653,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 47.244 134.112 0)
+			(at 60.452 134.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10032,7 +9664,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 47.244 134.112 0)
+			(at 60.452 134.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10043,7 +9675,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 47.244 134.112 0)
+			(at 60.452 134.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10054,7 +9686,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 47.244 134.112 0)
+			(at 60.452 134.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10065,7 +9697,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 47.244 134.112 0)
+			(at 60.452 134.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10076,7 +9708,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 47.244 134.112 0)
+			(at 60.452 134.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10087,7 +9719,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 47.244 134.112 0)
+			(at 60.452 134.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10098,7 +9730,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 47.244 134.112 0)
+			(at 60.452 134.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10109,7 +9741,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 47.244 134.112 0)
+			(at 60.452 134.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10120,7 +9752,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 47.244 134.112 0)
+			(at 60.452 134.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10150,7 +9782,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.058 152.4 0)
+		(at 206.756 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10161,7 +9793,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e418632-ba70-4174-a457-19b91d0e71c4")
 		(property "Reference" "#PWR032"
-			(at 210.058 158.75 0)
+			(at 206.756 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10172,7 +9804,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.058 157.48 0)
+			(at 206.756 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10182,7 +9814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.058 152.4 0)
+			(at 206.756 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10193,7 +9825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.058 152.4 0)
+			(at 206.756 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10204,7 +9836,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.058 152.4 0)
+			(at 206.756 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10222,413 +9854,6 @@
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
 					(reference "#PWR032")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 186.69 141.478 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5eaf5a23-45ba-47db-a238-8519489c9e64")
-		(property "Reference" "R44"
-			(at 186.436 143.764 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 186.436 141.478 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 186.69 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 186.69 141.478 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
-			(at 186.69 141.478 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
-			(at 186.69 141.478 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "ERJ2GEJ200X"
-			(at 186.69 141.478 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 186.69 141.478 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 186.69 141.478 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 186.69 141.478 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 186.69 141.478 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 186.69 141.478 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 186.69 141.478 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 186.69 141.478 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 186.69 141.478 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 186.69 141.478 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2cdd3c69-c351-4ae0-8e1f-1896e8b8016d")
-		)
-		(pin "1"
-			(uuid "ce490d9b-d913-4154-b18a-2d39f340357f")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "R44")
-					(unit 1)
-					(variant
-						(name "Distributer Link")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 50.038 79.756 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5f7fff7c-f70c-4024-8c86-1eca04728262")
-		(property "Reference" "R17"
-			(at 49.784 77.47 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 49.784 79.756 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 50.038 81.534 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 50.038 79.756 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
-			(at 50.038 79.756 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
-			(at 50.038 79.756 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "ERJ2GEJ200X"
-			(at 50.038 79.756 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 50.038 79.756 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 50.038 79.756 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 50.038 79.756 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 50.038 79.756 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 50.038 79.756 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 50.038 79.756 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 50.038 79.756 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 50.038 79.756 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 50.038 79.756 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "83e57b1a-d6d8-4cd9-b6aa-ccfdde5de894")
-		)
-		(pin "1"
-			(uuid "6c24c53a-3889-4528-93b3-4630336dbf39")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "R17")
-					(unit 1)
-					(variant
-						(name "Distributer Link")
-					)
 				)
 			)
 		)
@@ -10849,7 +10074,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 237.744 110.998 0)
+		(at 234.442 109.728 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10860,7 +10085,7 @@
 		(fields_autoplaced yes)
 		(uuid "6658b4bf-df3f-4315-8cec-300460c6628d")
 		(property "Reference" "#PWR085"
-			(at 237.744 114.808 0)
+			(at 234.442 113.538 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10871,7 +10096,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 237.744 105.918 0)
+			(at 234.442 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10881,7 +10106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.744 110.998 0)
+			(at 234.442 109.728 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10892,7 +10117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.744 110.998 0)
+			(at 234.442 109.728 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10903,7 +10128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 237.744 110.998 0)
+			(at 234.442 109.728 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10927,7 +10152,7 @@
 	)
 	(symbol
 		(lib_id "IR2103STRPBF:BMP380")
-		(at 201.168 131.318 0)
+		(at 197.866 130.048 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10937,7 +10162,7 @@
 		(dnp no)
 		(uuid "6730c406-f9c1-4a1d-93d1-bdb6ed3d8fa1")
 		(property "Reference" "U5"
-			(at 217.424 126.746 0)
+			(at 214.122 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10947,7 +10172,7 @@
 			)
 		)
 		(property "Value" "BMP581"
-			(at 215.9 128.778 0)
+			(at 212.598 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10957,7 +10182,7 @@
 			)
 		)
 		(property "Footprint" "BMP581:BMP581"
-			(at 201.168 131.318 0)
+			(at 197.866 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10968,7 +10193,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"
-			(at 201.168 131.318 0)
+			(at 197.866 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10979,7 +10204,7 @@
 			)
 		)
 		(property "Description" "SENSOR 18.13PSIA 10LGA"
-			(at 201.168 131.318 0)
+			(at 197.866 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10990,7 +10215,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.e-komponent.com/pressure-sensor-26077?gad_source=1&gad_campaignid=20197744476&gbraid=0AAAAAD7w7pEnxAzYTwDytIkJ0WVYn6Pt7&gclid=CjwKCAjwsrbTBhAvEiwA0Bpp4RftLqtM7Z6S2P3Y3DeB1TrdkItr7yxSpePVKUzDnitzPg6ORR7r5RoCLUkQAvD_BwE"
-			(at 201.168 131.318 0)
+			(at 197.866 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11001,7 +10226,7 @@
 			)
 		)
 		(property "Part Number" "BMP581"
-			(at 201.168 131.318 0)
+			(at 197.866 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11012,7 +10237,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 201.168 131.318 0)
+			(at 197.866 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11023,7 +10248,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 201.168 131.318 0)
+			(at 197.866 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11034,7 +10259,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 201.168 131.318 0)
+			(at 197.866 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11045,7 +10270,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 201.168 131.318 0)
+			(at 197.866 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11056,7 +10281,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 201.168 131.318 0)
+			(at 197.866 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11067,7 +10292,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 201.168 131.318 0)
+			(at 197.866 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11078,7 +10303,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 201.168 131.318 0)
+			(at 197.866 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11089,7 +10314,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 201.168 131.318 0)
+			(at 197.866 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11100,7 +10325,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 201.168 131.318 0)
+			(at 197.866 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11454,7 +10679,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 224.282 138.938 90)
+		(at 189.738 136.398 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11462,9 +10687,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6c945e8f-619e-4ce1-a3b4-1bd82cad2279")
-		(property "Reference" "R78"
-			(at 223.774 136.906 90)
+		(uuid "6c8e1e62-efed-4058-9e4a-3197dccd4891")
+		(property "Reference" "R90"
+			(at 189.484 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11473,8 +10698,8 @@
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 224.028 138.938 90)
+		(property "Value" "22"
+			(at 189.484 136.398 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11484,7 +10709,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 224.282 140.716 90)
+			(at 189.738 138.176 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11494,8 +10719,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 224.282 138.938 0)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 189.738 136.398 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11505,8 +10730,8 @@
 				)
 			)
 		)
-		(property "Description" "RES.(1005) 0402 220 Ohms 1% 1/10W AUTOMOTIV"
-			(at 224.282 138.938 0)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 189.738 136.398 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11516,8 +10741,8 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2rkf2200x-621350?catSequenceId=194"
-			(at 224.282 138.938 0)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
+			(at 189.738 136.398 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11527,19 +10752,8 @@
 				)
 			)
 		)
-		(property "Part Number" "ERJ2RKF2200X"
-			(at 224.282 138.938 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 224.282 138.938 90)
+		(property "Part Number" "CQ02WGF220JTCE"
+			(at 189.738 136.398 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11550,7 +10764,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 224.282 138.938 90)
+			(at 189.738 136.398 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11561,7 +10775,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 224.282 138.938 90)
+			(at 189.738 136.398 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11572,7 +10786,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 224.282 138.938 90)
+			(at 189.738 136.398 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11583,7 +10797,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 224.282 138.938 90)
+			(at 189.738 136.398 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11594,7 +10808,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 224.282 138.938 90)
+			(at 189.738 136.398 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11605,7 +10819,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 224.282 138.938 90)
+			(at 189.738 136.398 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11616,7 +10830,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 224.282 138.938 90)
+			(at 189.738 136.398 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11627,7 +10841,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 224.282 138.938 90)
+			(at 189.738 136.398 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11638,7 +10852,221 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 224.282 138.938 90)
+			(at 189.738 136.398 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9dc7152d-675f-4944-8565-fd95acd502fa")
+		)
+		(pin "1"
+			(uuid "b8b58a30-c48b-4cd2-b9c1-c6da527a0467")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R90")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 220.98 137.668 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c945e8f-619e-4ce1-a3b4-1bd82cad2279")
+		(property "Reference" "R78"
+			(at 220.472 135.636 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 220.726 137.668 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 220.98 139.446 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 220.98 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 220 Ohms 1% 1/10W AUTOMOTIV"
+			(at 220.98 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2rkf2200x-621350?catSequenceId=194"
+			(at 220.98 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ2RKF2200X"
+			(at 220.98 137.668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 220.98 137.668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 220.98 137.668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 220.98 137.668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 220.98 137.668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 220.98 137.668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 220.98 137.668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 220.98 137.668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 220.98 137.668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 220.98 137.668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 220.98 137.668 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11668,7 +11096,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 179.578 119.126 0)
+		(at 167.132 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11679,7 +11107,7 @@
 		(fields_autoplaced yes)
 		(uuid "6eff2a4c-5982-46cf-a33b-6b4d7e5876cc")
 		(property "Reference" "#PWR065"
-			(at 179.578 122.936 0)
+			(at 167.132 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11690,7 +11118,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 179.578 114.046 0)
+			(at 167.132 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11700,7 +11128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.578 119.126 0)
+			(at 167.132 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11711,7 +11139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.578 119.126 0)
+			(at 167.132 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11722,7 +11150,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 179.578 119.126 0)
+			(at 167.132 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11824,7 +11252,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 37.846 65.786 0)
+		(at 50.546 64.008 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11835,7 +11263,7 @@
 		(fields_autoplaced yes)
 		(uuid "72d85da0-a1f6-402d-8b3e-1a3d3fdb174b")
 		(property "Reference" "R41"
-			(at 40.386 64.5159 0)
+			(at 53.086 62.7379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11846,7 +11274,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 40.386 67.0559 0)
+			(at 53.086 65.2779 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11857,7 +11285,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 36.068 65.786 90)
+			(at 48.768 64.008 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11868,7 +11296,7 @@
 			)
 		)
 		(property "Datasheet" "http://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 37.846 65.786 0)
+			(at 50.546 64.008 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11879,7 +11307,7 @@
 			)
 		)
 		(property "Description" "RES.(1005) 0402 10K Ohms 1% 1/10W AUTOMOTIV"
-			(at 37.846 65.786 0)
+			(at 50.546 64.008 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11890,7 +11318,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2rkf1002x-609851?catSequenceId=194"
-			(at 37.846 65.786 0)
+			(at 50.546 64.008 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11901,7 +11329,7 @@
 			)
 		)
 		(property "Part Number" "ERJ2RKF1002X"
-			(at 37.846 65.786 0)
+			(at 50.546 64.008 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11912,7 +11340,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 37.846 65.786 0)
+			(at 50.546 64.008 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11923,7 +11351,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 37.846 65.786 0)
+			(at 50.546 64.008 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11934,7 +11362,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 37.846 65.786 0)
+			(at 50.546 64.008 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11945,7 +11373,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 37.846 65.786 0)
+			(at 50.546 64.008 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11956,7 +11384,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 37.846 65.786 0)
+			(at 50.546 64.008 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11967,7 +11395,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 37.846 65.786 0)
+			(at 50.546 64.008 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11978,7 +11406,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 37.846 65.786 0)
+			(at 50.546 64.008 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11989,7 +11417,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 37.846 65.786 0)
+			(at 50.546 64.008 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12000,7 +11428,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 37.846 65.786 0)
+			(at 50.546 64.008 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12011,7 +11439,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 37.846 65.786 0)
+			(at 50.546 64.008 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12041,211 +11469,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 56.896 148.336 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "754f4299-68dc-415b-bdf9-91706494eb82")
-		(property "Reference" "R27"
-			(at 56.642 150.622 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 56.642 148.336 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 56.896 146.558 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 56.896 148.336 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
-			(at 56.896 148.336 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
-			(at 56.896 148.336 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "ERJ2GEJ200X"
-			(at 56.896 148.336 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 56.896 148.336 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 56.896 148.336 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 56.896 148.336 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 56.896 148.336 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 56.896 148.336 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 56.896 148.336 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 56.896 148.336 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 56.896 148.336 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 56.896 148.336 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b2edf2b2-b0ba-481e-8e77-e3c2592e4ed6")
-		)
-		(pin "1"
-			(uuid "0988f772-dde9-469c-9162-906bb5667728")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "R27")
-					(unit 1)
-					(variant
-						(name "Distributer Link")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 181.102 64.008 0)
+		(at 174.498 94.488 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12256,7 +11480,7 @@
 		(fields_autoplaced yes)
 		(uuid "756fd9ce-a71c-430c-94ad-ed644c323f3f")
 		(property "Reference" "R46"
-			(at 183.642 62.7379 0)
+			(at 177.038 93.2179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12267,7 +11491,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 183.642 65.2779 0)
+			(at 177.038 95.7579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12278,7 +11502,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 179.324 64.008 90)
+			(at 172.72 94.488 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12289,7 +11513,7 @@
 			)
 		)
 		(property "Datasheet" "http://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 181.102 64.008 0)
+			(at 174.498 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12300,7 +11524,7 @@
 			)
 		)
 		(property "Description" "RES.(1005) 0402 10K Ohms 1% 1/10W AUTOMOTIV"
-			(at 181.102 64.008 0)
+			(at 174.498 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12311,7 +11535,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2rkf1002x-609851?catSequenceId=194"
-			(at 181.102 64.008 0)
+			(at 174.498 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12322,7 +11546,7 @@
 			)
 		)
 		(property "Part Number" "ERJ2RKF1002X"
-			(at 181.102 64.008 0)
+			(at 174.498 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12333,7 +11557,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 181.102 64.008 0)
+			(at 174.498 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12344,7 +11568,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 181.102 64.008 0)
+			(at 174.498 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12355,7 +11579,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 181.102 64.008 0)
+			(at 174.498 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12366,7 +11590,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 181.102 64.008 0)
+			(at 174.498 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12377,7 +11601,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 181.102 64.008 0)
+			(at 174.498 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12388,7 +11612,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 181.102 64.008 0)
+			(at 174.498 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12399,7 +11623,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 181.102 64.008 0)
+			(at 174.498 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12410,7 +11634,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 181.102 64.008 0)
+			(at 174.498 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12421,7 +11645,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 181.102 64.008 0)
+			(at 174.498 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12432,7 +11656,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 181.102 64.008 0)
+			(at 174.498 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12461,211 +11685,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 192.786 71.374 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "762b3ad6-89f3-4610-9dc5-a0f5ff20c7bd")
-		(property "Reference" "R47"
-			(at 192.532 69.088 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 192.532 71.374 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 192.786 73.152 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 192.786 71.374 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
-			(at 192.786 71.374 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
-			(at 192.786 71.374 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "ERJ2GEJ200X"
-			(at 192.786 71.374 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 192.786 71.374 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 192.786 71.374 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 192.786 71.374 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 192.786 71.374 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 192.786 71.374 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 192.786 71.374 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 192.786 71.374 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 192.786 71.374 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 192.786 71.374 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3b1bca14-460c-4f40-ae2b-aff1eb95ddd5")
-		)
-		(pin "1"
-			(uuid "821c97de-7b39-4b17-a995-ca6127a7899b")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "R47")
-					(unit 1)
-					(variant
-						(name "Distributer Link")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
-		(at 47.244 127 0)
+		(at 60.452 127.254 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12676,7 +11697,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c015470-9a5b-437b-8e69-e5650638724b")
 		(property "Reference" "#PWR047"
-			(at 47.244 130.81 0)
+			(at 60.452 131.064 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12687,7 +11708,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 47.244 122.682 0)
+			(at 60.452 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12697,7 +11718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 47.244 127 0)
+			(at 60.452 127.254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12708,7 +11729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 47.244 127 0)
+			(at 60.452 127.254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12719,7 +11740,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 47.244 127 0)
+			(at 60.452 127.254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13060,7 +12081,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 209.042 126.492 0)
+		(at 205.74 125.222 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13071,7 +12092,7 @@
 		(fields_autoplaced yes)
 		(uuid "93d5b9d4-ad05-4143-9f3f-9b47e28b7f35")
 		(property "Reference" "#PWR030"
-			(at 209.042 130.302 0)
+			(at 205.74 129.032 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13082,7 +12103,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 209.042 121.412 0)
+			(at 205.74 120.142 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13092,7 +12113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.042 126.492 0)
+			(at 205.74 125.222 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13103,7 +12124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.042 126.492 0)
+			(at 205.74 125.222 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13114,7 +12135,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 209.042 126.492 0)
+			(at 205.74 125.222 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13132,6 +12153,412 @@
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
 					(reference "#PWR030")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 51.054 145.796 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95266849-4fa2-44a5-b174-96038ee4a5f6")
+		(property "Reference" "R87"
+			(at 50.8 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 50.8 145.796 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 51.054 147.574 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 51.054 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 51.054 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
+			(at 51.054 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF220JTCE"
+			(at 51.054 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 51.054 145.796 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 51.054 145.796 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 51.054 145.796 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 51.054 145.796 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 51.054 145.796 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 51.054 145.796 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 51.054 145.796 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 51.054 145.796 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 51.054 145.796 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f5969a1f-28e6-4482-8245-fca161d00705")
+		)
+		(pin "1"
+			(uuid "bb4e746b-4b7b-4118-9add-1ba69a1a15d4")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R87")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 192.786 76.454 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97ab4ab9-eb79-40a9-af4e-d2b98f302338")
+		(property "Reference" "R95"
+			(at 192.532 74.168 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 192.532 76.454 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 192.786 78.232 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 192.786 76.454 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 192.786 76.454 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
+			(at 192.786 76.454 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF220JTCE"
+			(at 192.786 76.454 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 192.786 76.454 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 192.786 76.454 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 192.786 76.454 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 192.786 76.454 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 192.786 76.454 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 192.786 76.454 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 192.786 76.454 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 192.786 76.454 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 192.786 76.454 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1ebebf40-faee-4073-b9be-d7cb1a70693a")
+		)
+		(pin "1"
+			(uuid "d201616f-2c12-4e97-9b79-70db56ce2c40")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R95")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
 				)
 			)
 		)
@@ -13372,8 +12799,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 192.786 78.994 90)
-		(mirror x)
+		(at 177.8 144.018 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13381,9 +12807,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "aab1619f-1844-4942-a06d-2f142d547951")
-		(property "Reference" "R80"
-			(at 192.532 81.28 90)
+		(uuid "a26187ba-2808-4f99-b847-ed7487965e68")
+		(property "Reference" "R92"
+			(at 177.546 141.732 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13392,8 +12818,8 @@
 				)
 			)
 		)
-		(property "Value" "20"
-			(at 192.532 78.994 90)
+		(property "Value" "22"
+			(at 177.546 144.018 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13403,7 +12829,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 192.786 77.216 90)
+			(at 177.8 145.796 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13413,8 +12839,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 192.786 78.994 0)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 177.8 144.018 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13425,7 +12851,7 @@
 			)
 		)
 		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
-			(at 192.786 78.994 0)
+			(at 177.8 144.018 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13435,8 +12861,8 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
-			(at 192.786 78.994 0)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
+			(at 177.8 144.018 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13446,8 +12872,8 @@
 				)
 			)
 		)
-		(property "Part Number" "ERJ2GEJ200X"
-			(at 192.786 78.994 0)
+		(property "Part Number" "CQ02WGF220JTCE"
+			(at 177.8 144.018 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13458,7 +12884,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 192.786 78.994 90)
+			(at 177.8 144.018 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13469,7 +12895,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 192.786 78.994 90)
+			(at 177.8 144.018 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13480,7 +12906,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 192.786 78.994 90)
+			(at 177.8 144.018 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13491,7 +12917,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 192.786 78.994 90)
+			(at 177.8 144.018 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13502,7 +12928,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 192.786 78.994 90)
+			(at 177.8 144.018 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13513,7 +12939,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 192.786 78.994 90)
+			(at 177.8 144.018 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13524,7 +12950,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 192.786 78.994 90)
+			(at 177.8 144.018 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13535,7 +12961,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 192.786 78.994 90)
+			(at 177.8 144.018 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13546,7 +12972,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 192.786 78.994 90)
+			(at 177.8 144.018 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13557,15 +12983,218 @@
 			)
 		)
 		(pin "2"
-			(uuid "02ae9d2c-c4e2-4343-b891-9b338fcbfcce")
+			(uuid "81dd71af-2509-4f6c-a306-4db9e08285bf")
 		)
 		(pin "1"
-			(uuid "794b0cea-8dca-407b-9403-f9f2978bae4e")
+			(uuid "c4768f49-d7d2-43f9-94da-8972b952d4c6")
 		)
 		(instances
 			(project "Ahrar Flight Controller"
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "R80")
+					(reference "R92")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 183.388 140.208 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "abfd0cb6-b1f8-47fa-9f42-ab5344c346b5")
+		(property "Reference" "R91"
+			(at 183.134 137.922 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 183.134 140.208 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 183.388 141.986 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 183.388 140.208 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 183.388 140.208 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
+			(at 183.388 140.208 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF220JTCE"
+			(at 183.388 140.208 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 183.388 140.208 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 183.388 140.208 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 183.388 140.208 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 183.388 140.208 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 183.388 140.208 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 183.388 140.208 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 183.388 140.208 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 183.388 140.208 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 183.388 140.208 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dbcc4bea-1e96-4ae1-81da-0a3ccdea15ac")
+		)
+		(pin "1"
+			(uuid "2b9fa6df-4ef9-494a-bb03-ab6694f26777")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R91")
 					(unit 1)
 					(variant
 						(name "Distributer Link")
@@ -14025,7 +13654,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 56.642 140.716 90)
+		(at 56.642 143.256 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14033,9 +13662,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c4e62c8d-f70e-450d-991f-0fcc05867a65")
-		(property "Reference" "R82"
-			(at 56.388 138.43 90)
+		(uuid "b7404f11-0491-44be-9f31-fd624511b01b")
+		(property "Reference" "R86"
+			(at 56.388 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14044,8 +13673,8 @@
 				)
 			)
 		)
-		(property "Value" "20"
-			(at 56.388 140.716 90)
+		(property "Value" "22"
+			(at 56.388 143.256 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14055,7 +13684,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 56.642 142.494 90)
+			(at 56.642 145.034 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14065,8 +13694,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 56.642 140.716 0)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 56.642 143.256 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14077,7 +13706,7 @@
 			)
 		)
 		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
-			(at 56.642 140.716 0)
+			(at 56.642 143.256 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14087,8 +13716,8 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
-			(at 56.642 140.716 0)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
+			(at 56.642 143.256 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14098,8 +13727,8 @@
 				)
 			)
 		)
-		(property "Part Number" "ERJ2GEJ200X"
-			(at 56.642 140.716 0)
+		(property "Part Number" "CQ02WGF220JTCE"
+			(at 56.642 143.256 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14110,7 +13739,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 56.642 140.716 90)
+			(at 56.642 143.256 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14121,7 +13750,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 56.642 140.716 90)
+			(at 56.642 143.256 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14132,7 +13761,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 56.642 140.716 90)
+			(at 56.642 143.256 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14143,7 +13772,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 56.642 140.716 90)
+			(at 56.642 143.256 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14154,7 +13783,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 56.642 140.716 90)
+			(at 56.642 143.256 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14165,7 +13794,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 56.642 140.716 90)
+			(at 56.642 143.256 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14176,7 +13805,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 56.642 140.716 90)
+			(at 56.642 143.256 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14187,7 +13816,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 56.642 140.716 90)
+			(at 56.642 143.256 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14198,7 +13827,413 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 56.642 140.716 90)
+			(at 56.642 143.256 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4339b8f4-514c-47ac-ba49-a6137370166f")
+		)
+		(pin "1"
+			(uuid "388f3598-8974-401b-89ad-c22db469f29f")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R86")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.102 78.994 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be788b68-8d57-4112-bb66-c7f07e3c42ee")
+		(property "Reference" "R96"
+			(at 180.848 76.708 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 180.848 78.994 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 181.102 80.772 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 181.102 78.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 181.102 78.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
+			(at 181.102 78.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF220JTCE"
+			(at 181.102 78.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 181.102 78.994 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 181.102 78.994 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 181.102 78.994 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 181.102 78.994 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 181.102 78.994 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 181.102 78.994 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 181.102 78.994 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 181.102 78.994 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 181.102 78.994 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "12ab8524-6865-4dca-be5f-c4c55f0966d0")
+		)
+		(pin "1"
+			(uuid "2eb8de80-7aa9-49a2-9ccc-4acd3c5a3027")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R96")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 51.816 140.716 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4e62c8d-f70e-450d-991f-0fcc05867a65")
+		(property "Reference" "R82"
+			(at 51.562 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 51.562 140.716 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 51.816 142.494 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 51.816 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 51.816 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
+			(at 51.816 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF220JTCE"
+			(at 51.816 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 51.816 140.716 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 51.816 140.716 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 51.816 140.716 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 51.816 140.716 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 51.816 140.716 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 51.816 140.716 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 51.816 140.716 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 51.816 140.716 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 51.816 140.716 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14218,209 +14253,6 @@
 			(project "Ahrar Flight Controller"
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
 					(reference "R82")
-					(unit 1)
-					(variant
-						(name "Distributer Link")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 45.72 74.676 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c51cb81a-ce01-40bf-b0f1-4ba6d770d4f0")
-		(property "Reference" "R81"
-			(at 45.466 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 45.466 74.676 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 45.72 76.454 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 45.72 74.676 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
-			(at 45.72 74.676 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
-			(at 45.72 74.676 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "ERJ2GEJ200X"
-			(at 45.72 74.676 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 45.72 74.676 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 45.72 74.676 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 45.72 74.676 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 45.72 74.676 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 45.72 74.676 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 45.72 74.676 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 45.72 74.676 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 45.72 74.676 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 45.72 74.676 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d3e81a57-69d3-4786-9f3d-b4bce3618019")
-		)
-		(pin "1"
-			(uuid "63d4c558-230d-44d3-907b-4891b47efbc5")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "R81")
 					(unit 1)
 					(variant
 						(name "Distributer Link")
@@ -14939,210 +14771,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 38.1 77.216 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cc872a08-5ee1-4ddb-a035-bbb07ab4d4e7")
-		(property "Reference" "R12"
-			(at 37.846 79.502 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 37.846 77.216 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 75.438 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 38.1 77.216 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
-			(at 38.1 77.216 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
-			(at 38.1 77.216 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "ERJ2GEJ200X"
-			(at 38.1 77.216 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 38.1 77.216 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 38.1 77.216 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 38.1 77.216 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 38.1 77.216 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 38.1 77.216 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 38.1 77.216 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 38.1 77.216 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 38.1 77.216 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 38.1 77.216 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "afb3b4f6-ea23-4456-aa5b-0918ce6ce94e")
-		)
-		(pin "1"
-			(uuid "c98af09f-a1e7-4fe4-b681-860d9a623c6c")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "R12")
-					(unit 1)
-					(variant
-						(name "Distributer Link")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 114.554 109.982 0)
 		(unit 1)
@@ -15435,8 +15063,212 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 38.1 77.216 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dacd7ff0-4e59-40c5-afae-0a1ebb397bac")
+		(property "Reference" "R98"
+			(at 37.846 79.502 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 37.846 77.216 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 38.1 75.438 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 38.1 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 38.1 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
+			(at 38.1 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF220JTCE"
+			(at 38.1 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 38.1 77.216 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 38.1 77.216 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 38.1 77.216 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 38.1 77.216 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 38.1 77.216 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 38.1 77.216 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 38.1 77.216 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 38.1 77.216 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 38.1 77.216 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20eaf978-5535-44c9-8012-1bdc9c7fabf4")
+		)
+		(pin "1"
+			(uuid "0216e632-8cd1-42a8-9e8c-fc6c3727cb70")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R98")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 238.76 125.984 0)
+		(at 235.458 124.714 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15447,7 +15279,7 @@
 		(fields_autoplaced yes)
 		(uuid "e77741ac-a92f-4b0b-b490-97f8257cbb99")
 		(property "Reference" "#PWR061"
-			(at 238.76 132.334 0)
+			(at 235.458 131.064 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15458,7 +15290,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 131.064 0)
+			(at 235.458 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15468,7 +15300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 125.984 0)
+			(at 235.458 124.714 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15479,7 +15311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 125.984 0)
+			(at 235.458 124.714 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15490,7 +15322,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 125.984 0)
+			(at 235.458 124.714 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15508,209 +15340,6 @@
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
 					(reference "#PWR061")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 192.786 76.454 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e7be9f13-6d16-44c5-b19d-289d40d29934")
-		(property "Reference" "R49"
-			(at 192.532 74.422 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 192.532 76.454 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 192.786 78.232 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 192.786 76.454 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
-			(at 192.786 76.454 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
-			(at 192.786 76.454 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "ERJ2GEJ200X"
-			(at 192.786 76.454 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 192.786 76.454 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 192.786 76.454 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 192.786 76.454 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 192.786 76.454 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 192.786 76.454 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 192.786 76.454 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 192.786 76.454 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 192.786 76.454 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 192.786 76.454 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "39a908a8-524e-446c-846b-6e7bcc348f2d")
-		)
-		(pin "1"
-			(uuid "a9333fa3-a424-4d6f-bd92-a3f0d53a711c")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "R49")
-					(unit 1)
-					(variant
-						(name "Distributer Link")
-					)
 				)
 			)
 		)
@@ -15933,7 +15562,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 181.102 56.642 0)
+		(at 174.498 87.122 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15944,7 +15573,7 @@
 		(fields_autoplaced yes)
 		(uuid "eeb82758-dc08-427a-bf36-bde7b29bc7ea")
 		(property "Reference" "#PWR066"
-			(at 181.102 60.452 0)
+			(at 174.498 90.932 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15955,7 +15584,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 181.102 51.562 0)
+			(at 174.498 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15965,7 +15594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.102 56.642 0)
+			(at 174.498 87.122 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15976,7 +15605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.102 56.642 0)
+			(at 174.498 87.122 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15987,7 +15616,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 181.102 56.642 0)
+			(at 174.498 87.122 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16011,7 +15640,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 192.278 145.288 90)
+		(at 56.896 148.336 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16020,9 +15649,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f428c519-09e4-411c-aa78-2af29e864934")
-		(property "Reference" "R79"
-			(at 192.024 147.574 90)
+		(uuid "f0fbc034-4f7b-4256-8fb8-a6dc1aa77b40")
+		(property "Reference" "R88"
+			(at 56.642 150.622 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16031,8 +15660,8 @@
 				)
 			)
 		)
-		(property "Value" "20"
-			(at 192.024 145.288 90)
+		(property "Value" "22"
+			(at 56.642 148.336 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16042,7 +15671,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 192.278 143.51 90)
+			(at 56.896 146.558 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16052,8 +15681,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 192.278 145.288 0)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 56.896 148.336 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16064,7 +15693,7 @@
 			)
 		)
 		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
-			(at 192.278 145.288 0)
+			(at 56.896 148.336 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16074,8 +15703,8 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
-			(at 192.278 145.288 0)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
+			(at 56.896 148.336 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16085,8 +15714,8 @@
 				)
 			)
 		)
-		(property "Part Number" "ERJ2GEJ200X"
-			(at 192.278 145.288 0)
+		(property "Part Number" "CQ02WGF220JTCE"
+			(at 56.896 148.336 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16097,7 +15726,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 192.278 145.288 90)
+			(at 56.896 148.336 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16108,7 +15737,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 192.278 145.288 90)
+			(at 56.896 148.336 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16119,7 +15748,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 192.278 145.288 90)
+			(at 56.896 148.336 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16130,7 +15759,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 192.278 145.288 90)
+			(at 56.896 148.336 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16141,7 +15770,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 192.278 145.288 90)
+			(at 56.896 148.336 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16152,7 +15781,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 192.278 145.288 90)
+			(at 56.896 148.336 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16163,7 +15792,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 192.278 145.288 90)
+			(at 56.896 148.336 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16174,7 +15803,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 192.278 145.288 90)
+			(at 56.896 148.336 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16185,7 +15814,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 192.278 145.288 90)
+			(at 56.896 148.336 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16196,15 +15825,421 @@
 			)
 		)
 		(pin "2"
-			(uuid "d72b8932-1af2-4922-adff-5107c08b1d74")
+			(uuid "f32857bc-3c19-4bb8-b165-4b2c4af33008")
 		)
 		(pin "1"
-			(uuid "0c50fb99-198c-4d53-a5b2-65a6c979c3b5")
+			(uuid "70fa05eb-b267-4dcd-ba4c-93b81c2c6bea")
 		)
 		(instances
 			(project "Ahrar Flight Controller"
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "R79")
+					(reference "R88")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 188.976 132.588 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2e1e2fa-4c7d-48c0-81f1-8841c9ad2fe3")
+		(property "Reference" "R89"
+			(at 188.722 130.302 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 188.722 132.588 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 188.976 134.366 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 188.976 132.588 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 188.976 132.588 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
+			(at 188.976 132.588 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF220JTCE"
+			(at 188.976 132.588 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 188.976 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 188.976 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 188.976 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 188.976 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 188.976 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 188.976 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 188.976 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 188.976 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 188.976 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "716f2b1e-c35b-47cc-8ad0-59f2f7294f66")
+		)
+		(pin "1"
+			(uuid "b328f359-4118-4802-8258-3e1d95ae4e32")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R89")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 192.786 71.374 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5288f6e-1f6c-45e7-824a-d3de288a22a7")
+		(property "Reference" "R93"
+			(at 192.532 69.088 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 192.532 71.374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 192.786 73.152 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 192.786 71.374 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 192.786 71.374 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
+			(at 192.786 71.374 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF220JTCE"
+			(at 192.786 71.374 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 192.786 71.374 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 192.786 71.374 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 192.786 71.374 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 192.786 71.374 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 192.786 71.374 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 192.786 71.374 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 192.786 71.374 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 192.786 71.374 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 192.786 71.374 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7353967a-cf0e-46ff-9dbc-414bc95f1b87")
+		)
+		(pin "1"
+			(uuid "ff9b9e04-6fc7-4619-9313-368397c2ee5b")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "R93")
 					(unit 1)
 					(variant
 						(name "Distributer Link")

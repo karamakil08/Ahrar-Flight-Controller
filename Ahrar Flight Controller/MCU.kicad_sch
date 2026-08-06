@@ -12,6 +12,183 @@
 		(comment 1 "Ahrar Team")
 	)
 	(lib_symbols
+		(symbol "Device:Buzzer"
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz resonator ceramic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Buzzer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Buzzer_0_1"
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.175)
+					(mid 3.1612 0)
+					(end 0 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -349,6 +526,230 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Crystal_GND24_Small"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 1.27 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24_Small"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 1.905) (xy 1.27 1.905) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -845,6 +1246,193 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4148WS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148WS"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148WS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148WS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3932,6 +4520,249 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:BC847"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC847"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN Small Signal Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BC847_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC847_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -4210,6 +5041,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5VP"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5VP"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VP\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5VP_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VP_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -4328,7 +5298,7 @@
 	)
 	(text "C1 = C2 = 2(CL - Cs)\n-----------------\nC1 = C2 = 2(7-4) = 6pF"
 		(exclude_from_sim no)
-		(at 17.78 180.34 0)
+		(at 17.78 190.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4367,7 +5337,7 @@
 	)
 	(text "C1 = C2 = 2(CL - Cs)\n-----------------\nC1 = C2 = 2(10-5) = 10pF\n"
 		(exclude_from_sim no)
-		(at 15.494 79.756 0)
+		(at 15.494 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4392,7 +5362,7 @@
 	)
 	(text "LEDs"
 		(exclude_from_sim no)
-		(at 14.732 86.868 0)
+		(at 14.732 97.282 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4443,7 +5413,7 @@
 	)
 	(text "Boot switch\n"
 		(exclude_from_sim no)
-		(at 206.248 61.468 0)
+		(at 205.486 60.96 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4456,7 +5426,7 @@
 	)
 	(text "LSE Oscillator"
 		(exclude_from_sim no)
-		(at 14.986 137.668 0)
+		(at 14.986 148.082 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4466,16 +5436,6 @@
 			(justify left)
 		)
 		(uuid "af00a948-f9b5-455c-94e0-b87e4aa2fa19")
-	)
-	(text "Add buzzer"
-		(exclude_from_sim no)
-		(at 224.028 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bf855c5c-cb6b-49c1-9056-2e71b97585b8")
 	)
 	(text "Analog decouple\n"
 		(exclude_from_sim no)
@@ -4489,9 +5449,22 @@
 		)
 		(uuid "cdeb6747-5538-43f1-96df-fb5255313ef5")
 	)
+	(text "Buzzer"
+		(exclude_from_sim no)
+		(at 158.496 115.062 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d9976e94-b22b-4e1a-ad36-8d97d4861ded")
+	)
 	(text "HSE Oscillator"
 		(exclude_from_sim no)
-		(at 14.986 36.322 0)
+		(at 14.986 46.736 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4533,7 +5506,7 @@
 		(uuid "22d2388a-ca64-4e6f-93eb-c6c25ec97d85")
 	)
 	(junction
-		(at 32.766 167.132)
+		(at 32.766 177.546)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "311865aa-33db-4f6b-af6f-ba91b7503f8c")
@@ -4551,7 +5524,7 @@
 		(uuid "35b92e97-2b26-404e-8e44-9831ab930c3c")
 	)
 	(junction
-		(at 30.48 125.476)
+		(at 30.48 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ae1b4ba-3086-4a00-8c6e-399407fb207c")
@@ -4581,6 +5554,18 @@
 		(uuid "6193926e-a068-4854-ad24-05eb4236953c")
 	)
 	(junction
+		(at 213.614 131.318)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65024804-93bd-4e7e-93f4-371d3a76d79f")
+	)
+	(junction
+		(at 223.266 131.318)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6867f6c5-e949-4807-be4a-73255c67bec6")
+	)
+	(junction
 		(at 166.624 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4591,6 +5576,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e9a9b32-59d8-4e45-8cba-810ca9e3904d")
+	)
+	(junction
+		(at 180.34 131.318)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95ae8bb9-1bad-4d76-9833-1417ae4e0575")
 	)
 	(junction
 		(at 108.204 41.148)
@@ -4629,6 +5620,18 @@
 		(uuid "bb156812-7880-435b-9a5f-be5adbdd3f83")
 	)
 	(junction
+		(at 28.702 74.422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be51e3e1-f261-4740-bf60-50a84bf23d05")
+	)
+	(junction
+		(at 28.702 69.088)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2fc0c5b-7de2-499e-8714-d61e46526778")
+	)
+	(junction
 		(at 100.584 41.148)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4639,6 +5642,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8e6d842-da07-424b-a156-e48fb6d9742a")
+	)
+	(junction
+		(at 185.166 131.318)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbfcbb72-1cba-42b0-ad20-c2b41a097022")
 	)
 	(junction
 		(at 78.232 175.006)
@@ -4671,10 +5680,10 @@
 		(uuid "e992c451-5647-4f01-b12d-688c68fa96da")
 	)
 	(junction
-		(at 34.544 63.754)
+		(at 182.372 141.732)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f4229496-75a3-4773-a672-8a3dc0779e50")
+		(uuid "edbca55e-e910-45a7-a623-6bde4bf3cd2d")
 	)
 	(junction
 		(at 220.98 45.466)
@@ -4784,6 +5793,16 @@
 	)
 	(wire
 		(pts
+			(xy 221.996 136.906) (xy 223.266 136.906)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f4a006-88f6-40df-a839-c50266f12f8a")
+	)
+	(wire
+		(pts
 			(xy 100.584 41.148) (xy 103.124 41.148)
 		)
 		(stroke
@@ -4791,6 +5810,36 @@
 			(type default)
 		)
 		(uuid "0d275ca6-7d9d-43cf-aad7-a7a5021bea8f")
+	)
+	(wire
+		(pts
+			(xy 28.702 74.422) (xy 35.306 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc0be0f-1e69-465b-8414-ef0184ad36a7")
+	)
+	(wire
+		(pts
+			(xy 214.376 136.906) (xy 213.614 136.906)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea0429b-b7ea-4f91-a727-3cd3ec228bed")
+	)
+	(wire
+		(pts
+			(xy 213.614 131.318) (xy 214.884 131.318)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eecb3fb-c8b3-4596-88d1-926523042844")
 	)
 	(wire
 		(pts
@@ -4824,23 +5873,33 @@
 	)
 	(wire
 		(pts
-			(xy 30.734 63.754) (xy 34.544 63.754)
+			(xy 32.766 60.452) (xy 32.766 69.088)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19851f53-ac34-4d28-b63c-aa822f103e56")
+		(uuid "18f8de4e-399b-4feb-95bc-73d724f8d2d1")
 	)
 	(wire
 		(pts
-			(xy 38.354 53.594) (xy 38.354 54.864)
+			(xy 28.702 74.422) (xy 28.702 69.088)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ba4be32-c937-415f-b891-d2d10dfedcde")
+		(uuid "19683eeb-98a2-4b04-82d6-cb45fbb5a12f")
+	)
+	(wire
+		(pts
+			(xy 23.622 74.422) (xy 28.702 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5b197f-de9f-4e99-9ea8-5d37b26edd93")
 	)
 	(wire
 		(pts
@@ -4854,7 +5913,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.178 167.132) (xy 32.766 167.132)
+			(xy 27.178 177.546) (xy 32.766 177.546)
 		)
 		(stroke
 			(width 0)
@@ -4884,6 +5943,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.166 132.588) (xy 185.166 131.318)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261645a3-2706-4c99-8951-da9476ff47ec")
+	)
+	(wire
+		(pts
 			(xy 209.296 84.074) (xy 223.266 84.074)
 		)
 		(stroke
@@ -4894,17 +5963,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.544 65.024) (xy 34.544 63.754)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a379651-804c-49b0-bee0-9d552be8bc5d")
-	)
-	(wire
-		(pts
-			(xy 30.48 115.824) (xy 30.48 114.554)
+			(xy 30.48 126.238) (xy 30.48 124.968)
 		)
 		(stroke
 			(width 0)
@@ -4924,7 +5983,7 @@
 	)
 	(wire
 		(pts
-			(xy 32.766 167.132) (xy 37.338 167.132)
+			(xy 32.766 177.546) (xy 37.338 177.546)
 		)
 		(stroke
 			(width 0)
@@ -4941,6 +6000,16 @@
 			(type default)
 		)
 		(uuid "356f5e32-833f-4b44-bab9-3b3f63d847de")
+	)
+	(wire
+		(pts
+			(xy 28.702 60.452) (xy 32.766 60.452)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3992187d-9819-4548-a9ac-f002f00678dc")
 	)
 	(wire
 		(pts
@@ -4964,13 +6033,13 @@
 	)
 	(wire
 		(pts
-			(xy 179.832 80.01) (xy 178.054 80.01)
+			(xy 195.072 131.318) (xy 196.342 131.318)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ff9c80a-1733-4411-b320-f94369439033")
+		(uuid "426389b3-5eb3-437a-864e-f90ac53d495f")
 	)
 	(wire
 		(pts
@@ -4994,6 +6063,36 @@
 	)
 	(wire
 		(pts
+			(xy 28.702 69.088) (xy 28.702 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8907fb-d5df-4069-b7c0-5982c7755a30")
+	)
+	(wire
+		(pts
+			(xy 223.266 131.318) (xy 227.584 131.318)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb78201-2e9a-4587-8758-72b44b7f86de")
+	)
+	(wire
+		(pts
+			(xy 180.34 128.778) (xy 180.34 131.318)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe6ac64-b870-4b16-ae9e-6d60e4779d74")
+	)
+	(wire
+		(pts
 			(xy 264.16 96.266) (xy 260.35 96.266)
 		)
 		(stroke
@@ -5014,16 +6113,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.354 62.484) (xy 38.354 63.754)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56aaf21c-c8e0-4eb8-be3c-a4f2398c8e63")
-	)
-	(wire
-		(pts
 			(xy 238.76 37.846) (xy 245.11 37.846)
 		)
 		(stroke
@@ -5031,6 +6120,16 @@
 			(type default)
 		)
 		(uuid "56fbfd1e-72fc-4977-9c72-6d610115a0bb")
+	)
+	(wire
+		(pts
+			(xy 23.622 64.77) (xy 23.622 65.278)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c5b4db-f364-4df9-97b5-9dc78c3bc6a5")
 	)
 	(wire
 		(pts
@@ -5044,6 +6143,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.664 138.938) (xy 232.664 140.716)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c037925-5701-4f3c-8b84-c62c420c4e4b")
+	)
+	(wire
+		(pts
 			(xy 264.16 86.106) (xy 260.35 86.106)
 		)
 		(stroke
@@ -5054,7 +6163,7 @@
 	)
 	(wire
 		(pts
-			(xy 37.338 164.592) (xy 37.338 167.132)
+			(xy 37.338 175.006) (xy 37.338 177.546)
 		)
 		(stroke
 			(width 0)
@@ -5081,6 +6190,16 @@
 			(type default)
 		)
 		(uuid "66028e91-0f65-44c7-8428-451e949d0aa3")
+	)
+	(wire
+		(pts
+			(xy 223.266 136.906) (xy 223.266 131.318)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e7b3f8-35c6-431b-9aec-3329c5e43abd")
 	)
 	(wire
 		(pts
@@ -5114,6 +6233,16 @@
 	)
 	(wire
 		(pts
+			(xy 23.622 72.898) (xy 23.622 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d84943a-e958-49e3-9125-e96dd98d469f")
+	)
+	(wire
+		(pts
 			(xy 264.16 96.266) (xy 264.16 97.536)
 		)
 		(stroke
@@ -5121,6 +6250,16 @@
 			(type default)
 		)
 		(uuid "7035fd62-fa18-42a3-8d3a-6dbfc755bcdb")
+	)
+	(wire
+		(pts
+			(xy 35.306 73.406) (xy 35.306 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e2afd4-dc5c-47bf-98c0-5cef6d21cc68")
 	)
 	(wire
 		(pts
@@ -5134,6 +6273,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 141.732) (xy 180.34 140.208)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "773b57a8-3c0e-4b59-a8ce-dea1b132b4fe")
+	)
+	(wire
+		(pts
 			(xy 81.026 163.068) (xy 82.804 163.068)
 		)
 		(stroke
@@ -5141,16 +6290,6 @@
 			(type default)
 		)
 		(uuid "7b29b05f-d589-44b5-80e9-9db8276275fe")
-	)
-	(wire
-		(pts
-			(xy 30.734 63.754) (xy 30.734 62.484)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c77e7fd-9c31-4952-bc68-e142437f0728")
 	)
 	(wire
 		(pts
@@ -5164,7 +6303,27 @@
 	)
 	(wire
 		(pts
-			(xy 34.544 115.824) (xy 34.544 114.554)
+			(xy 185.166 141.732) (xy 182.372 141.732)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a941f3-a3b2-4919-a3eb-5b67eca92eaf")
+	)
+	(wire
+		(pts
+			(xy 178.054 80.01) (xy 179.832 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820ff9ac-435d-4c53-ac12-d33de36dbc08")
+	)
+	(wire
+		(pts
+			(xy 34.544 126.238) (xy 34.544 124.968)
 		)
 		(stroke
 			(width 0)
@@ -5224,6 +6383,16 @@
 	)
 	(wire
 		(pts
+			(xy 28.702 74.676) (xy 28.702 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857b28eb-8b7d-475b-9a48-72c071a89327")
+	)
+	(wire
+		(pts
 			(xy 232.41 37.846) (xy 238.76 37.846)
 		)
 		(stroke
@@ -5234,6 +6403,26 @@
 	)
 	(wire
 		(pts
+			(xy 219.964 129.794) (xy 219.964 131.318)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2d65a9-86e8-4191-a71c-9d62a8dafff8")
+	)
+	(wire
+		(pts
+			(xy 182.372 141.732) (xy 182.372 142.748)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f61c14c-643d-44a2-8f77-4ead1753a001")
+	)
+	(wire
+		(pts
 			(xy 182.118 34.036) (xy 182.118 35.052)
 		)
 		(stroke
@@ -5241,6 +6430,26 @@
 			(type default)
 		)
 		(uuid "9324f24f-26a5-4803-aaf9-040d32dbf22f")
+	)
+	(wire
+		(pts
+			(xy 185.166 131.318) (xy 187.452 131.318)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9521d977-8754-4459-a1fb-162be882d47a")
+	)
+	(wire
+		(pts
+			(xy 185.166 140.208) (xy 185.166 141.732)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d1c6e1-8143-4890-942d-6ca44ce1a8e1")
 	)
 	(wire
 		(pts
@@ -5264,13 +6473,23 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 125.476) (xy 34.544 125.476)
+			(xy 30.48 135.89) (xy 34.544 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9bbf5a8b-57ec-48f2-9915-20e2c66e7bdb")
+	)
+	(wire
+		(pts
+			(xy 214.884 131.318) (xy 214.884 129.794)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c20ef51-0774-487b-a23f-5e286cc95c62")
 	)
 	(wire
 		(pts
@@ -5304,13 +6523,23 @@
 	)
 	(wire
 		(pts
-			(xy 37.338 154.686) (xy 36.068 154.686)
+			(xy 37.338 165.1) (xy 36.068 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a2272e30-ab09-4231-b26b-4f3e653804c0")
+	)
+	(wire
+		(pts
+			(xy 28.702 62.23) (xy 28.702 60.452)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4aafce4-94d2-4de8-8eec-fa66d2867596")
 	)
 	(wire
 		(pts
@@ -5324,6 +6553,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.306 64.77) (xy 35.306 65.786)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5fccd3b-c836-4c4a-8cf8-a89d686ec4d6")
+	)
+	(wire
+		(pts
 			(xy 220.98 37.846) (xy 220.98 36.576)
 		)
 		(stroke
@@ -5331,6 +6570,16 @@
 			(type default)
 		)
 		(uuid "a828b08a-f169-4665-8292-2711532ce453")
+	)
+	(wire
+		(pts
+			(xy 219.964 131.318) (xy 223.266 131.318)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9359fc9-f6a5-44cc-b13d-bde2bf1e5ecd")
 	)
 	(wire
 		(pts
@@ -5344,13 +6593,23 @@
 	)
 	(wire
 		(pts
-			(xy 38.354 63.754) (xy 34.544 63.754)
+			(xy 185.166 131.318) (xy 180.34 131.318)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac3aac6e-3334-47d5-b8b6-3d925ac6e372")
+		(uuid "ac87e7b7-f453-48c5-b5e6-c5c4ddfabed0")
+	)
+	(wire
+		(pts
+			(xy 213.614 136.906) (xy 213.614 131.318)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5cb0904-4a1e-4225-91f4-9f93228d2c77")
 	)
 	(wire
 		(pts
@@ -5384,6 +6643,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.852 131.318) (xy 213.614 131.318)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9c57a5-becc-42a4-b8ac-1a081d64420d")
+	)
+	(wire
+		(pts
 			(xy 245.11 45.466) (xy 251.46 45.466)
 		)
 		(stroke
@@ -5394,7 +6663,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 127.254) (xy 30.48 125.476)
+			(xy 30.48 137.668) (xy 30.48 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5424,7 +6693,17 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 123.444) (xy 30.48 125.476)
+			(xy 26.162 64.77) (xy 23.622 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca854ce6-a5b7-4f95-bb87-9487b8dea256")
+	)
+	(wire
+		(pts
+			(xy 30.48 133.858) (xy 30.48 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5434,7 +6713,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.178 164.846) (xy 27.178 167.132)
+			(xy 27.178 175.26) (xy 27.178 177.546)
 		)
 		(stroke
 			(width 0)
@@ -5454,6 +6733,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 131.318) (xy 180.34 132.588)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da562570-70fc-4048-b2cd-6531893fad00")
+	)
+	(wire
+		(pts
 			(xy 179.832 87.884) (xy 179.832 91.44)
 		)
 		(stroke
@@ -5464,7 +6753,17 @@
 	)
 	(wire
 		(pts
-			(xy 27.178 154.686) (xy 27.178 157.226)
+			(xy 32.766 69.088) (xy 28.702 69.088)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e52c04b2-12c0-4882-a375-74ece522ec0b")
+	)
+	(wire
+		(pts
+			(xy 27.178 165.1) (xy 27.178 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5494,7 +6793,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.544 123.444) (xy 34.544 125.476)
+			(xy 34.544 133.858) (xy 34.544 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5534,6 +6833,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.242 64.77) (xy 35.306 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0cb8283-aeae-402e-9841-d549861d6aba")
+	)
+	(wire
+		(pts
 			(xy 226.06 37.846) (xy 232.41 37.846)
 		)
 		(stroke
@@ -5564,7 +6873,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.178 154.686) (xy 28.448 154.686)
+			(xy 27.178 165.1) (xy 28.448 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5584,7 +6893,7 @@
 	)
 	(wire
 		(pts
-			(xy 37.338 156.972) (xy 37.338 154.686)
+			(xy 37.338 167.386) (xy 37.338 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5604,13 +6913,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.734 53.594) (xy 30.734 54.864)
+			(xy 203.962 131.318) (xy 205.232 131.318)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7b07c96-7e40-414d-b7e7-f31ce3f6b887")
+		(uuid "f6a3197c-5f81-43be-a88b-5c84900dd5d3")
 	)
 	(wire
 		(pts
@@ -5631,6 +6940,16 @@
 			(type default)
 		)
 		(uuid "fcdb7c55-8927-4c22-954f-312c8657c919")
+	)
+	(wire
+		(pts
+			(xy 182.372 141.732) (xy 180.34 141.732)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda67c4a-9322-4084-a8ff-9517de2b34b8")
 	)
 	(wire
 		(pts
@@ -8184,7 +9503,7 @@
 		)
 	)
 	(label "OSC_32_OUT"
-		(at 37.338 154.686 0)
+		(at 37.338 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8194,7 +9513,7 @@
 		(uuid "1fab8780-0d3b-4f66-8f92-de6e139b1563")
 	)
 	(label "RED_LED"
-		(at 30.48 106.934 180)
+		(at 30.48 117.348 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8243,6 +9562,16 @@
 		)
 		(uuid "57622b88-f0ee-4ef7-9e5c-e98a79b9fecc")
 	)
+	(label "Buzzer"
+		(at 232.664 148.336 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61d07891-5608-48b3-8e2c-fed58c8d5b2e")
+	)
 	(label "NRST"
 		(at 264.16 86.106 0)
 		(effects
@@ -8264,7 +9593,7 @@
 		(uuid "7538a88c-8faf-45fb-b696-d916196a55fe")
 	)
 	(label "BLUE_LED"
-		(at 34.544 106.934 0)
+		(at 34.544 117.348 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8284,7 +9613,7 @@
 		(uuid "876b6971-9e74-463d-8565-b7488f57687c")
 	)
 	(label "OSC_32_IN"
-		(at 27.178 154.686 180)
+		(at 27.178 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8314,7 +9643,7 @@
 		(uuid "a89e27ad-ce0c-4b8c-906c-fab8ab250b1b")
 	)
 	(label "OSC_IN"
-		(at 30.734 53.594 180)
+		(at 23.622 65.278 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8334,7 +9663,7 @@
 		(uuid "c744a504-71df-4553-b0bc-91ac52c10598")
 	)
 	(label "OSC_OUT"
-		(at 38.354 53.594 0)
+		(at 35.306 65.786 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9842,7 +11171,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 51.054 33.274) (xy 51.054 84.074) (xy 14.224 84.074) (xy 14.224 33.274)
+				(xy 51.054 43.688) (xy 51.054 94.488) (xy 14.224 94.488) (xy 14.224 43.688)
 			)
 			(stroke
 				(width 0)
@@ -9880,7 +11209,26 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 51.054 134.874) (xy 51.054 185.674) (xy 14.224 185.674) (xy 14.224 134.874)
+				(xy 158.242 112.776) (xy 158.242 163.322) (xy 276.098 163.322) (xy 276.098 112.776)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "1c6efadb-b70c-4c2e-99be-f7514087baa3")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 51.054 145.288) (xy 51.054 196.088) (xy 14.224 196.088) (xy 14.224 145.288)
 			)
 			(stroke
 				(width 0)
@@ -9918,7 +11266,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 51.054 84.074) (xy 51.054 134.874) (xy 14.224 134.874) (xy 14.224 84.074)
+				(xy 51.054 94.488) (xy 51.054 145.288) (xy 14.224 145.288) (xy 14.224 94.488)
 			)
 			(stroke
 				(width 0)
@@ -10217,6 +11565,292 @@
 					(variant
 						(name "Distributer Link")
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 200.152 131.318 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "037e8fa5-df8c-4da3-b1bc-84e0082216fc")
+		(property "Reference" "D5"
+			(at 200.152 124.714 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 200.152 127.254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 200.152 126.873 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/1N914BWT-D_ONS.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 200.152 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIODE FAST SWITCHING Single 200mA 100V SMT SOD523F"
+			(at 200.152 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/dogrultucu-diyotlar-389/ons-1n4148wt-394197?catSequenceId=389"
+			(at 200.152 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "1N4148WT"
+			(at 200.152 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f651ca6-6b09-4fb6-83be-5500f265e7ba")
+		)
+		(pin "2"
+			(uuid "1d014bbf-5fff-4bd4-822a-e97829c4eb05")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7f06b02a-86af-429e-88ca-289556d612d7"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Buzzer")
+		(at 217.424 127.254 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "052f1d71-891b-4bfb-9bbd-63b005496af1")
+		(property "Reference" "BZ1"
+			(at 221.742 125.2288 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 221.742 127.7688 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:Buzzer_typeshit"
+			(at 214.884 127.889 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/L-KLS3-SMT-3020-3V.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 214.884 127.889 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BUZZER MAGNETIC W/O CIRCUIT 3V 4.5-KHZ SMT"
+			(at 217.424 127.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/buzzerlar-430/kls-electronic-l-kls3-smt-3020-3v-744329?s=KLS3-SMT-3020"
+			(at 217.424 127.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "L-KLS3-SMT-3020-3V"
+			(at 217.424 127.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b3e6c93-914f-4fa4-aeeb-e0c3e7f11897")
+		)
+		(pin "2"
+			(uuid "d0ad266f-c7a4-4f32-9fc2-1669463cb89e")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7f06b02a-86af-429e-88ca-289556d612d7"
+					(reference "BZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.042 131.318 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0aad1e13-0839-47c8-aae7-b9dc324eb067")
+		(property "Reference" "R1"
+			(at 209.042 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 209.042 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.042 133.096 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.042 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.042 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "549fd5f2-2133-4b3e-b083-4961bf333d33")
+		)
+		(pin "1"
+			(uuid "bc5a6418-c16e-4270-9347-71b9453c7061")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7f06b02a-86af-429e-88ca-289556d612d7"
+					(reference "R1")
+					(unit 1)
 				)
 			)
 		)
@@ -10598,209 +12232,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 174.244 80.01 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "17d15779-327a-4e79-9896-4dc93e64ba19")
-		(property "Reference" "R24"
-			(at 174.244 77.724 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 174.498 75.946 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 174.244 78.232 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Pansonic_Anti-Sulfurated%20Thick%20Film%20Chip%20Resistors_ERJ-S%2CS02%2CS03%2CS06%2CS08%2CS14%2CS12%2CS1D%2CS1T%2CU%2CU0X%2CU01%2CU03%2CU06%2CU08%2CU14%2CU12%2CU1D%2CU1T%2CU6S%2CU6Q_Series_AOA0000C334.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 174.244 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
-			(at 174.244 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/panasoniceurope-erj2gej200x-1182780?catSequenceId=194"
-			(at 174.244 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "ERJ2GEJ200X"
-			(at 174.244 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 174.244 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 174.244 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 174.244 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 174.244 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 174.244 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 174.244 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 174.244 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 174.244 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 174.244 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "584c2cbc-8e40-4fda-b288-7bb9d64338d0")
-		)
-		(pin "1"
-			(uuid "f3395158-ffb6-4b76-acdb-3a9ef97ade18")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7f06b02a-86af-429e-88ca-289556d612d7"
-					(reference "R24")
-					(unit 1)
-					(variant
-						(name "Distributer Link")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 209.296 90.424 0)
 		(mirror y)
@@ -11097,7 +12528,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 32.766 167.132 0)
+		(at 32.766 177.546 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11107,7 +12538,7 @@
 		(dnp no)
 		(uuid "24a94e90-6cd5-4370-9b8e-8c50829b7a6a")
 		(property "Reference" "#PWR025"
-			(at 32.766 173.482 0)
+			(at 32.766 183.896 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11118,7 +12549,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 32.766 171.196 0)
+			(at 32.766 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11128,7 +12559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 32.766 167.132 0)
+			(at 32.766 177.546 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11139,7 +12570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 32.766 167.132 0)
+			(at 32.766 177.546 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11150,7 +12581,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 32.766 167.132 0)
+			(at 32.766 177.546 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11252,7 +12683,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 38.354 58.674 0)
+		(at 35.306 69.596 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11262,7 +12693,7 @@
 		(dnp no)
 		(uuid "37c2b80e-6d2c-4846-9292-ccbc07186a67")
 		(property "Reference" "C16"
-			(at 42.164 57.4039 0)
+			(at 39.116 68.3259 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11273,7 +12704,7 @@
 			)
 		)
 		(property "Value" "10pF"
-			(at 42.164 59.9439 0)
+			(at 39.116 70.8659 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11284,7 +12715,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 39.3192 62.484 0)
+			(at 36.2712 73.406 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11295,7 +12726,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/UPY-GP_NP0_16V-to-50V_18.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 38.354 58.674 0)
+			(at 35.306 69.596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11306,7 +12737,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 38.354 58.674 0)
+			(at 35.306 69.596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11317,7 +12748,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/samsung-cl10c100jb81pnc-522432?catSequenceId=184"
-			(at 38.354 58.674 0)
+			(at 35.306 69.596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11328,7 +12759,7 @@
 			)
 		)
 		(property "Part Number" "CL10C100JB81PNC"
-			(at 38.354 58.674 0)
+			(at 35.306 69.596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11339,7 +12770,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 38.354 58.674 0)
+			(at 35.306 69.596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11350,7 +12781,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 38.354 58.674 0)
+			(at 35.306 69.596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11361,7 +12792,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 38.354 58.674 0)
+			(at 35.306 69.596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11372,7 +12803,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 38.354 58.674 0)
+			(at 35.306 69.596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11383,7 +12814,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 38.354 58.674 0)
+			(at 35.306 69.596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11394,7 +12825,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 38.354 58.674 0)
+			(at 35.306 69.596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11405,7 +12836,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 38.354 58.674 0)
+			(at 35.306 69.596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11416,7 +12847,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 38.354 58.674 0)
+			(at 35.306 69.596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11427,7 +12858,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 38.354 58.674 0)
+			(at 35.306 69.596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11438,7 +12869,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 38.354 58.674 0)
+			(at 35.306 69.596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11468,7 +12899,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 30.48 110.744 270)
+		(at 30.48 121.158 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -11479,7 +12910,7 @@
 		(dnp no)
 		(uuid "37dee4c9-75b5-4838-a78f-858c1e83ad63")
 		(property "Reference" "D4"
-			(at 27.686 110.744 90)
+			(at 27.686 121.158 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11489,7 +12920,7 @@
 			)
 		)
 		(property "Value" "RED_LED"
-			(at 25.908 108.458 90)
+			(at 25.908 118.872 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11499,7 +12930,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 30.48 110.744 0)
+			(at 30.48 121.158 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11510,7 +12941,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/27-21-R6C-AP1Q2B-3C.PDF?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 30.48 110.744 0)
+			(at 30.48 121.158 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11521,7 +12952,7 @@
 			)
 		)
 		(property "Description" "LED SMD 0603 RED 45-112mcd 130° WATER CLEAR"
-			(at 30.48 110.744 0)
+			(at 30.48 121.158 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11532,7 +12963,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/sinyal-ledler-tek-renkli-361/everlight-27-21-r6c-ap1q2b-3c-602569"
-			(at 30.48 110.744 0)
+			(at 30.48 121.158 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11543,7 +12974,7 @@
 			)
 		)
 		(property "Part Number" "27-21/R6C-AP1Q2B/3C  "
-			(at 30.48 110.744 0)
+			(at 30.48 121.158 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11554,7 +12985,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 30.48 110.744 90)
+			(at 30.48 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11565,7 +12996,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 30.48 110.744 90)
+			(at 30.48 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11576,7 +13007,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 30.48 110.744 90)
+			(at 30.48 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11587,7 +13018,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 30.48 110.744 90)
+			(at 30.48 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11598,7 +13029,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 30.48 110.744 90)
+			(at 30.48 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11609,7 +13040,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 30.48 110.744 90)
+			(at 30.48 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11620,7 +13051,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 30.48 110.744 90)
+			(at 30.48 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11631,7 +13062,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 30.48 110.744 90)
+			(at 30.48 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11642,7 +13073,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 30.48 110.744 90)
+			(at 30.48 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11653,7 +13084,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 30.48 110.744 90)
+			(at 30.48 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11761,7 +13192,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 30.48 119.634 0)
+		(at 30.48 130.048 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11772,7 +13203,7 @@
 		(dnp no)
 		(uuid "42b0e02a-fb28-4cdd-8909-0b4dc3bc7eea")
 		(property "Reference" "R83"
-			(at 28.448 118.872 0)
+			(at 28.448 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11783,7 +13214,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 28.448 121.412 0)
+			(at 28.448 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11794,7 +13225,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 32.258 119.634 90)
+			(at 32.258 130.048 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11805,7 +13236,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/general_royalohm.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 30.48 119.634 0)
+			(at 30.48 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11816,7 +13247,7 @@
 			)
 		)
 		(property "Description" "RES.(1005) 0402 1K Ohms 5% 1/16W 100PPM"
-			(at 30.48 119.634 0)
+			(at 30.48 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11827,7 +13258,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-0402wgj0102tce-431887?catSequenceId=194"
-			(at 30.48 119.634 0)
+			(at 30.48 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11838,7 +13269,7 @@
 			)
 		)
 		(property "Part Number" "0402WGJ0102TCE"
-			(at 30.48 119.634 0)
+			(at 30.48 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11849,7 +13280,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 30.48 119.634 0)
+			(at 30.48 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11860,7 +13291,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 30.48 119.634 0)
+			(at 30.48 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11871,7 +13302,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 30.48 119.634 0)
+			(at 30.48 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11882,7 +13313,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 30.48 119.634 0)
+			(at 30.48 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11893,7 +13324,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 30.48 119.634 0)
+			(at 30.48 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11904,7 +13335,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 30.48 119.634 0)
+			(at 30.48 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11915,7 +13346,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 30.48 119.634 0)
+			(at 30.48 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11926,7 +13357,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 30.48 119.634 0)
+			(at 30.48 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11937,7 +13368,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 30.48 119.634 0)
+			(at 30.48 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11948,7 +13379,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 30.48 119.634 0)
+			(at 30.48 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12270,7 +13701,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 32.258 154.686 0)
+		(at 32.258 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12281,7 +13712,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f82c08c-a102-4f0b-b570-4254b5525951")
 		(property "Reference" "Y2"
-			(at 32.258 147.32 0)
+			(at 32.258 157.734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12291,7 +13722,7 @@
 			)
 		)
 		(property "Value" "32.768KHz"
-			(at 32.258 149.86 0)
+			(at 32.258 160.274 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12300,8 +13731,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering"
-			(at 32.258 154.686 0)
+		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm"
+			(at 32.258 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12312,7 +13743,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/RT2012_SERIES.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 32.258 154.686 0)
+			(at 32.258 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12323,7 +13754,7 @@
 			)
 		)
 		(property "Description" "CRYSTAL 32.768kHz 7pF SMD"
-			(at 32.258 154.686 0)
+			(at 32.258 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12334,7 +13765,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/kristaller-508/raltron-rt2012-32-768-7-tr-994638?catSequenceId=508"
-			(at 32.258 154.686 0)
+			(at 32.258 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12345,7 +13776,7 @@
 			)
 		)
 		(property "Part Number" "RT2012-32.768-7-TR"
-			(at 32.258 154.686 0)
+			(at 32.258 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12356,7 +13787,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 32.258 154.686 0)
+			(at 32.258 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12367,7 +13798,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 32.258 154.686 0)
+			(at 32.258 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12378,7 +13809,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 32.258 154.686 0)
+			(at 32.258 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12389,7 +13820,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 32.258 154.686 0)
+			(at 32.258 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12400,7 +13831,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 32.258 154.686 0)
+			(at 32.258 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12411,7 +13842,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 32.258 154.686 0)
+			(at 32.258 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12422,7 +13853,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 32.258 154.686 0)
+			(at 32.258 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12433,7 +13864,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 32.258 154.686 0)
+			(at 32.258 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12444,7 +13875,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 32.258 154.686 0)
+			(at 32.258 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12474,7 +13905,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 30.734 58.674 0)
+		(at 23.622 69.088 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12485,7 +13916,7 @@
 		(dnp no)
 		(uuid "568aa452-12b6-461b-84ef-39663bf9e422")
 		(property "Reference" "C4"
-			(at 26.924 57.4039 0)
+			(at 19.812 67.8179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12496,7 +13927,7 @@
 			)
 		)
 		(property "Value" "10pF"
-			(at 26.924 59.9439 0)
+			(at 19.812 70.3579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12507,7 +13938,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 29.7688 62.484 0)
+			(at 22.6568 72.898 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12518,7 +13949,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/UPY-GP_NP0_16V-to-50V_18.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 30.734 58.674 0)
+			(at 23.622 69.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12529,7 +13960,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 30.734 58.674 0)
+			(at 23.622 69.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12540,7 +13971,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/samsung-cl10c100jb81pnc-522432?catSequenceId=184"
-			(at 30.734 58.674 0)
+			(at 23.622 69.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12551,7 +13982,7 @@
 			)
 		)
 		(property "Part Number" "CL10C100JB81PNC"
-			(at 30.734 58.674 0)
+			(at 23.622 69.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12562,7 +13993,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 30.734 58.674 0)
+			(at 23.622 69.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12573,7 +14004,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 30.734 58.674 0)
+			(at 23.622 69.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12584,7 +14015,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 30.734 58.674 0)
+			(at 23.622 69.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12595,7 +14026,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 30.734 58.674 0)
+			(at 23.622 69.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12606,7 +14037,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 30.734 58.674 0)
+			(at 23.622 69.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12617,7 +14048,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 30.734 58.674 0)
+			(at 23.622 69.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12628,7 +14059,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 30.734 58.674 0)
+			(at 23.622 69.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12639,7 +14070,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 30.734 58.674 0)
+			(at 23.622 69.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12650,7 +14081,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 30.734 58.674 0)
+			(at 23.622 69.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12661,7 +14092,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 30.734 58.674 0)
+			(at 23.622 69.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13614,7 +15045,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 34.544 110.744 90)
+		(at 34.544 121.158 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13624,7 +15055,7 @@
 		(dnp no)
 		(uuid "6f99b283-3b07-41a9-b83b-1e7b0158dd19")
 		(property "Reference" "D6"
-			(at 37.084 110.998 90)
+			(at 37.084 121.412 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13634,7 +15065,7 @@
 			)
 		)
 		(property "Value" "BLUE_LED"
-			(at 39.37 108.204 90)
+			(at 39.37 118.618 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13644,7 +15075,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 34.544 110.744 0)
+			(at 34.544 121.158 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13655,7 +15086,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/HL-PST-1608H203BC-yeni.PDF?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 34.544 110.744 0)
+			(at 34.544 121.158 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13666,7 +15097,7 @@
 			)
 		)
 		(property "Description" "LED SMD 0603 BLUE 100mcd 120° WATER CLEAR"
-			(at 34.544 110.744 0)
+			(at 34.544 121.158 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13677,7 +15108,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/sinyal-ledler-tek-renkli-361/honglitronic-hl-pst-1608h203bc-471659"
-			(at 34.544 110.744 0)
+			(at 34.544 121.158 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13688,7 +15119,7 @@
 			)
 		)
 		(property "Part Number" "HL-PST-1608H203BC  "
-			(at 34.544 110.744 0)
+			(at 34.544 121.158 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13699,7 +15130,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 34.544 110.744 90)
+			(at 34.544 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13710,7 +15141,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 34.544 110.744 90)
+			(at 34.544 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13721,7 +15152,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 34.544 110.744 90)
+			(at 34.544 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13732,7 +15163,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 34.544 110.744 90)
+			(at 34.544 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13743,7 +15174,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 34.544 110.744 90)
+			(at 34.544 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13754,7 +15185,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 34.544 110.744 90)
+			(at 34.544 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13765,7 +15196,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 34.544 110.744 90)
+			(at 34.544 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13776,7 +15207,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 34.544 110.744 90)
+			(at 34.544 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13787,7 +15218,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 34.544 110.744 90)
+			(at 34.544 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13798,7 +15229,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 34.544 110.744 90)
+			(at 34.544 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14200,6 +15631,376 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 28.702 74.676 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84d732ac-c484-48de-afba-f2dd86e07a0f")
+		(property "Reference" "#PWR094"
+			(at 28.702 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 28.702 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 28.702 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 28.702 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 28.702 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5397ed3f-b851-4830-b66e-79727b7e1a3f")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7f06b02a-86af-429e-88ca-289556d612d7"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 136.398 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88bf751a-cf42-48a9-be34-d694e9da3256")
+		(property "Reference" "C32"
+			(at 175.26 137.414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 175.514 135.382 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 179.3748 140.208 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/SAMSUNG%20MLCC_JAN-2024.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 180.34 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MLCC (1608) 0603 2.2uF 10VDC ±10% X7R"
+			(at 180.34 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/samsung-cl10b225kp8nnnc-359581?catSequenceId=184"
+			(at 180.34 136.398 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL10B225KP8NNNC"
+			(at 180.34 136.398 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 180.34 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 180.34 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 180.34 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 180.34 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 180.34 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 180.34 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 180.34 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 180.34 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 180.34 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 180.34 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e64cbffd-f0bb-4b0d-9129-ef8fbf361531")
+		)
+		(pin "2"
+			(uuid "a3784c57-1e5b-4c78-8233-fc16e1f02a07")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7f06b02a-86af-429e-88ca-289556d612d7"
+					(reference "C32")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 180.34 128.778 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e6baca8-b46d-48c9-a36d-b21347710b24")
+		(property "Reference" "#PWR07"
+			(at 180.34 132.588 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 180.34 124.206 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 180.34 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6dd5cc5-1680-4c0f-86ba-bf826c5eb398")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7f06b02a-86af-429e-88ca-289556d612d7"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 171.704 44.704 0)
 		(unit 1)
 		(body_style 1)
@@ -14277,7 +16078,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 127.254 0)
+		(at 30.48 137.668 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14288,7 +16089,7 @@
 		(fields_autoplaced yes)
 		(uuid "99daad0b-f35e-428f-8a15-cbc9d42332c4")
 		(property "Reference" "#PWR02"
-			(at 30.48 133.604 0)
+			(at 30.48 144.018 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14299,7 +16100,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 132.334 0)
+			(at 30.48 142.748 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14309,7 +16110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 127.254 0)
+			(at 30.48 137.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14320,7 +16121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 127.254 0)
+			(at 30.48 137.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14331,7 +16132,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 127.254 0)
+			(at 30.48 137.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14355,7 +16156,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 27.178 161.036 0)
+		(at 27.178 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14365,7 +16166,7 @@
 		(dnp no)
 		(uuid "9babb41e-0890-4c2f-b7e6-b91a5d61881c")
 		(property "Reference" "C1"
-			(at 23.114 159.7659 0)
+			(at 23.114 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14376,7 +16177,7 @@
 			)
 		)
 		(property "Value" "6pF"
-			(at 23.114 162.3059 0)
+			(at 23.114 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14387,7 +16188,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 28.1432 164.846 0)
+			(at 28.1432 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14398,7 +16199,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/UPY-GP_NP0_16V-to-50V_18.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 27.178 161.036 0)
+			(at 27.178 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14409,7 +16210,7 @@
 			)
 		)
 		(property "Description" "MLCC (1005) 0402 6pF 50VDC ±0.5pF C0G (NP0)"
-			(at 27.178 161.036 0)
+			(at 27.178 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14420,7 +16221,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/yageo-cc0402drnpo9bn6r0-746529?catSequenceId=184"
-			(at 27.178 161.036 0)
+			(at 27.178 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14431,7 +16232,7 @@
 			)
 		)
 		(property "Part Number" "CC0402DRNPO9BN6R0"
-			(at 27.178 161.036 0)
+			(at 27.178 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14442,7 +16243,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 27.178 161.036 0)
+			(at 27.178 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14453,7 +16254,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 27.178 161.036 0)
+			(at 27.178 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14464,7 +16265,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 27.178 161.036 0)
+			(at 27.178 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14475,7 +16276,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 27.178 161.036 0)
+			(at 27.178 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14486,7 +16287,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 27.178 161.036 0)
+			(at 27.178 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14497,7 +16298,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 27.178 161.036 0)
+			(at 27.178 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14508,7 +16309,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 27.178 161.036 0)
+			(at 27.178 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14519,7 +16320,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 27.178 161.036 0)
+			(at 27.178 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14530,7 +16331,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 27.178 161.036 0)
+			(at 27.178 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14541,7 +16342,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 27.178 161.036 0)
+			(at 27.178 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14726,8 +16527,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 34.544 53.594 0)
+		(lib_id "Device:R")
+		(at 232.664 144.526 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14735,29 +16537,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ad6bd692-9501-422e-ae4f-5530c2dbee75")
-		(property "Reference" "Y1"
-			(at 34.29 47.498 0)
+		(uuid "a2ef8247-ec3c-4c8f-97c0-d98ecb23ea01")
+		(property "Reference" "R84"
+			(at 230.632 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "25MHz"
-			(at 34.29 49.276 0)
+		(property "Value" "1k"
+			(at 230.632 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm"
-			(at 34.544 53.594 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 234.442 144.526 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14767,8 +16571,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/ECS_ECX-2236Q.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 34.544 53.594 0)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/general_royalohm.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 232.664 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14778,8 +16582,8 @@
 				)
 			)
 		)
-		(property "Description" "CRYSTAL 25MHz 10pF 4-SMD"
-			(at 34.544 53.594 0)
+		(property "Description" "RES.(1005) 0402 1K Ohms 5% 1/16W 100PPM"
+			(at 232.664 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14789,8 +16593,8 @@
 				)
 			)
 		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/kristaller-508/ecs-ecs-250-10-36q-es-tr-710745?catSequenceId=508"
-			(at 34.544 53.594 0)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-0402wgj0102tce-431887?catSequenceId=194"
+			(at 232.664 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14800,8 +16604,8 @@
 				)
 			)
 		)
-		(property "Part Number" "ECS-250-10-36Q-ES-TR"
-			(at 34.544 53.594 0)
+		(property "Part Number" "0402WGJ0102TCE"
+			(at 232.664 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14812,7 +16616,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 34.544 53.594 0)
+			(at 232.664 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14823,7 +16627,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 34.544 53.594 0)
+			(at 232.664 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14834,7 +16638,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 34.544 53.594 0)
+			(at 232.664 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14845,7 +16649,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 34.544 53.594 0)
+			(at 232.664 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14856,7 +16660,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 34.544 53.594 0)
+			(at 232.664 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14867,7 +16671,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 34.544 53.594 0)
+			(at 232.664 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14878,7 +16682,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 34.544 53.594 0)
+			(at 232.664 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14889,7 +16693,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 34.544 53.594 0)
+			(at 232.664 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14900,7 +16704,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 34.544 53.594 0)
+			(at 232.664 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14911,7 +16715,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 34.544 53.594 0)
+			(at 232.664 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14922,15 +16726,231 @@
 			)
 		)
 		(pin "1"
-			(uuid "8139b903-5528-44c5-8dcf-7fc073ff5865")
+			(uuid "c4d8a435-415a-4110-84d4-b1c6e69811b7")
 		)
 		(pin "2"
-			(uuid "f7ba3e08-4604-4e51-af2e-acee22b71d86")
+			(uuid "6b88eabe-d71a-4195-b234-b195d0fdffce")
 		)
 		(instances
 			(project "Ahrar Flight Controller"
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7f06b02a-86af-429e-88ca-289556d612d7"
-					(reference "Y1")
+					(reference "R84")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.166 136.398 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad219936-2203-4fde-8812-c80195dcd364")
+		(property "Reference" "C53"
+			(at 188.468 137.922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 187.96 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 186.1312 140.208 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 185.166 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 185.166 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grm155r71c104ka88d-423396"
+			(at 185.166 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "GRM155R71C104KA88D"
+			(at 185.166 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 185.166 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 185.166 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 185.166 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 185.166 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 185.166 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 185.166 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 185.166 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 185.166 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 185.166 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 185.166 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "092069f6-231b-4bb7-963f-008b1bb803f1")
+		)
+		(pin "2"
+			(uuid "083b9345-7957-4616-878c-372e824e9a18")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7f06b02a-86af-429e-88ca-289556d612d7"
+					(reference "C53")
 					(unit 1)
 					(variant
 						(name "Distributer Link")
@@ -15605,7 +17625,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 37.338 160.782 0)
+		(at 37.338 171.196 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15616,7 +17636,7 @@
 		(dnp no)
 		(uuid "c0677eb5-5914-4d0a-b875-c134e2305f84")
 		(property "Reference" "C3"
-			(at 41.402 159.5119 0)
+			(at 41.402 169.9259 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15627,7 +17647,7 @@
 			)
 		)
 		(property "Value" "6pF"
-			(at 41.402 162.0519 0)
+			(at 41.402 172.4659 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15638,7 +17658,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 36.3728 164.592 0)
+			(at 36.3728 175.006 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15649,7 +17669,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/UPY-GP_NP0_16V-to-50V_18.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 37.338 160.782 0)
+			(at 37.338 171.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15660,7 +17680,7 @@
 			)
 		)
 		(property "Description" "MLCC (1005) 0402 6pF 50VDC ±0.5pF C0G (NP0)"
-			(at 37.338 160.782 0)
+			(at 37.338 171.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15671,7 +17691,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/yageo-cc0402drnpo9bn6r0-746529?catSequenceId=184"
-			(at 37.338 160.782 0)
+			(at 37.338 171.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15682,7 +17702,7 @@
 			)
 		)
 		(property "Part Number" "CC0402DRNPO9BN6R0"
-			(at 37.338 160.782 0)
+			(at 37.338 171.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15693,7 +17713,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 37.338 160.782 0)
+			(at 37.338 171.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15704,7 +17724,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 37.338 160.782 0)
+			(at 37.338 171.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15715,7 +17735,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 37.338 160.782 0)
+			(at 37.338 171.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15726,7 +17746,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 37.338 160.782 0)
+			(at 37.338 171.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15737,7 +17757,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 37.338 160.782 0)
+			(at 37.338 171.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15748,7 +17768,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 37.338 160.782 0)
+			(at 37.338 171.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15759,7 +17779,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 37.338 160.782 0)
+			(at 37.338 171.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15770,7 +17790,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 37.338 160.782 0)
+			(at 37.338 171.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15781,7 +17801,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 37.338 160.782 0)
+			(at 37.338 171.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15792,7 +17812,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 37.338 160.782 0)
+			(at 37.338 171.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15816,6 +17836,311 @@
 					(variant
 						(name "Distributer Link")
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 174.244 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c332da01-f709-4c30-94c7-6ea50a87d263")
+		(property "Reference" "R106"
+			(at 173.99 77.724 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 173.99 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 174.244 81.788 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/AECQ200CQ_ROYALOHM.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 174.244 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES.(1005) 0402 20 Ohms 5% 1/10W 200PPM AECQ200"
+			(at 174.244 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-cq02wgf220jtce-587889?catSequenceId=194"
+			(at 174.244 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CQ02WGF220JTCE"
+			(at 174.244 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 174.244 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 174.244 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 174.244 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 174.244 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 174.244 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 174.244 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 174.244 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 174.244 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 174.244 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "66c3772d-cdfa-410e-b01f-8bf209ad6c79")
+		)
+		(pin "1"
+			(uuid "5242291b-d445-4542-96d6-19715b8ff6f5")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7f06b02a-86af-429e-88ca-289556d612d7"
+					(reference "R106")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 218.186 136.906 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c78564b2-f373-4ec8-8956-176202b05a55")
+		(property "Reference" "D7"
+			(at 218.186 143.002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 218.186 140.462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 218.186 132.461 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/1N914BWT-D_ONS.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 218.186 136.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIODE FAST SWITCHING Single 200mA 100V SMT SOD523F"
+			(at 218.186 136.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/dogrultucu-diyotlar-389/ons-1n4148wt-394197?catSequenceId=389"
+			(at 218.186 136.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "1N4148WT"
+			(at 218.186 136.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba6d8c7a-fea9-4aa0-87d7-bdaaf1a43be0")
+		)
+		(pin "2"
+			(uuid "e9ddce63-9363-4e33-812b-6488e78c5826")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7f06b02a-86af-429e-88ca-289556d612d7"
+					(reference "D7")
+					(unit 1)
 				)
 			)
 		)
@@ -16325,6 +18650,113 @@
 					(variant
 						(name "Distributer Link")
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24_Small")
+		(at 28.702 64.77 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cdb61dd0-accd-4b62-b61d-23ce26f665e4")
+		(property "Reference" "Y3"
+			(at 28.702 59.182 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "25MHz"
+			(at 28.702 56.642 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm"
+			(at 28.702 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/ECS_ECX-2236Q.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 28.702 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CRYSTAL 25MHz 10pF 4-SMD"
+			(at 28.702 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/kristaller-508/ecs-ecs-250-10-36q-es-tr-710745?catSequenceId=508"
+			(at 28.702 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ECS-250-10-36Q-ES-TR"
+			(at 28.702 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5711e8de-0a05-480b-8aea-86777e8ff6f6")
+		)
+		(pin "4"
+			(uuid "7ad44953-e534-4e8e-a22c-ac4a205ef903")
+		)
+		(pin "2"
+			(uuid "ede0a336-fbf6-4798-912c-737e7a8ac7d3")
+		)
+		(pin "3"
+			(uuid "6ed0a3e5-8a72-4a2f-9043-4dc5a4dbb81b")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7f06b02a-86af-429e-88ca-289556d612d7"
+					(reference "Y3")
+					(unit 1)
 				)
 			)
 		)
@@ -17627,7 +20059,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.544 65.024 0)
+		(at 182.372 142.748 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17635,9 +20067,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f48c0c53-e7fb-4769-b9f6-d6281b5e6000")
-		(property "Reference" "#PWR010"
-			(at 34.544 71.374 0)
+		(fields_autoplaced yes)
+		(uuid "f2f56f88-98cd-4a9f-b258-aa92e61b8bb5")
+		(property "Reference" "#PWR015"
+			(at 182.372 149.098 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17648,7 +20081,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.544 69.088 0)
+			(at 182.372 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17658,7 +20091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.544 65.024 0)
+			(at 182.372 142.748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17669,7 +20102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.544 65.024 0)
+			(at 182.372 142.748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17680,7 +20113,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.544 65.024 0)
+			(at 182.372 142.748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17691,12 +20124,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d9d26d0-ab10-4741-b63c-afb5bb8a4f15")
+			(uuid "bc28ba70-19a6-4162-9a68-363348707d54")
 		)
 		(instances
 			(project "Ahrar Flight Controller"
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7f06b02a-86af-429e-88ca-289556d612d7"
-					(reference "#PWR010")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -17775,6 +20208,108 @@
 			(project "Ahrar Flight Controller"
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7f06b02a-86af-429e-88ca-289556d612d7"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 191.262 131.318 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f54c9706-ca16-4a55-b005-065d3fa1fc22")
+		(property "Reference" "D1"
+			(at 191.262 124.714 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 191.262 127.254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 191.262 126.873 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/1N914BWT-D_ONS.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 191.262 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIODE FAST SWITCHING Single 200mA 100V SMT SOD523F"
+			(at 191.262 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/dogrultucu-diyotlar-389/ons-1n4148wt-394197?catSequenceId=389"
+			(at 191.262 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "1N4148WT"
+			(at 191.262 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a21feca2-baad-4452-a8e8-42d048bdf520")
+		)
+		(pin "2"
+			(uuid "33a93732-2104-406b-b2dd-6d83f4cd96f7")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7f06b02a-86af-429e-88ca-289556d612d7"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -18214,7 +20749,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.544 119.634 0)
+		(at 34.544 130.048 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18224,7 +20759,7 @@
 		(dnp no)
 		(uuid "fb2af1f4-8f27-4c12-87d0-7c9c802ef332")
 		(property "Reference" "R14"
-			(at 36.576 118.872 0)
+			(at 36.576 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18235,7 +20770,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 36.576 121.412 0)
+			(at 36.576 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18246,7 +20781,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 32.766 119.634 90)
+			(at 32.766 130.048 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18257,7 +20792,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/general_royalohm.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 34.544 119.634 0)
+			(at 34.544 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18268,7 +20803,7 @@
 			)
 		)
 		(property "Description" "RES.(1005) 0402 1K Ohms 5% 1/16W 100PPM"
-			(at 34.544 119.634 0)
+			(at 34.544 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18279,7 +20814,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-cip-direncler-194/royalohm-0402wgj0102tce-431887?catSequenceId=194"
-			(at 34.544 119.634 0)
+			(at 34.544 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18290,7 +20825,7 @@
 			)
 		)
 		(property "Part Number" "0402WGJ0102TCE"
-			(at 34.544 119.634 0)
+			(at 34.544 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18301,7 +20836,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 34.544 119.634 0)
+			(at 34.544 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18312,7 +20847,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 34.544 119.634 0)
+			(at 34.544 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18323,7 +20858,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 34.544 119.634 0)
+			(at 34.544 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18334,7 +20869,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 34.544 119.634 0)
+			(at 34.544 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18345,7 +20880,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 34.544 119.634 0)
+			(at 34.544 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18356,7 +20891,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 34.544 119.634 0)
+			(at 34.544 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18367,7 +20902,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 34.544 119.634 0)
+			(at 34.544 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18378,7 +20913,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 34.544 119.634 0)
+			(at 34.544 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18389,7 +20924,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 34.544 119.634 0)
+			(at 34.544 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18400,7 +20935,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 34.544 119.634 0)
+			(at 34.544 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18627,6 +21162,114 @@
 					(variant
 						(name "Distributer Link")
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC847")
+		(at 232.664 133.858 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcecd6ac-da93-4afb-82a5-abb51fe9ce3c")
+		(property "Reference" "Q1"
+			(at 232.664 124.206 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BC847"
+			(at 232.664 126.746 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 234.569 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 232.664 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 232.664 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 232.664 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 232.664 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ea310403-46ff-468c-8fda-480aab27a777")
+		)
+		(pin "1"
+			(uuid "a6b306bd-ddbd-4d3c-8661-334cd953311b")
+		)
+		(pin "3"
+			(uuid "6b84315a-7611-434c-bb54-181254700292")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7f06b02a-86af-429e-88ca-289556d612d7"
+					(reference "Q1")
+					(unit 1)
 				)
 			)
 		)
