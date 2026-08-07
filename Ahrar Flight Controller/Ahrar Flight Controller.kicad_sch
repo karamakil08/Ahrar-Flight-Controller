@@ -11,43 +11,36 @@
 		(comment 1 "Ahrar Team")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
+		(symbol "Graphic:Logo_Open_Hardware_Small"
 			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
+			(in_bom no)
+			(on_board no)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Logo1"
-				(at 2.54 4.5721 0)
+			(property "Reference" "#SYM"
+				(at 0 6.985 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Logo"
-				(at 2.54 2.0321 0)
+			(property "Value" "Logo_Open_Hardware_Small"
+				(at 0 -5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Footprints:Hananou logo"
-				(at 5.08 0 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -58,17 +51,6 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -79,7 +61,7 @@
 					)
 				)
 			)
-			(property "Distributer Link" ""
+			(property "Description" "Open Hardware logo, small"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,7 +72,7 @@
 					)
 				)
 			)
-			(property "Part Number" ""
+			(property "Sim.Enable" "0"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -101,7 +83,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "ki_keywords" "Logo"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -112,47 +94,90 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "Logo_Open_Hardware_Small_0_1"
+				(polyline
+					(pts
+						(xy 3.3528 -4.3434) (xy 3.302 -4.318) (xy 3.175 -4.2418) (xy 2.9972 -4.1148) (xy 2.7686 -3.9624)
+						(xy 2.54 -3.81) (xy 2.3622 -3.7084) (xy 2.2352 -3.6068) (xy 2.1844 -3.5814) (xy 2.159 -3.6068)
+						(xy 2.0574 -3.6576) (xy 1.905 -3.7338) (xy 1.8034 -3.7846) (xy 1.6764 -3.8354) (xy 1.6002 -3.8354)
+						(xy 1.6002 -3.8354) (xy 1.5494 -3.7338) (xy 1.4732 -3.5306) (xy 1.3462 -3.302) (xy 1.2446 -3.0226)
+						(xy 1.1176 -2.7178) (xy 0.9652 -2.413) (xy 0.8636 -2.1082) (xy 0.7366 -1.8288) (xy 0.6604 -1.6256)
+						(xy 0.6096 -1.4732) (xy 0.5842 -1.397) (xy 0.5842 -1.397) (xy 0.6604 -1.3208) (xy 0.7874 -1.2446)
+						(xy 1.0414 -1.016) (xy 1.2954 -0.6858) (xy 1.4478 -0.3302) (xy 1.524 0.0762) (xy 1.4732 0.4572)
+						(xy 1.3208 0.8128) (xy 1.0668 1.143) (xy 0.762 1.3716) (xy 0.4064 1.524) (xy 0 1.5748) (xy -0.381 1.5494)
+						(xy -0.7366 1.397) (xy -1.0668 1.143) (xy -1.2192 0.9906) (xy -1.397 0.6604) (xy -1.524 0.3048)
+						(xy -1.524 0.2286) (xy -1.4986 -0.1778) (xy -1.397 -0.5334) (xy -1.1938 -0.8636) (xy -0.9144 -1.143)
+						(xy -0.8636 -1.1684) (xy -0.7366 -1.27) (xy -0.635 -1.3462) (xy -0.5842 -1.397) (xy -1.0668 -2.5908)
+						(xy -1.143 -2.794) (xy -1.2954 -3.1242) (xy -1.397 -3.4036) (xy -1.4986 -3.6322) (xy -1.5748 -3.7846)
+						(xy -1.6002 -3.8354) (xy -1.6002 -3.8354) (xy -1.651 -3.8354) (xy -1.7272 -3.81) (xy -1.905 -3.7338)
+						(xy -2.0066 -3.683) (xy -2.1336 -3.6068) (xy -2.2098 -3.5814) (xy -2.2606 -3.6068) (xy -2.3622 -3.683)
+						(xy -2.54 -3.81) (xy -2.7686 -3.9624) (xy -2.9718 -4.0894) (xy -3.1496 -4.2164) (xy -3.302 -4.318)
+						(xy -3.3528 -4.3434) (xy -3.3782 -4.3434) (xy -3.429 -4.318) (xy -3.5306 -4.2164) (xy -3.7084 -4.064)
+						(xy -3.937 -3.8354) (xy -3.9624 -3.81) (xy -4.1656 -3.6068) (xy -4.318 -3.4544) (xy -4.4196 -3.3274)
+						(xy -4.445 -3.2766) (xy -4.445 -3.2766) (xy -4.4196 -3.2258) (xy -4.318 -3.0734) (xy -4.2164 -2.8956)
+						(xy -4.064 -2.667) (xy -3.6576 -2.0828) (xy -3.8862 -1.5494) (xy -3.937 -1.3716) (xy -4.0386 -1.1684)
+						(xy -4.0894 -1.0414) (xy -4.1148 -0.9652) (xy -4.191 -0.9398) (xy -4.318 -0.9144) (xy -4.5466 -0.8636)
+						(xy -4.8006 -0.8128) (xy -5.0546 -0.7874) (xy -5.2578 -0.7366) (xy -5.4356 -0.7112) (xy -5.5118 -0.6858)
+						(xy -5.5118 -0.6858) (xy -5.5372 -0.635) (xy -5.5372 -0.5588) (xy -5.5372 -0.4318) (xy -5.5626 -0.2286)
+						(xy -5.5626 0.0762) (xy -5.5626 0.127) (xy -5.5372 0.4064) (xy -5.5372 0.635) (xy -5.5372 0.762)
+						(xy -5.5372 0.8382) (xy -5.5372 0.8382) (xy -5.461 0.8382) (xy -5.3086 0.889) (xy -5.08 0.9144)
+						(xy -4.826 0.9652) (xy -4.8006 0.9906) (xy -4.5466 1.0414) (xy -4.318 1.0668) (xy -4.1656 1.1176)
+						(xy -4.0894 1.143) (xy -4.0894 1.143) (xy -4.0386 1.2446) (xy -3.9624 1.4224) (xy -3.8608 1.6256)
+						(xy -3.7846 1.8288) (xy -3.7084 2.0066) (xy -3.6576 2.159) (xy -3.6322 2.2098) (xy -3.6322 2.2098)
+						(xy -3.683 2.286) (xy -3.7592 2.413) (xy -3.8862 2.5908) (xy -4.064 2.8194) (xy -4.064 2.8448)
+						(xy -4.2164 3.0734) (xy -4.3434 3.2512) (xy -4.4196 3.3782) (xy -4.445 3.4544) (xy -4.445 3.4544)
+						(xy -4.3942 3.5052) (xy -4.2926 3.6322) (xy -4.1148 3.81) (xy -3.937 4.0132) (xy -3.8608 4.064)
+						(xy -3.6576 4.2926) (xy -3.5052 4.4196) (xy -3.4036 4.4958) (xy -3.3528 4.5212) (xy -3.3528 4.5212)
+						(xy -3.302 4.4704) (xy -3.1496 4.3688) (xy -2.9718 4.2418) (xy -2.7432 4.0894) (xy -2.7178 4.0894)
+						(xy -2.4892 3.937) (xy -2.3114 3.81) (xy -2.1844 3.7084) (xy -2.1336 3.683) (xy -2.1082 3.683)
+						(xy -2.032 3.7084) (xy -1.8542 3.7592) (xy -1.6764 3.8354) (xy -1.4732 3.937) (xy -1.27 4.0132)
+						(xy -1.143 4.064) (xy -1.0668 4.1148) (xy -1.0668 4.1148) (xy -1.0414 4.191) (xy -1.016 4.3434)
+						(xy -0.9652 4.572) (xy -0.9144 4.8514) (xy -0.889 4.9022) (xy -0.8382 5.1562) (xy -0.8128 5.3848)
+						(xy -0.7874 5.5372) (xy -0.762 5.588) (xy -0.7112 5.6134) (xy -0.5842 5.6134) (xy -0.4064 5.6134)
+						(xy -0.1524 5.6134) (xy 0.0762 5.6134) (xy 0.3302 5.6134) (xy 0.5334 5.6134) (xy 0.6858 5.588)
+						(xy 0.7366 5.588) (xy 0.7366 5.588) (xy 0.762 5.5118) (xy 0.8128 5.334) (xy 0.8382 5.1054) (xy 0.9144 4.826)
+						(xy 0.9144 4.7752) (xy 0.9652 4.5212) (xy 1.016 4.2926) (xy 1.0414 4.1402) (xy 1.0668 4.0894)
+						(xy 1.0668 4.0894) (xy 1.1938 4.0386) (xy 1.3716 3.9624) (xy 1.5748 3.8608) (xy 2.0828 3.6576)
+						(xy 2.7178 4.0894) (xy 2.7686 4.1402) (xy 2.9972 4.2926) (xy 3.175 4.4196) (xy 3.302 4.4958) (xy 3.3782 4.5212)
+						(xy 3.3782 4.5212) (xy 3.429 4.4704) (xy 3.556 4.3434) (xy 3.7338 4.191) (xy 3.9116 3.9878) (xy 4.064 3.8354)
+						(xy 4.2418 3.6576) (xy 4.3434 3.556) (xy 4.4196 3.4798) (xy 4.4196 3.429) (xy 4.4196 3.4036) (xy 4.3942 3.3274)
+						(xy 4.2926 3.2004) (xy 4.1656 2.9972) (xy 4.0132 2.794) (xy 3.8862 2.5908) (xy 3.7592 2.3876)
+						(xy 3.6576 2.2352) (xy 3.6322 2.159) (xy 3.6322 2.1336) (xy 3.683 2.0066) (xy 3.7592 1.8288) (xy 3.8608 1.6002)
+						(xy 4.064 1.1176) (xy 4.3942 1.0414) (xy 4.5974 1.016) (xy 4.8768 0.9652) (xy 5.1308 0.9144) (xy 5.5372 0.8382)
+						(xy 5.5626 -0.6604) (xy 5.4864 -0.6858) (xy 5.4356 -0.6858) (xy 5.2832 -0.7366) (xy 5.0546 -0.762)
+						(xy 4.8006 -0.8128) (xy 4.5974 -0.8636) (xy 4.3688 -0.9144) (xy 4.2164 -0.9398) (xy 4.1402 -0.9398)
+						(xy 4.1148 -0.9652) (xy 4.064 -1.0668) (xy 3.9878 -1.2446) (xy 3.9116 -1.4478) (xy 3.81 -1.651)
+						(xy 3.7338 -1.8542) (xy 3.683 -2.0066) (xy 3.6576 -2.0828) (xy 3.683 -2.1336) (xy 3.7846 -2.2606)
+						(xy 3.8862 -2.4638) (xy 4.0386 -2.667) (xy 4.191 -2.8956) (xy 4.318 -3.0734) (xy 4.3942 -3.2004)
+						(xy 4.445 -3.2766) (xy 4.4196 -3.3274) (xy 4.3434 -3.429) (xy 4.1656 -3.5814) (xy 3.937 -3.8354)
+						(xy 3.8862 -3.8608) (xy 3.683 -4.064) (xy 3.5306 -4.2164) (xy 3.4036 -4.318) (xy 3.3528 -4.3434)
 					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TestPoint_1"
+		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.762)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
+			(property "Reference" "H"
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -161,8 +186,8 @@
 					)
 				)
 			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -172,7 +197,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 0 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -183,17 +208,6 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -204,7 +218,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -215,7 +229,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
+			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -226,12 +240,23 @@
 					)
 				)
 			)
-			(symbol "TestPoint_1_0_1"
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 3.302)
-					(radius 0.762)
+					(center 0 1.27)
+					(radius 1.27)
 					(stroke
-						(width 0)
+						(width 1.27)
 						(type default)
 					)
 					(fill
@@ -239,9 +264,9 @@
 					)
 				)
 			)
-			(symbol "TestPoint_1_1_1"
-				(pin passive line
-					(at 0 0 90)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -392,7 +417,7 @@
 	)
 	(text "Mounting\nHoles"
 		(exclude_from_sim no)
-		(at 135.636 71.12 0)
+		(at 129.032 47.752 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -428,6 +453,144 @@
 			(justify left)
 		)
 		(uuid "f29dc0db-573d-45d9-8904-f8d413227b01")
+	)
+	(junction
+		(at 133.604 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82eda22d-150c-4487-ad6a-14cd9bf266f9")
+	)
+	(junction
+		(at 133.604 71.628)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82f0529e-1346-4328-8d54-7850bdcd2f0e")
+	)
+	(junction
+		(at 133.604 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1314073-a652-4455-bcc0-8c307389d2de")
+	)
+	(wire
+		(pts
+			(xy 133.604 80.01) (xy 133.604 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f0e670-95d2-4617-a89a-73d4af0c52fb")
+	)
+	(wire
+		(pts
+			(xy 136.906 80.01) (xy 133.604 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ea2557-2ffe-4ded-ab1b-76265bc333a9")
+	)
+	(wire
+		(pts
+			(xy 136.906 86.868) (xy 136.906 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5cc7a4-6f32-454f-966d-e4e8ed47803f")
+	)
+	(wire
+		(pts
+			(xy 133.604 87.63) (xy 133.604 88.138)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b18d2a5-e6e2-42ea-b384-edd312ec9ec3")
+	)
+	(wire
+		(pts
+			(xy 136.906 87.63) (xy 133.604 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "808dcd71-8e58-4884-9e0d-ced594986cca")
+	)
+	(wire
+		(pts
+			(xy 136.652 63.754) (xy 133.604 63.754)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb7d4ee-93de-46dc-9992-b3d72d228645")
+	)
+	(wire
+		(pts
+			(xy 133.604 71.628) (xy 133.604 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1aa5ee9-eab7-42f0-8dae-16fd8c8d2852")
+	)
+	(wire
+		(pts
+			(xy 136.906 78.74) (xy 136.906 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9688801-48e3-4903-886b-1fc730826b1d")
+	)
+	(wire
+		(pts
+			(xy 136.652 62.738) (xy 136.652 63.754)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3bb930e-047d-43c7-9a66-50a9172f5025")
+	)
+	(wire
+		(pts
+			(xy 136.652 71.628) (xy 133.604 71.628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae6b9b3-0839-4351-be60-b62983417f6c")
+	)
+	(wire
+		(pts
+			(xy 136.652 70.612) (xy 136.652 71.628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdabe5d3-8c96-49c2-9b41-e4c2a8642353")
+	)
+	(wire
+		(pts
+			(xy 133.604 63.754) (xy 133.604 71.628)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d332dd72-050f-47eb-b7fc-fb45cd8b8961")
 	)
 	(image
 		(at 230.124 98.298)
@@ -29305,25 +29468,6 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 133.858 65.532) (xy 133.858 108.966) (xy 168.402 108.966) (xy 168.402 65.532)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid "2836ff6f-4385-44cd-bf08-d7635983cc60")
-		)
-	)
-	(rule_area
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(polyline
-			(pts
 				(xy 172.72 45.466) (xy 172.72 143.002) (xy 283.464 143.002) (xy 283.464 45.466)
 			)
 			(stroke
@@ -29334,6 +29478,25 @@
 				(type none)
 			)
 			(uuid "7879496e-06e2-4cf2-9d4f-10f6c44d933f")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 128.778 42.672) (xy 128.778 94.488) (xy 161.29 94.488) (xy 161.29 42.672)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "951d9b1c-28fe-4b00-8ca4-763654fd3fc8")
 		)
 	)
 	(rule_area
@@ -29356,262 +29519,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 147.828 125.984 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2eadc6ca-48b6-4a7e-af02-650cdf4bf6e9")
-		(property "Reference" "Logo1"
-			(at 150.368 121.4119 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Logo"
-			(at 150.368 123.9519 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Footprints:Hananou logo"
-			(at 152.908 125.984 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.908 125.984 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 147.828 125.984 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" ""
-			(at 147.828 125.984 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 147.828 125.984 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a"
-					(reference "Logo1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 137.16 83.312 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4750ef84-c931-4657-97fb-6072f20c958d")
-		(property "Reference" "#PWR08"
-			(at 137.16 89.662 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 88.138 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 83.312 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 83.312 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 83.312 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7309105c-501e-41ae-aca7-b492355caadd")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 153.924 96.774 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f66951f-73ed-46af-a595-2a16349a9c3f")
-		(property "Reference" "#PWR048"
-			(at 153.924 103.124 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 153.924 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.924 96.774 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.924 96.774 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.924 96.774 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "28c4e20f-b9c2-48b7-8fe4-a4c3158b2889")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 136.652 96.52 0)
+		(at 133.604 88.138 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29622,7 +29531,7 @@
 		(fields_autoplaced yes)
 		(uuid "633a08f4-6241-4a09-bb89-539273d00c6d")
 		(property "Reference" "#PWR035"
-			(at 136.652 102.87 0)
+			(at 133.604 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29633,7 +29542,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 136.652 101.346 0)
+			(at 133.604 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29643,7 +29552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 136.652 96.52 0)
+			(at 133.604 88.138 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29654,7 +29563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 136.652 96.52 0)
+			(at 133.604 88.138 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29665,7 +29574,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 136.652 96.52 0)
+			(at 133.604 88.138 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29688,42 +29597,41 @@
 		)
 	)
 	(symbol
-		(lib_name "TestPoint_1")
-		(lib_id "Connector:TestPoint")
-		(at 153.67 84.074 0)
+		(lib_id "Graphic:Logo_Open_Hardware_Small")
+		(at 149.86 126.746 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ad2c63cd-4926-4bde-8d68-69ce426e0f6b")
-		(property "Reference" "TP6"
-			(at 156.21 79.5019 0)
+		(uuid "90bca260-2711-4467-853f-f8c9b7d91d47")
+		(property "Reference" "Logo1"
+			(at 149.86 119.761 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 156.21 82.0419 0)
+		(property "Value" "Hananou logo"
+			(at 149.86 132.461 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
-			(at 158.75 84.074 0)
+		(property "Footprint" "Footprints:Hananou logo"
+			(at 149.86 126.746 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29734,7 +29642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 84.074 0)
+			(at 149.86 126.746 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29744,8 +29652,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 153.67 84.074 0)
+		(property "Description" "Open Hardware logo, small"
+			(at 149.86 126.746 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29756,7 +29664,7 @@
 			)
 		)
 		(property "Distributer Link" ""
-			(at 153.67 84.074 0)
+			(at 149.86 126.746 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29767,7 +29675,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 153.67 84.074 0)
+			(at 149.86 126.746 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29777,22 +29685,18 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "577fb704-9d2d-4e5b-b625-d07999275dcf")
-		)
 		(instances
 			(project "Ahrar Flight Controller"
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a"
-					(reference "TP6")
+					(reference "Logo1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "TestPoint_1")
-		(lib_id "Connector:TestPoint")
-		(at 136.652 96.52 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 136.652 68.072 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29801,9 +29705,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b15f5054-c1e7-4ea3-87ad-ab70f35e236c")
-		(property "Reference" "TP7"
-			(at 139.192 91.9479 0)
+		(uuid "c3e2c6a0-53fa-4830-9d29-32f9085fce8c")
+		(property "Reference" "H2"
+			(at 139.7 65.5319 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29813,8 +29717,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 139.192 94.4879 0)
+		(property "Value" "MountingHole_Pad"
+			(at 139.7 68.0719 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29824,8 +29728,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
-			(at 141.732 96.52 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 136.652 68.072 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29836,7 +29740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 141.732 96.52 0)
+			(at 136.652 68.072 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29846,8 +29750,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 136.652 96.52 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 136.652 68.072 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29858,7 +29762,7 @@
 			)
 		)
 		(property "Distributer Link" ""
-			(at 136.652 96.52 0)
+			(at 136.652 68.072 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29869,7 +29773,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 136.652 96.52 0)
+			(at 136.652 68.072 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29880,99 +29784,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "67178e09-5b20-4c91-9c72-314907a951f4")
+			(uuid "276765c7-9a00-4842-a92c-7fb5213a462c")
 		)
 		(instances
 			(project "Ahrar Flight Controller"
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a"
-					(reference "TP7")
+					(reference "H2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 153.67 84.074 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b23fc863-dc66-45ee-bef9-1a065aea6d90")
-		(property "Reference" "#PWR016"
-			(at 153.67 90.424 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 153.67 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 84.074 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 84.074 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 84.074 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "429d7e33-de7d-463f-b00c-56069185097e")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "TestPoint_1")
-		(lib_id "Connector:TestPoint")
-		(at 137.16 83.312 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 136.906 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29981,9 +29806,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dc4b01ef-1d36-423a-9f25-3662bd6cd5d6")
-		(property "Reference" "TP5"
-			(at 139.7 78.7399 0)
+		(uuid "cc733b6e-ab02-4031-ac7d-e3b64dea2571")
+		(property "Reference" "H3"
+			(at 139.954 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29993,8 +29818,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 139.7 81.2799 0)
+		(property "Value" "MountingHole_Pad"
+			(at 139.954 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30004,8 +29829,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
-			(at 142.24 83.312 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 136.906 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30016,7 +29841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 83.312 0)
+			(at 136.906 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30026,8 +29851,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 137.16 83.312 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 136.906 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30038,7 +29863,7 @@
 			)
 		)
 		(property "Distributer Link" ""
-			(at 137.16 83.312 0)
+			(at 136.906 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30049,7 +29874,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 137.16 83.312 0)
+			(at 136.906 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30060,21 +29885,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "9707d386-a643-4298-8d0e-47df980ff34e")
+			(uuid "032b8e1e-b048-4f94-bf69-23576fbd334b")
 		)
 		(instances
 			(project "Ahrar Flight Controller"
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a"
-					(reference "TP5")
+					(reference "H3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "TestPoint_1")
-		(lib_id "Connector:TestPoint")
-		(at 153.924 96.774 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 136.906 84.328 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30083,9 +29907,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e46c32ab-70ec-46bb-bed4-96099443986c")
-		(property "Reference" "TP8"
-			(at 156.464 92.2019 0)
+		(uuid "d2cd079c-9bef-4197-a7d6-bc6eef79550f")
+		(property "Reference" "H4"
+			(at 139.954 81.7879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30095,8 +29919,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 156.464 94.7419 0)
+		(property "Value" "MountingHole_Pad"
+			(at 139.954 84.3279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30106,8 +29930,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
-			(at 159.004 96.774 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 136.906 84.328 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30118,7 +29942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 159.004 96.774 0)
+			(at 136.906 84.328 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30128,8 +29952,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 153.924 96.774 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 136.906 84.328 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30140,7 +29964,7 @@
 			)
 		)
 		(property "Distributer Link" ""
-			(at 153.924 96.774 0)
+			(at 136.906 84.328 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30151,7 +29975,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 153.924 96.774 0)
+			(at 136.906 84.328 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30162,12 +29986,113 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd959d11-b2d4-4580-8b46-b1344f5f5f86")
+			(uuid "1aed965d-bc57-4608-b8f5-8954772d10e8")
 		)
 		(instances
 			(project "Ahrar Flight Controller"
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a"
-					(reference "TP8")
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 136.652 60.198 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f715192a-5163-4de9-bd9a-0b8a40d51641")
+		(property "Reference" "H1"
+			(at 139.7 57.6579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 139.7 60.1979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 136.652 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 136.652 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 136.652 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" ""
+			(at 136.652 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 136.652 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e18f7d6d-1ea9-498f-bf93-bca704d5a436")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a"
+					(reference "H1")
 					(unit 1)
 				)
 			)

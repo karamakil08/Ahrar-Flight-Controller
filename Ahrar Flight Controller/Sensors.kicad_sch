@@ -2014,22 +2014,16 @@
 		(uuid "22ad25bb-ee1a-440e-9536-6b37565030cd")
 	)
 	(junction
+		(at 117.856 112.776)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "409b25ae-dd16-4c06-8c48-d757a8b269d5")
+	)
+	(junction
 		(at 120.142 51.562)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44eeebb4-fdc6-4b66-bf01-c7a9b809580f")
-	)
-	(junction
-		(at 111.252 112.776)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "551f0b62-778a-4e2f-9768-e536f4b86fb7")
-	)
-	(junction
-		(at 118.618 42.672)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65762ee9-2639-4b2c-b7b8-823e920d5f7d")
 	)
 	(junction
 		(at 115.062 122.682)
@@ -2048,6 +2042,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7af23a90-6af4-4e40-8edc-5905d70226fc")
+	)
+	(junction
+		(at 118.618 42.672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e00334c-a9f0-4d0a-8091-141787cdf3d9")
+	)
+	(junction
+		(at 117.856 122.682)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96d042d2-def1-4372-a7df-10508dc4ea5c")
 	)
 	(junction
 		(at 105.41 92.456)
@@ -2080,12 +2086,6 @@
 		(uuid "b3596152-ad7a-46e4-884f-b1765be83731")
 	)
 	(junction
-		(at 111.252 122.682)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf707151-0db6-4192-b1b1-2ab679d7a951")
-	)
-	(junction
 		(at 105.41 87.376)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2110,6 +2110,12 @@
 		(uuid "d5466b09-3e09-45e5-a8db-bc19c15da980")
 	)
 	(junction
+		(at 118.618 51.562)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da852031-431d-48a4-9915-24a383397234")
+	)
+	(junction
 		(at 80.772 126.746)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2120,12 +2126,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb895aa4-0328-4e39-b4ff-325f87eefdc9")
-	)
-	(junction
-		(at 118.618 51.562)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f18ba26e-c9b6-4b3d-8558-302d24442801")
 	)
 	(junction
 		(at 234.442 114.046)
@@ -2170,16 +2170,6 @@
 			(type default)
 		)
 		(uuid "075b2081-810f-451a-8a8a-a5254f9d2d4e")
-	)
-	(wire
-		(pts
-			(xy 115.062 122.682) (xy 111.252 122.682)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09aa300d-f6ee-4205-99f2-94b06ce6d686")
 	)
 	(wire
 		(pts
@@ -2313,6 +2303,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.618 42.672) (xy 122.682 42.672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f3a5a9-8324-450b-8c02-d0425c4842e1")
+	)
+	(wire
+		(pts
 			(xy 54.61 66.802) (xy 52.324 66.802)
 		)
 		(stroke
@@ -2340,16 +2340,6 @@
 			(type default)
 		)
 		(uuid "1e0ef3af-40aa-4a6c-991b-822bf97269fc")
-	)
-	(wire
-		(pts
-			(xy 114.554 112.776) (xy 122.936 112.776)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "207d2c07-45a9-41e0-8f3e-16499620314e")
 	)
 	(wire
 		(pts
@@ -2403,7 +2393,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.252 112.776) (xy 111.252 114.3)
+			(xy 117.856 112.776) (xy 117.856 113.538)
 		)
 		(stroke
 			(width 0)
@@ -2433,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.918 51.562) (xy 118.618 51.562)
+			(xy 106.172 51.562) (xy 118.618 51.562)
 		)
 		(stroke
 			(width 0)
@@ -2460,16 +2450,6 @@
 			(type default)
 		)
 		(uuid "368d74f8-f6a9-4ffa-9ac5-bfa01d87a696")
-	)
-	(wire
-		(pts
-			(xy 115.062 122.682) (xy 122.936 122.682)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "379f433a-d715-4740-abf6-80198fed59d1")
 	)
 	(wire
 		(pts
@@ -2643,7 +2623,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.252 112.776) (xy 106.172 112.776)
+			(xy 106.172 112.776) (xy 117.856 112.776)
 		)
 		(stroke
 			(width 0)
@@ -2743,16 +2723,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.252 112.776) (xy 114.554 112.776)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77df62f3-b02f-40c5-af0a-9c797b62345b")
-	)
-	(wire
-		(pts
 			(xy 106.68 93.726) (xy 106.68 92.456)
 		)
 		(stroke
@@ -2790,16 +2760,6 @@
 			(type default)
 		)
 		(uuid "7d9d9a5a-8c67-4da6-afcc-96b4b077f01a")
-	)
-	(wire
-		(pts
-			(xy 118.618 51.562) (xy 118.618 50.292)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e2a1dee-1743-43b8-bd13-89c693c5ce7c")
 	)
 	(wire
 		(pts
@@ -2873,6 +2833,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.618 50.8) (xy 118.618 51.562)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "834d5f5a-c35a-45a1-8792-820ea67f57f7")
+	)
+	(wire
+		(pts
 			(xy 192.786 132.588) (xy 194.056 132.588)
 		)
 		(stroke
@@ -2913,13 +2883,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.918 42.672) (xy 118.618 42.672)
+			(xy 106.172 51.562) (xy 106.172 51.308)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a746cbb-02bb-4e6e-ba51-a83ab75401f5")
+		(uuid "8d199fae-9ebe-4a96-ad79-16f0568fe102")
 	)
 	(wire
 		(pts
@@ -3003,7 +2973,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.918 42.672) (xy 105.918 43.942)
+			(xy 117.856 112.776) (xy 122.936 112.776)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de0e77d-3879-411d-8b30-43be614b6d28")
+	)
+	(wire
+		(pts
+			(xy 106.172 42.672) (xy 106.172 43.688)
 		)
 		(stroke
 			(width 0)
@@ -3013,7 +2993,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.252 121.92) (xy 111.252 122.682)
+			(xy 117.856 121.158) (xy 117.856 122.682)
 		)
 		(stroke
 			(width 0)
@@ -3100,6 +3080,16 @@
 			(type default)
 		)
 		(uuid "bff104f2-43c5-41e8-bade-8749dd919278")
+	)
+	(wire
+		(pts
+			(xy 117.856 122.682) (xy 122.936 122.682)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e1c329-0227-4986-813b-5ead03a6af17")
 	)
 	(wire
 		(pts
@@ -3213,7 +3203,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.618 42.672) (xy 122.682 42.672)
+			(xy 106.172 42.672) (xy 118.618 42.672)
 		)
 		(stroke
 			(width 0)
@@ -3273,7 +3263,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.252 122.682) (xy 106.172 122.682)
+			(xy 106.172 122.682) (xy 117.856 122.682)
 		)
 		(stroke
 			(width 0)
@@ -3370,6 +3360,16 @@
 			(type default)
 		)
 		(uuid "f06f3adc-43de-4df2-813f-a017673018a1")
+	)
+	(wire
+		(pts
+			(xy 118.618 43.18) (xy 118.618 42.672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b62aaa-df1b-4d85-b48e-09f12965aef5")
 	)
 	(wire
 		(pts
@@ -7642,6 +7642,221 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 118.618 46.99 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e92c0c5-055e-47de-980f-24b6dcee13a8")
+		(property "Reference" "C33"
+			(at 113.284 48.006 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 113.538 45.974 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 117.6528 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/SAMSUNG%20MLCC_JAN-2024.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
+			(at 118.618 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MLCC (1608) 0603 2.2uF 10VDC ±10% X7R"
+			(at 118.618 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/samsung-cl10b225kp8nnnc-359581?catSequenceId=184"
+			(at 118.618 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL10B225KP8NNNC"
+			(at 118.618 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 118.618 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 118.618 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 118.618 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 118.618 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 118.618 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 118.618 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 118.618 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 118.618 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 118.618 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 118.618 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e558a40-8c29-43a8-bc83-aafc16bc8dcb")
+		)
+		(pin "2"
+			(uuid "a20644d5-1ecb-49a9-918d-f77b51925b5f")
+		)
+		(instances
+			(project "Ahrar Flight Controller"
+				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
+					(reference "C33")
+					(unit 1)
+					(variant
+						(name "Distributer Link")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 241.808 118.618 0)
 		(unit 1)
 		(body_style 1)
@@ -9854,220 +10069,6 @@
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
 					(reference "#PWR032")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 118.618 46.482 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "63256fa6-fc5d-4a03-ba0e-2c847cd52804")
-		(property "Reference" "C13"
-			(at 112.522 46.228 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2uF"
-			(at 112.776 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 117.6528 42.672 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 118.618 46.482 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 118.618 46.482 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grt155c81a225me13d-624222"
-			(at 118.618 46.482 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "GRT155C81A225ME13D"
-			(at 118.618 46.482 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 118.618 46.482 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 118.618 46.482 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 118.618 46.482 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 118.618 46.482 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 118.618 46.482 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 118.618 46.482 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 118.618 46.482 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 118.618 46.482 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 118.618 46.482 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 118.618 46.482 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "528d37d7-95ac-4b60-9268-f1a05d95e012")
-		)
-		(pin "2"
-			(uuid "33483736-9dad-43b6-9005-116cce62ed29")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ab73ea48-713a-4752-b5f6-b96d3848d1d9"
-					(reference "C13")
-					(unit 1)
-					(variant
-						(name "Distributer Link")
-					)
 				)
 			)
 		)
@@ -13361,7 +13362,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 111.252 118.11 0)
+		(at 117.856 117.348 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13371,7 +13373,7 @@
 		(dnp no)
 		(uuid "b25aea01-e664-487a-89f3-c3ccb519cd43")
 		(property "Reference" "C72"
-			(at 114.3 116.078 0)
+			(at 114.808 115.316 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13382,7 +13384,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 114.3 118.618 0)
+			(at 114.808 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13393,7 +13395,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 112.2172 121.92 0)
+			(at 116.8908 121.158 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13404,7 +13406,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 111.252 118.11 0)
+			(at 117.856 117.348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13415,7 +13417,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 111.252 118.11 0)
+			(at 117.856 117.348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13426,7 +13428,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grm155r71c104ka88d-423396"
-			(at 111.252 118.11 0)
+			(at 117.856 117.348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13437,7 +13439,7 @@
 			)
 		)
 		(property "Part Number" "GRM155R71C104KA88D"
-			(at 111.252 118.11 0)
+			(at 117.856 117.348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13448,7 +13450,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 111.252 118.11 0)
+			(at 117.856 117.348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13459,7 +13461,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 111.252 118.11 0)
+			(at 117.856 117.348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13470,7 +13472,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 111.252 118.11 0)
+			(at 117.856 117.348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13481,7 +13483,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 111.252 118.11 0)
+			(at 117.856 117.348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13492,7 +13494,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 111.252 118.11 0)
+			(at 117.856 117.348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13503,7 +13505,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 111.252 118.11 0)
+			(at 117.856 117.348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13514,7 +13516,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 111.252 118.11 0)
+			(at 117.856 117.348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13525,7 +13527,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 111.252 118.11 0)
+			(at 117.856 117.348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13536,7 +13538,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 111.252 118.11 0)
+			(at 117.856 117.348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13547,7 +13549,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 111.252 118.11 0)
+			(at 117.856 117.348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14555,7 +14557,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 105.918 47.752 0)
+		(at 106.172 47.498 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14566,7 +14568,7 @@
 		(dnp no)
 		(uuid "cc338d0f-7097-4f3f-8269-057d15c6183d")
 		(property "Reference" "C65"
-			(at 102.87 45.72 0)
+			(at 103.124 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14577,7 +14579,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 102.87 48.26 0)
+			(at 103.124 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14588,7 +14590,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 104.9528 51.562 0)
+			(at 105.2068 51.308 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14599,7 +14601,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 105.918 47.752 0)
+			(at 106.172 47.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14610,7 +14612,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 105.918 47.752 0)
+			(at 106.172 47.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14621,7 +14623,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grm155r71c104ka88d-423396"
-			(at 105.918 47.752 0)
+			(at 106.172 47.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14632,7 +14634,7 @@
 			)
 		)
 		(property "Part Number" "GRM155R71C104KA88D"
-			(at 105.918 47.752 0)
+			(at 106.172 47.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14643,7 +14645,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 105.918 47.752 0)
+			(at 106.172 47.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14654,7 +14656,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 105.918 47.752 0)
+			(at 106.172 47.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14665,7 +14667,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 105.918 47.752 0)
+			(at 106.172 47.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14676,7 +14678,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 105.918 47.752 0)
+			(at 106.172 47.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14687,7 +14689,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 105.918 47.752 0)
+			(at 106.172 47.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14698,7 +14700,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 105.918 47.752 0)
+			(at 106.172 47.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14709,7 +14711,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 105.918 47.752 0)
+			(at 106.172 47.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14720,7 +14722,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 105.918 47.752 0)
+			(at 106.172 47.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14731,7 +14733,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 105.918 47.752 0)
+			(at 106.172 47.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14742,7 +14744,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 105.918 47.752 0)
+			(at 106.172 47.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

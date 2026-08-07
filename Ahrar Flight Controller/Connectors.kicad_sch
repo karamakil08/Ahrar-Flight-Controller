@@ -2648,7 +2648,7 @@
 	)
 	(text "GPIOS"
 		(exclude_from_sim no)
-		(at 103.886 72.136 0)
+		(at 103.124 71.374 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3112,16 +3112,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.872 54.864) (xy 245.872 55.626)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27ac951f-f11e-46c5-8cb1-69c8ab831dca")
-	)
-	(wire
-		(pts
 			(xy 246.634 107.188) (xy 246.888 107.188)
 		)
 		(stroke
@@ -3132,7 +3122,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 82.042) (xy 121.92 80.772)
+			(xy 121.92 82.042) (xy 121.92 79.502)
 		)
 		(stroke
 			(width 0)
@@ -3162,7 +3152,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.604 80.518) (xy 133.604 81.788)
+			(xy 133.604 78.74) (xy 133.604 81.788)
 		)
 		(stroke
 			(width 0)
@@ -3489,16 +3479,6 @@
 			(type default)
 		)
 		(uuid "59cb1ce9-1af3-4947-b917-704fbd0057ac")
-	)
-	(wire
-		(pts
-			(xy 245.872 64.008) (xy 245.872 63.246)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59f4a3c2-82c9-40e7-8e62-5e2d1729227c")
 	)
 	(wire
 		(pts
@@ -7263,7 +7243,7 @@
 	)
 	(global_label "SERVO4"
 		(shape input)
-		(at 90.932 67.31 0)
+		(at 56.388 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7271,11 +7251,11 @@
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0ba4dd2f-0b80-40c6-8b5e-a225b9701799")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6503 67.31 0)
+			(at 45.6697 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7283,7 +7263,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -7341,7 +7321,7 @@
 	)
 	(global_label "SERVO1"
 		(shape input)
-		(at 90.932 82.55 0)
+		(at 56.134 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7349,11 +7329,11 @@
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "1fa87d3a-d883-4265-a9ac-23118f502737")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6503 82.55 0)
+			(at 45.4157 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7361,7 +7341,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -7519,7 +7499,7 @@
 	)
 	(global_label "ESC2"
 		(shape input)
-		(at 56.388 69.85 180)
+		(at 91.186 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7527,11 +7507,11 @@
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6079b77a-bbde-4e09-b05d-94b7bb86086f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.0888 69.85 0)
+			(at 99.4852 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7539,7 +7519,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -7571,7 +7551,7 @@
 	)
 	(global_label "ESC1"
 		(shape input)
-		(at 56.388 64.77 180)
+		(at 90.932 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7579,11 +7559,11 @@
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6d637f9d-dadc-436c-8104-3cbb582fe7ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.0888 64.77 0)
+			(at 99.2312 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7591,7 +7571,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -7675,32 +7655,6 @@
 	)
 	(global_label "ESC3"
 		(shape input)
-		(at 56.388 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "88019cb9-46f0-4a69-acf3-6649203b54c7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.0888 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SERVO2"
-		(shape input)
 		(at 91.186 77.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7711,9 +7665,9 @@
 			)
 			(justify left)
 		)
-		(uuid "95377dc6-573e-4f70-bb2a-eb596659fbaa")
+		(uuid "88019cb9-46f0-4a69-acf3-6649203b54c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.9043 77.47 0)
+			(at 99.4852 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7722,6 +7676,32 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SERVO2"
+		(shape input)
+		(at 56.388 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "95377dc6-573e-4f70-bb2a-eb596659fbaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.6697 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -7751,7 +7731,7 @@
 	)
 	(global_label "SERVO3"
 		(shape input)
-		(at 91.186 72.39 0)
+		(at 56.388 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7759,11 +7739,11 @@
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a1415663-bc79-4cb8-a669-2feadeede101")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.9043 72.39 0)
+			(at 45.6697 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7771,7 +7751,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -7929,7 +7909,7 @@
 	)
 	(global_label "ESC4"
 		(shape input)
-		(at 56.134 80.01 180)
+		(at 90.932 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7937,11 +7917,11 @@
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "dde6f74c-3214-4eeb-83d0-515da05fd214")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.8348 80.01 0)
+			(at 99.2312 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7949,7 +7929,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -10342,84 +10322,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 245.872 54.864 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38589611-0a5d-4d84-8c0a-bdcdfb5c95d4")
-		(property "Reference" "#PWR0101"
-			(at 245.872 58.674 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 245.872 49.784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.872 54.864 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.872 54.864 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 245.872 54.864 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d9a6676a-ccf2-4c55-9b8f-f8cb97fe52e1")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ae4905a4-2743-4abf-8508-a5ee9ef094ae"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 125.73 111.76 90)
 		(unit 1)
@@ -11441,7 +11343,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 133.604 80.518 0)
+		(at 133.604 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11452,7 +11354,7 @@
 		(fields_autoplaced yes)
 		(uuid "489aaa01-85d7-4a80-8868-e177e6857aa2")
 		(property "Reference" "TP3"
-			(at 135.89 75.9459 0)
+			(at 135.89 74.1679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11463,7 +11365,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 135.89 78.4859 0)
+			(at 135.89 76.7079 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11474,7 +11376,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 138.684 80.518 0)
+			(at 138.684 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11485,7 +11387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.684 80.518 0)
+			(at 138.684 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11496,7 +11398,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 133.604 80.518 0)
+			(at 133.604 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11507,7 +11409,7 @@
 			)
 		)
 		(property "Distributer Link" ""
-			(at 133.604 80.518 0)
+			(at 133.604 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11518,7 +11420,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 133.604 80.518 0)
+			(at 133.604 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11614,222 +11516,6 @@
 				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ae4905a4-2743-4abf-8508-a5ee9ef094ae"
 					(reference "#PWR0113")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 245.872 59.436 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4ab73c04-df09-47c9-a4aa-169eaf12df27")
-		(property "Reference" "C39"
-			(at 239.014 59.436 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 239.014 61.976 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 246.8372 63.246 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 245.872 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 245.872 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grm155r71c104ka88d-423396"
-			(at 245.872 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "GRM155R71C104KA88D"
-			(at 245.872 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 245.872 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 245.872 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 245.872 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 245.872 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 245.872 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 245.872 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 245.872 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 245.872 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 245.872 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 245.872 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f02584c0-ab8e-4d6e-859f-130141f50626")
-		)
-		(pin "2"
-			(uuid "a6945ae0-7e94-4cf9-8800-a5a3e41b25da")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ae4905a4-2743-4abf-8508-a5ee9ef094ae"
-					(reference "C39")
-					(unit 1)
-					(variant
-						(name "Distributer Link")
-					)
 				)
 			)
 		)
@@ -13646,84 +13332,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 245.872 64.008 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65b0f819-7a94-4b1d-a288-1b06e777c533")
-		(property "Reference" "#PWR0102"
-			(at 245.872 70.358 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.872 69.088 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.872 64.008 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.872 64.008 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.872 64.008 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ea2766e-2a7e-48d0-b7bc-f0586a761146")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/ae4905a4-2743-4abf-8508-a5ee9ef094ae"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 133.604 85.598 0)
 		(mirror x)
@@ -14689,7 +14297,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 121.92 80.772 0)
+		(at 121.92 79.502 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14700,7 +14308,7 @@
 		(fields_autoplaced yes)
 		(uuid "832a78f5-a04f-43a6-bb4a-739e5e043f58")
 		(property "Reference" "TP2"
-			(at 124.206 76.1999 0)
+			(at 124.206 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14711,7 +14319,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 124.206 78.7399 0)
+			(at 124.206 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14722,7 +14330,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 127 80.772 0)
+			(at 127 79.502 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14733,7 +14341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 80.772 0)
+			(at 127 79.502 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14744,7 +14352,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 121.92 80.772 0)
+			(at 121.92 79.502 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14755,7 +14363,7 @@
 			)
 		)
 		(property "Distributer Link" ""
-			(at 121.92 80.772 0)
+			(at 121.92 79.502 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14766,7 +14374,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 121.92 80.772 0)
+			(at 121.92 79.502 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

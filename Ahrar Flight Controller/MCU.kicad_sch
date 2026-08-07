@@ -5710,6 +5710,10 @@
 		(uuid "45bc6c83-de19-490d-9d57-3b1d69d00d81")
 	)
 	(no_connect
+		(at 128.524 99.568)
+		(uuid "4cc34ad1-5a85-423e-88b3-b1c0c2a2a004")
+	)
+	(no_connect
 		(at 128.524 76.708)
 		(uuid "54a77915-6c08-49cf-b4e2-68b136a17709")
 	)
@@ -9542,6 +9546,16 @@
 		)
 		(uuid "3cf087cf-af27-4cfe-8c34-55603aae0918")
 	)
+	(label "VCAP2"
+		(at 82.042 163.068 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ff185fd-0115-438b-893e-8d1de3a95a05")
+	)
 	(label "BLUE_LED"
 		(at 128.524 140.208 0)
 		(effects
@@ -9591,6 +9605,16 @@
 			(justify left bottom)
 		)
 		(uuid "7538a88c-8faf-45fb-b696-d916196a55fe")
+	)
+	(label "VCAP1"
+		(at 75.946 160.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f1ca5a7-1be0-48b3-89df-e088aa6e0978")
 	)
 	(label "BLUE_LED"
 		(at 34.544 117.348 0)
@@ -9643,12 +9667,12 @@
 		(uuid "a89e27ad-ce0c-4b8c-906c-fab8ab250b1b")
 	)
 	(label "OSC_IN"
-		(at 23.622 65.278 180)
+		(at 35.306 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c2f939f1-046e-4539-8db5-0533b6715e7b")
 	)
@@ -9663,12 +9687,12 @@
 		(uuid "c744a504-71df-4553-b0bc-91ac52c10598")
 	)
 	(label "OSC_OUT"
-		(at 35.306 65.786 0)
+		(at 23.622 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d8d25684-2b8b-47ad-8df2-17267a707257")
 	)

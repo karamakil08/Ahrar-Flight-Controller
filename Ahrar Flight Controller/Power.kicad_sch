@@ -1946,7 +1946,7 @@
 	)
 	(text "Power MUX\nWhen IN1 is 4.5 switches \nautomatically to IN2\n-------------\nOV1 = 6.5\nOV2 = 6.5\n-------------\nMax. Current output is 3.5A typ.\nSoft start for 1uF SS pin capacitor\nSlew rate = 88 V/s hence\n50 ms power rise time\n-------------\nAccording to ltspice simulation\nMax current when chargin \noutput capacitance is 16mA"
 		(exclude_from_sim no)
-		(at -70.612 176.53 0)
+		(at -72.39 98.298 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2043,18 +2043,6 @@
 		(uuid "9d98e67a-635e-404a-8298-d6a1764d5d21")
 	)
 	(junction
-		(at 77.724 94.234)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b57b15a8-d169-41e8-93a0-0c8544a1a7ce")
-	)
-	(junction
-		(at 75.184 82.804)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8ce96c0-f6d9-4f95-90a9-5a2684db1d1f")
-	)
-	(junction
 		(at 203.454 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2106,16 +2094,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.724 94.234) (xy 80.264 94.234)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f0e044c-0317-4691-a687-7f9461c52467")
-	)
-	(wire
-		(pts
 			(xy 219.964 91.44) (xy 219.964 92.456)
 		)
 		(stroke
@@ -2146,7 +2124,7 @@
 	)
 	(wire
 		(pts
-			(xy 75.184 82.804) (xy 80.264 82.804)
+			(xy 47.498 82.804) (xy 80.264 82.804)
 		)
 		(stroke
 			(width 0)
@@ -2366,16 +2344,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.724 94.234) (xy 77.724 95.504)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f256af7-b640-482e-8f6a-a02f682b4809")
-	)
-	(wire
-		(pts
 			(xy 149.606 113.284) (xy 154.686 113.284)
 		)
 		(stroke
@@ -2413,16 +2381,6 @@
 			(type default)
 		)
 		(uuid "6664a971-9fc0-41bd-99f8-46a82e4ab442")
-	)
-	(wire
-		(pts
-			(xy 75.184 91.694) (xy 75.184 94.234)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66d4d0b5-7703-4374-b8d1-ea6e2e728c06")
 	)
 	(wire
 		(pts
@@ -2496,16 +2454,6 @@
 	)
 	(wire
 		(pts
-			(xy 75.184 94.234) (xy 77.724 94.234)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "808bf853-119b-42bd-9244-6b58622ed0e5")
-	)
-	(wire
-		(pts
 			(xy 237.998 83.82) (xy 237.998 85.09)
 		)
 		(stroke
@@ -2566,7 +2514,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.264 94.234) (xy 80.264 91.694)
+			(xy 80.264 91.694) (xy 80.264 95.504)
 		)
 		(stroke
 			(width 0)
@@ -2616,16 +2564,6 @@
 	)
 	(wire
 		(pts
-			(xy 47.498 82.804) (xy 75.184 82.804)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fefddf7-3e54-4c77-8f33-494c44a022aa")
-	)
-	(wire
-		(pts
 			(xy 149.606 83.82) (xy 149.606 85.344)
 		)
 		(stroke
@@ -2643,16 +2581,6 @@
 			(type default)
 		)
 		(uuid "a221b047-9dc2-4e9a-8b9c-111793979488")
-	)
-	(wire
-		(pts
-			(xy 75.184 82.804) (xy 75.184 84.074)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4d0e846-f7ab-494a-b9c1-d1fa0d3550f4")
 	)
 	(wire
 		(pts
@@ -5589,223 +5517,6 @@
 				(type none)
 			)
 			(uuid "c71badc8-1d65-48e6-a50f-736753ed9bbd")
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 75.184 87.884 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "040bfd22-342e-4e0e-a488-325c9163dad8")
-		(property "Reference" "C67"
-			(at 72.898 85.852 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 72.898 88.392 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 74.2188 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/Murata_GRM_MLCC.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline"
-			(at 75.184 87.884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 75.184 87.884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer Link" "https://www.ozdisan.com/p/smt-smd-ve-mlcc-kapasitorler-184/murata-grm155r71c104ka88d-423396"
-			(at 75.184 87.884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "GRM155R71C104KA88D"
-			(at 75.184 87.884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 75.184 87.884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 75.184 87.884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 75.184 87.884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 75.184 87.884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 75.184 87.884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 75.184 87.884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 75.184 87.884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 75.184 87.884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 75.184 87.884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 75.184 87.884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "112eef07-6082-4800-9b91-1f4056a82ce5")
-		)
-		(pin "2"
-			(uuid "47956ff3-0b85-40cf-92ec-f91c59251f78")
-		)
-		(instances
-			(project "Ahrar Flight Controller"
-				(path "/49d0c316-6ef3-402e-8e44-63a339436e7a/7551fb1b-2757-4e8f-be00-2ca2ebab2b62"
-					(reference "C67")
-					(unit 1)
-					(variant
-						(name "Distributer Link")
-					)
-				)
-			)
 		)
 	)
 	(symbol
@@ -9519,7 +9230,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.724 95.504 0)
+		(at 80.264 95.504 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9530,7 +9241,7 @@
 		(fields_autoplaced yes)
 		(uuid "821f1895-a0fa-4d7a-aab5-cd6003750588")
 		(property "Reference" "#PWR031"
-			(at 77.724 101.854 0)
+			(at 80.264 101.854 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9541,7 +9252,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.724 100.584 0)
+			(at 80.264 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9551,7 +9262,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.724 95.504 0)
+			(at 80.264 95.504 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9562,7 +9273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.724 95.504 0)
+			(at 80.264 95.504 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9573,7 +9284,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.724 95.504 0)
+			(at 80.264 95.504 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
